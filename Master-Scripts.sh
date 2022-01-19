@@ -22,67 +22,67 @@ function install_rclone() {
     curl https://rclone.org/install.sh | sudo bash
 }
 function install_da_manual() {
-    bash <(curl -Ss https://raw.githubusercontent.com/minhvinhdao/DA/main/install-auto-sytem-new.sh || wget -O - https://raw.githubusercontent.com/minhvinhdao/DA/main/install-auto-sytem-new.sh) auto
+    bash <(curl -Ss https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/install-auto-sytem-new.sh || wget -O - https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/install-auto-sytem-new.sh) auto
 }
 function install_da_auto() {
-    bash <(curl -Ss https://raw.githubusercontent.com/minhvinhdao/DA/main/install-directadmin.sh || wget -O - https://raw.githubusercontent.com/minhvinhdao/DA/main/install-directadmin.sh) auto
+    bash <(curl -Ss https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/install-directadmin.sh || wget -O - https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/install-directadmin.sh) auto
 }
 function install_mariadb() {
-    bash <(curl -Ss https://raw.githubusercontent.com/minhvinhdao/DA/main/install-mariadb.sh || wget -O - https://raw.githubusercontent.com/minhvinhdao/DA/main/install-mariadb.sh)
+    bash <(curl -Ss https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/install-mariadb.sh || wget -O - https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/install-mariadb.sh)
 }
 function install_memcache() {
-    bash <(curl -Ss https://raw.githubusercontent.com/minhvinhdao/DA/main/install-memcache.sh || wget -O - https://raw.githubusercontent.com/minhvinhdao/DA/main/install-memcache.sh)
+    bash <(curl -Ss https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/install-memcache.sh || wget -O - https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/install-memcache.sh)
 }
 function install_openlitespeed() {
-    bash <(curl -Ss https://raw.githubusercontent.com/minhvinhdao/DA/main/install-openlitespeed.sh || wget -O - https://raw.githubusercontent.com/minhvinhdao/DA/main/install-openlitespeed.sh)
+    bash <(curl -Ss https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/install-openlitespeed.sh || wget -O - https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/install-openlitespeed.sh)
 }
 function install_redis() {
-    bash <(curl -Ss https://raw.githubusercontent.com/minhvinhdao/DA/main/install-redis.sh || wget -O - https://raw.githubusercontent.com/minhvinhdao/DA/main/install-redis.sh)
+    bash <(curl -Ss https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/install-redis.sh || wget -O - https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/install-redis.sh)
 }
 function one_click_myAdmin() {
-    bash <(curl -Ss https://raw.githubusercontent.com/minhvinhdao/DA/main/one-click-phpmyadmin.sh || wget -O - https://raw.githubusercontent.com/minhvinhdao/DA/main/one-click-phpmyadmin.sh)
+    bash <(curl -Ss https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/one-click-phpmyadmin.sh || wget -O - https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/one-click-phpmyadmin.sh)
 }
 function install_firewal() {
-    bash <(curl -Ss https://raw.githubusercontent.com/minhvinhdao/DA/main/install-csf.sh || wget -O - https://raw.githubusercontent.com/minhvinhdao/DA/main/install-csf.sh)
+    bash <(curl -Ss https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/install-csf.sh || wget -O - https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/install-csf.sh)
 }
 function fix_start() {
-    bash <(curl -Ss https://raw.githubusercontent.com/minhvinhdao/DA/main/fix-start.sh || wget -O - https://raw.githubusercontent.com/minhvinhdao/DA/main/fix-start.sh)
+    bash <(curl -Ss https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/fix-start.sh || wget -O - https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/fix-start.sh)
 }
 function config_ols() {
-    bash <(curl -Ss https://raw.githubusercontent.com/minhvinhdao/DA/main/config-openlitespeed.sh || wget -O - https://raw.githubusercontent.com/minhvinhdao/DA/main/config-openlitespeed.sh)
+    bash <(curl -Ss https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/config-openlitespeed.sh || wget -O - https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/config-openlitespeed.sh)
 }
 function config_opcache() {
-    bash <(curl -Ss https://raw.githubusercontent.com/minhvinhdao/DA/main/config-opcache.sh || wget -O - https://raw.githubusercontent.com/minhvinhdao/DA/main/config-opcache.sh)
+    bash <(curl -Ss https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/config-opcache.sh || wget -O - https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/config-opcache.sh)
 }
 function config_mecache() {
-    bash <(curl -Ss https://github.com/minhvinhdao/DA/blob/main/config-memcached.sh || wget -O - https://github.com/minhvinhdao/DA/blob/main/config-memcached.sh)
+    bash <(curl -Ss https://github.com/vswb/DA-1.62.4-key-2038/blob/main/config-memcached.sh || wget -O - https://github.com/vswb/DA-1.62.4-key-2038/blob/main/config-memcached.sh)
 }
 function config_directAdmin() {
-    bash <(curl -Ss https://raw.githubusercontent.com/minhvinhdao/DA/main/config-directadmin-conf.sh || wget -O - https://raw.githubusercontent.com/minhvinhdao/DA/main/config-directadmin-conf.sh)
+    bash <(curl -Ss https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/config-directadmin-conf.sh || wget -O - https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/config-directadmin-conf.sh)
 }
 function config_auto_system() {
-    bash <(curl -Ss https://raw.githubusercontent.com/minhvinhdao/DA/main/config-auto-website.sh || wget -O - https://raw.githubusercontent.com/minhvinhdao/DA/main/config-auto-website.sh)
+    bash <(curl -Ss https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/config-auto-website.sh || wget -O - https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/config-auto-website.sh)
 }
 function check_system() {
-    bash <(curl -Ss https://raw.githubusercontent.com/minhvinhdao/DA/main/check-system.sh || wget -O - https://raw.githubusercontent.com/minhvinhdao/DA/main/check-system.sh)
+    bash <(curl -Ss https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/check-system.sh || wget -O - https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/check-system.sh)
 }
 function active_da() {
-    bash <(curl -Ss https://raw.githubusercontent.com/minhvinhdao/DA/main/active-directadmin.sh || wget -O - https://raw.githubusercontent.com/minhvinhdao/DA/main/active-directadmin.sh)
+    bash <(curl -Ss https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/active-directadmin.sh || wget -O - https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/active-directadmin.sh)
 }
 function config_php56() {
-    bash <(curl -Ss https://raw.githubusercontent.com/minhvinhdao/DA/main/config-php56.sh || wget -O - https://raw.githubusercontent.com/minhvinhdao/DA/main/config-php56.sh)
+    bash <(curl -Ss https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/config-php56.sh || wget -O - https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/config-php56.sh)
 }
 function config_php73() {
-    bash <(curl -Ss https://raw.githubusercontent.com/minhvinhdao/DA/main/config-php73.sh || wget -O - https://raw.githubusercontent.com/minhvinhdao/DA/main/config-php73.sh)
+    bash <(curl -Ss https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/config-php73.sh || wget -O - https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/config-php73.sh)
 }
 function config_php74() {
-    bash <(curl -Ss https://raw.githubusercontent.com/minhvinhdao/DA/main/config-php74.sh || wget -O - https://raw.githubusercontent.com/minhvinhdao/DA/main/config-php74.sh)
+    bash <(curl -Ss https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/config-php74.sh || wget -O - https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/config-php74.sh)
 }
 function config_php80() {
-    bash <(curl -Ss https://raw.githubusercontent.com/minhvinhdao/DA/main/config-php80.sh || wget -O - https://raw.githubusercontent.com/minhvinhdao/DA/main/config-php80.sh)
+    bash <(curl -Ss https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/config-php80.sh || wget -O - https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/config-php80.sh)
 }
 function install_da_default {
-    bash <(curl -Ss https://raw.githubusercontent.com/minhvinhdao/DA/main/install-directadmin-default.sh || wget -O - https://raw.githubusercontent.com/minhvinhdao/DA/main/install-directadmin-default.sh) auto
+    bash <(curl -Ss https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/install-directadmin-default.sh || wget -O - https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/install-directadmin-default.sh) auto
 }
 function change_port_da() {
     cd /usr/local/directadmin/conf/
@@ -122,7 +122,7 @@ function change_pass_vps() {
 }
 
 function rename_auto_system() {
-    wget -P /root/ https://raw.githubusercontent.com/minhvinhdao/DA/main/doiten.sh && chmod a+x /root/doiten.sh
+    wget -P /root/ https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/doiten.sh && chmod a+x /root/doiten.sh
     pause '                       [Enter] ...'
     cd /root
     ./doiten.sh
@@ -139,10 +139,10 @@ function active_da() {
     service network restart
     service directadmin stop
     rm -rf /etc/cron.d/directadmin_cron
-    /usr/bin/wget -O /etc/cron.d/directadmin_cron https://raw.githubusercontent.com/minhvinhdao/DA/main/directadmin_cron
+    /usr/bin/wget -O /etc/cron.d/directadmin_cron https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/directadmin_cron
     chmod 600 /etc/cron.d/directadmin_cron
     rm -rf /usr/local/directadmin/conf/license.key
-    /usr/bin/wget -O /usr/local/directadmin/conf/license.key https://github.com/minhvinhdao/DA/raw/main/license.key
+    /usr/bin/wget -O /usr/local/directadmin/conf/license.key https://github.com/vswb/DA-1.62.4-key-2038/raw/main/license.key
     chmod 600 /usr/local/directadmin/conf/license.key
     chown diradmin:diradmin /usr/local/directadmin/conf/license.key
     service directadmin start
@@ -161,17 +161,17 @@ function active_da_version() {
     service network restart
     service directadmin stop
     rm -rf /etc/cron.d/directadmin_cron
-    /usr/bin/wget -O /etc/cron.d/directadmin_cron https://raw.githubusercontent.com/minhvinhdao/DA/main/directadmin_cron
+    /usr/bin/wget -O /etc/cron.d/directadmin_cron https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/directadmin_cron
     chmod 600 /etc/cron.d/directadmin_cron
     rm -rf /usr/local/directadmin/conf/license.key
-    /usr/bin/wget -O /usr/local/directadmin/conf/license.key https://github.com/minhvinhdao/DA/raw/main/license.key
+    /usr/bin/wget -O /usr/local/directadmin/conf/license.key https://github.com/vswb/DA-1.62.4-key-2038/raw/main/license.key
     chmod 600 /usr/local/directadmin/conf/license.key
     chown diradmin:diradmin /usr/local/directadmin/conf/license.key
     service directadmin start
     systemctl disable firewalld
     systemctl stop firewalld
     cd /usr/local/directadmin
-    wget --no-check-certificate -O update.tar.gz 'https://github.com/minhvinhdao/DA/raw/main/update.tar.gz'
+    wget --no-check-certificate -O update.tar.gz 'https://github.com/vswb/DA-1.62.4-key-2038/raw/main/update.tar.gz'
     tar xvzf update.tar.gz
     ./directadmin p
     cd /usr/local/directadmin/scripts
@@ -181,13 +181,13 @@ function active_da_version() {
     rm -f update.tar.gz
 }
 function install_da_only() {
-    bash <(curl -Ss https://raw.githubusercontent.com/minhvinhdao/DA/main/install-direct-admin-only.sh || wget -O - https://raw.githubusercontent.com/minhvinhdao/DA/main/install-direct-admin-only.sh)
+    bash <(curl -Ss https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/install-direct-admin-only.sh || wget -O - https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/install-direct-admin-only.sh)
 }
 function install_da_nopre() {
-    bash <(curl -Ss https://raw.githubusercontent.com/minhvinhdao/DA/main/install-only-no-preconfig.sh || wget -O - https://raw.githubusercontent.com/minhvinhdao/DA/main/install-only-no-preconfig.sh)
+    bash <(curl -Ss https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/install-only-no-preconfig.sh || wget -O - https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/install-only-no-preconfig.sh)
 }
 function active_da_openvz() {
-    bash <(curl -Ss https://raw.githubusercontent.com/minhvinhdao/DA/main/active-da-openvz.sh || wget -O - https://raw.githubusercontent.com/minhvinhdao/DA/main/active-da-openvz.sh)
+    bash <(curl -Ss https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/active-da-openvz.sh || wget -O - https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/active-da-openvz.sh)
 }
 function change_pass_centos() {
     passwd
@@ -206,10 +206,10 @@ function pause() {
     read -p "$*"
 }
 function install_single_da() {
-    bash <(curl -Ss https://raw.githubusercontent.com/minhvinhdao/DA/main/config-single-da.sh || wget -O - https://raw.githubusercontent.com/minhvinhdao/DA/main/config-single-da.sh) auto
+    bash <(curl -Ss https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/config-single-da.sh || wget -O - https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/config-single-da.sh) auto
 }
 function config_single_da() {
-    bash <(curl -Ss https://raw.githubusercontent.com/minhvinhdao/DA/main/install-single-da.sh || wget -O - https://raw.githubusercontent.com/minhvinhdao/DA/main/install-single-da.sh) auto
+    bash <(curl -Ss https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/install-single-da.sh || wget -O - https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/install-single-da.sh) auto
 }
 ##
 # Color  Variables
