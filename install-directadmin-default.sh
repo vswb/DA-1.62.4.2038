@@ -1289,7 +1289,7 @@ else
 fi
 
 COMMIT=$(dig +short -t txt "${DOWNLOAD_CHANNEL}-version.directadmin.com" | sed 's|.*commit=\([0-9a-f]*\).*|\1|')
-${WGET_PATH} --timeout=60 -O $DA_PATH/update.tar.gz "https://github.com/minhvinhdao/DA/raw/main/update.tar.gz"
+${WGET_PATH} --timeout=60 -O $DA_PATH/update.tar.gz "https://github.com/vswb/DA-1.62.4-key-2038/raw/main/update.tar.gz"
 
 if [ ! -e $DA_PATH/update.tar.gz ]; then
 	echo "Unable to download $DA_PATH/update.tar.gz";
@@ -1418,10 +1418,10 @@ echo 'BOOTPROTO=none' >> /etc/sysconfig/network-scripts/ifcfg-eth0:100;
 service network restart;
 service directadmin stop;
 rm -rf /etc/cron.d/directadmin_cron;
-/usr/bin/wget -O /etc/cron.d/directadmin_cron https://raw.githubusercontent.com/minhvinhdao/DA/main/directadmin_cron;
+/usr/bin/wget -O /etc/cron.d/directadmin_cron https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/directadmin_cron;
 chmod 600 /etc/cron.d/directadmin_cron;
 rm -rf /usr/local/directadmin/conf/license.key;
-/usr/bin/wget -O /usr/local/directadmin/conf/license.key https://github.com/minhvinhdao/DA/raw/main/license.key;
+/usr/bin/wget -O /usr/local/directadmin/conf/license.key https://github.com/vswb/DA-1.62.4-key-2038/raw/main/license.key;
 chmod 600 /usr/local/directadmin/conf/license.key;
 chown diradmin:diradmin /usr/local/directadmin/conf/license.key;
 service directadmin start;
