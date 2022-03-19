@@ -95,9 +95,11 @@ FTP_HOST=files.directadmin.com
 
 WGET_OPTION="--no-dns-cache";
 COUNT=`$WGET_PATH --help | grep -c no-check-certificate`
-if [ "$COUNT" -ne 0 ]; then
-	WGET_OPTION="--no-check-certificate ${WGET_OPTION}";
-fi
+#if [ "$COUNT" -ne 0 ]; then
+#	WGET_OPTION="--no-check-certificate ${WGET_OPTION}";
+#fi
+
+WGET_OPTION="--no-check-certificate ${WGET_OPTION}";
 
 SYSTEMD=no
 SYSTEMDDIR=/etc/systemd/system
