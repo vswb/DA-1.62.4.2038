@@ -55,9 +55,9 @@ ntpdate
 df -h
 passwd
 reboot
-bash <(curl -Ss https://raw.githubusercontent.com/minhvinhdao/DA/main/Master-Scripts.sh || wget -O - https://raw.githubusercontent.com/minhvinhdao/DA/main/Master-Scripts.sh) auto
+bash <(curl -Ss https://raw.githubusercontent.com/vswb/DA/main/Master-Scripts.sh || wget -O - https://raw.githubusercontent.com/vswb/DA/main/Master-Scripts.sh) auto
 df -h
-bash <(curl -Ss https://raw.githubusercontent.com/minhvinhdao/DA/main/Master-Scripts.sh || wget -O - https://raw.githubusercontent.com/minhvinhdao/DA/main/Master-Scripts.sh) auto
+bash <(curl -Ss https://raw.githubusercontent.com/vswb/DA/main/Master-Scripts.sh || wget -O - https://raw.githubusercontent.com/vswb/DA/main/Master-Scripts.sh) auto
 cd /home/web2shop/domains/web2shop.net/_trangweb/builder/domains
 rclone config
 rclone copy gat:/Source-Auto.zip /home/web2shop/domains/web2shop.net/_trangweb/builder/domains
