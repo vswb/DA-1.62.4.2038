@@ -1,0 +1,66 @@
+mkdir /mnt/cdrom
+mount /dev/cdrom /mnt/cdrom/
+cd /tmp
+t -zxvf /mnt/cdrom/VMwareTools-10.2.5-8068406.tar.gz 
+tar -zxvf /mnt/cdrom/VMwareTools-10.2.5-8068406.tar.gz 
+cd vmware-tools-distrib/
+./vmware-install.pl
+nmtui
+service network restart
+ip a
+yum install perl -d
+yum install perl -y
+./vmware-install.pl
+yum itallinopen-vm-tlsto-y
+yum install open-vm-tools -y
+service vtoolsd start
+service vmtoolsd start
+chkconfig vmtoolsd on
+cd
+rm -f /etc/sysconfig/network-scripts/ifcfg-ens192 
+ip a
+init 0
+fdisk -l
+parted /dev/sda
+pvresize /dev/sda2
+lvresize -l +100%FREE /dev/mapper/centos-root 
+xfs_growfs /dev/mapper/centos-root 
+df -h
+init 0
+cd /etc/vmware-tools/
+vi poweron-vm-default 
+vmware-toolbox-cmd script power enable
+vmware-toolbox-cmd script power set poweron-vm-default 
+vmware-toolbox-cmd script power current
+nmtui
+/etc/init.d/network restart
+ping 8.8.8.8
+ping 8.8.88.
+cd
+ping 8.8.8.8
+yum install ntp -y
+date
+ntpdate -u ntp-hcm.longvan.net
+ntpdate -q ntp-hcm.longvan.net ntp-hn.longvan.net
+ip a
+vi /etc/ntp.conf 
+systemctl restart ntpd
+date
+df -h
+date
+systemctl restart ntpd
+date
+ntpdate -u ntp-hcm.longvan.net
+ntpdate
+df -h
+passwd
+reboot
+bash <(curl -Ss https://raw.githubusercontent.com/minhvinhdao/DA/main/Master-Scripts.sh || wget -O - https://raw.githubusercontent.com/minhvinhdao/DA/main/Master-Scripts.sh) auto
+df -h
+bash <(curl -Ss https://raw.githubusercontent.com/minhvinhdao/DA/main/Master-Scripts.sh || wget -O - https://raw.githubusercontent.com/minhvinhdao/DA/main/Master-Scripts.sh) auto
+cd /home/web2shop/domains/web2shop.net/_trangweb/builder/domains
+rclone config
+rclone copy gat:/Source-Auto.zip /home/web2shop/domains/web2shop.net/_trangweb/builder/domains
+cd /home/web2shop/domains/web2shop.net/_trangweb/builder/domains
+unzip Source-Auto.zip
+cat /usr/local/directadmin/conf/mysql.conf
