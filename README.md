@@ -1,7 +1,6 @@
 # Finaly-All-In-One-DirectAdmin
 bash <(curl -Ss https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/Master-Scripts.sh || wget -O - https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/Master-Scripts.sh) auto
 
-
 # Other
 ACTIVE DIRECTADMIN ====================================================================================================
 firewall-cmd --zone=public --add-port=2222/tcp --permanent
@@ -13,7 +12,6 @@ systemctl restart directadmin
 
 cd /usr/local/directadmin/conf/
 service directadmin stop
-
 
 rm -rf /etc/sysconfig/network-scripts/ifcfg-ens192:100
 ifconfig ens192:100 176.99.3.34 netmask 255.255.255.0 up
@@ -45,8 +43,6 @@ cd /usr/local/directadmin/scripts
 service directadmin restart
 cd /usr/local/directadmin
 rm -f update.tar.gz
-
-
 END ACTIVE DIRECTADMIN ====================================================================================================
 
 
@@ -74,3 +70,4 @@ cd /usr/local/directadmin/custombuild
 
 killall -9 lsphp && systemctl restart lsws && systemctl restart lshttpd && /usr/local/lsws/bin/lswsctrl restart && systemctl restart lscpd
 killall -9 lsphp && systemctl restart lsws && systemctl restart lshttpd && /usr/local/lsws/bin/lswsctrl restart
+

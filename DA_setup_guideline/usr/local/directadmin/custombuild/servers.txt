@@ -1,3 +1,4 @@
+files3.directadmin.com
 files-lt.directadmin.com
 files-ca.directadmin.com
 files-de.directadmin.com

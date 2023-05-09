@@ -2320,8 +2320,8 @@ doRestartDA() {
 
 doDAVersionCheck()  {
 	DIRECTADMINV=`/usr/local/directadmin/directadmin v | awk '{print $3}' | cut -d. -f2,3`
-	if [ "`version_cmp ${DIRECTADMINV} 1.63 'DA version check'`" -lt 0 ]; then
-			do_exit 1 "${boldon}Your DirectAdmin version (${DIRECTADMINV}) is older than minimal required for this version of CustomBuild (1.63). Please run '/usr/local/directadmin/custombuild/build update_da'${boldoff}"
+	if [ "`version_cmp ${DIRECTADMINV} 1.62 'DA version check'`" -lt 0 ]; then
+			do_exit 1 "${boldon}Your DirectAdmin version (${DIRECTADMINV}) is older than minimal required for this version of CustomBuild (1.62). Please run '/usr/local/directadmin/custombuild/build update_da'${boldoff}"
 	fi
 }
 
