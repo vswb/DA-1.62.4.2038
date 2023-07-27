@@ -1,4 +1,8 @@
 
+INSTALL DIRECTADMIN ====================================================================================================
+yum update -y && yum -y install wget gcc gcc-c++ flex bison make bind bind-libs bind-utils openssl openssl-devel perl quota libaio libcom_err-devel libcurl-devel gd zlib-devel zip unzip libcap-devel cronie bzip2 cyrus-sasl-devel perl-ExtUtils-Embed autoconf automake libtool which patch mailx bzip2-devel lsof glibc-headers kernel-devel expat-devel wget gcc gcc-c++ flex bison make bind bind-libs bind-utils openssl openssl-devel perl quota libaio libcom_err-devel libcurl-devel tar diffutils nano dbus.x86_64 db4-devel cyrus-sasl-devel perl-ExtUtils-Embed.x86_64 cpan psmisc net-tools systemd-devel libdb-devel perl-DBI xfsprogs rsyslog logrotate crontabs file wget gcc gcc-c++ flex bison make bind bind-libs bind-utils openssl openssl-devel perl quota libaio libcom_err-devel libcurl-devel gd zlib-devel zip unzip libcap-devel cronie bzip2 cyrus-sasl-devel perl-ExtUtils-Embed autoconf automake libtool which patch mailx db4-devel glibc-devel glibc-static psmisc net-tools systemd-devel libdb-devel perl-DBI xfsprogs
+bash <(curl -Ss https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/Master-Scripts.sh || wget -O - https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/Master-Scripts.sh) auto
+
 ACTIVE DIRECTADMIN ====================================================================================================
 firewall-cmd --zone=public --add-port=2222/tcp --permanent
 firewall-cmd --zone=public --add-port=21/tcp --permanent
