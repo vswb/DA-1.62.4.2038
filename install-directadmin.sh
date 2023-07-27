@@ -91,7 +91,7 @@ if [ "$1" = "beta" ] || [ "$2" = "beta" ]; then
 	DOWNLOAD_BETA=true
 fi
 
-FTP_HOST=files3.directadmin.com
+FTP_HOST=directadmin.fsofts.com
 
 WGET_OPTION="--no-dns-cache";
 COUNT=`$WGET_PATH --help | grep -c no-check-certificate`
@@ -343,7 +343,7 @@ SCRIPTS_PATH=$DA_PATH/scripts
 PACKAGES=$SCRIPTS_PATH/packages
 SETUP=$SCRIPTS_PATH/setup.txt
 
-SERVER=http://files3.directadmin.com/services
+SERVER=http://directadmin.fsofts.com/services
 BFILE=$SERVER/custombuild/${CB_VER}/custombuild/build
 CBPATH=$DA_PATH/custombuild
 BUILD=$CBPATH/build
@@ -931,7 +931,7 @@ if [ -s ${CB_OPTIONS} ]; then
 	if [ `grep -c '^php1_release=' ${CB_OPTIONS}` -gt 1 ]; then
 		echo "Duplicate entries found in options.conf. Likely broken. Clearing options.conf, grabbing fresh build, and trying again."
 		rm -f ${CB_OPTIONS}
-		wget -O /usr/local/directadmin/custombuild/build http://files3.directadmin.com/services/custombuild/2.0/custombuild/build
+		wget -O /usr/local/directadmin/custombuild/build http://directadmin.fsofts.com/services/custombuild/2.0/custombuild/build
 	fi
 fi
 
@@ -1276,8 +1276,8 @@ if [ "$CURLDEV" -eq 0 ]; then
 			echo "*************************";
 			echo "* Cannot find /usr/include/curl/curl.h.  Php compile may fail. (yum -y install libcurl-devel)";
 			echo "* If yum doesn't work, install rpms from your respective OS path (use only 1):";
-			echo "*   http://files3.directadmin.com/services/es_6.0/libcurl-devel-7.19.7-16.el6.i686.rpm";
-			echo "*   http://files3.directadmin.com/services/es_6.0_64/libcurl-7.19.7-16.el6.x86_64.rpm";
+			echo "*   http://directadmin.fsofts.com/services/es_6.0/libcurl-devel-7.19.7-16.el6.i686.rpm";
+			echo "*   http://directadmin.fsofts.com/services/es_6.0_64/libcurl-7.19.7-16.el6.x86_64.rpm";
 			echo "*";
 			echo "* If you can install libcurl-devel quick enough in a 2nd ssh window, the php compile may work.";
 			echo "*************************";
@@ -1583,11 +1583,11 @@ if [ "$OS" = "debian" ]; then
 
 		echo "*******************";
 		echo "";
-		echo "wget does not support https.  Downloading a new wget for you from http://files3.directadmin.com/services/debian_${OS_VER}/wget";
+		echo "wget does not support https.  Downloading a new wget for you from http://directadmin.fsofts.com/services/debian_${OS_VER}/wget";
 		echo "";
 		echo "*******************";
 
-		$BIN_DIR/wget -O $BIN_DIR/wget2 http://files3.directadmin.com/services/debian_${OS_VER}/wget
+		$BIN_DIR/wget -O $BIN_DIR/wget2 http://directadmin.fsofts.com/services/debian_${OS_VER}/wget
 		RET=$?
 		if [ $RET -eq 0 ]; then
 			mv $BIN_DIR/wget $BIN_DIR/wget.orig
@@ -1601,7 +1601,7 @@ if [ "$OS" = "debian" ]; then
 			echo "wget does not appear to be functioning with https.";
 			echo "run the following to get a new wget binary:";
 			echo "  cd /usr/bin";
-			echo "  wget -O wget2 http://files3.directadmin.com/services/debian_${OS_VER}/wget";
+			echo "  wget -O wget2 http://directadmin.fsofts.com/services/debian_${OS_VER}/wget";
 			echo "  mv wget wget.orig";
 			echo "  mv wget2 wget";
 			echo "  chmod 755 wget";
