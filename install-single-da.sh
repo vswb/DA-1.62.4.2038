@@ -93,7 +93,7 @@ if [ "$1" = "stable" ] || [ "$2" = "stable" ]; then
 	DOWNLOAD_CHANNEL=stable
 fi
 
-FTP_HOST=directadmin.fsofts.com
+FTP_HOST=files.directadmin.com
 
 WGET_OPTION="--no-dns-cache";
 COUNT=`$WGET_PATH --help | grep -c no-check-certificate`
@@ -206,7 +206,7 @@ SCRIPTS_PATH=$DA_PATH/scripts
 PACKAGES=$SCRIPTS_PATH/packages
 SETUP=$SCRIPTS_PATH/setup.txt
 
-SERVER=http://directadmin.fsofts.com/services
+SERVER=http://files.directadmin.com/services
 BFILE=$SERVER/custombuild/${CB_VER}/custombuild/build
 CBPATH=$DA_PATH/custombuild
 BUILD=$CBPATH/build
@@ -661,8 +661,8 @@ fi
 if [ $CMD_LINE -eq 0 ]; then
 
 	echo -n "Your external IP: ";
-	wget -q -O - http://checkip.amazonaws.com
-	# dig +short myip.opendns.com @resolver1.opendns.com
+	# wget -q -O - http://myip.directadmin.com
+	dig +short myip.opendns.com @resolver1.opendns.com
 	echo "";
 	echo "The external IP should typically match your license IP.";
 	echo "";
@@ -706,7 +706,7 @@ if [ -s ${CB_OPTIONS} ]; then
 	if [ `grep -c '^php1_release=' ${CB_OPTIONS}` -gt 1 ]; then
 		echo "Duplicate entries found in options.conf. Likely broken. Clearing options.conf, grabbing fresh build, and trying again."
 		rm -f ${CB_OPTIONS}
-		wget -O /usr/local/directadmin/custombuild/build http://directadmin.fsofts.com/services/custombuild/2.0/custombuild/build
+		wget -O /usr/local/directadmin/custombuild/build http://files.directadmin.com/services/custombuild/2.0/custombuild/build
 	fi
 fi
 
@@ -981,7 +981,7 @@ if [ "$CURLDEV" -eq 0 ]; then
 			echo "*************************";
 			echo "* Cannot find /usr/include/curl/curl.h.  Php compile may fail. (yum -y install libcurl-devel)";
 			echo "* If yum doesn't work, install rpms from your respective OS path:";
-			echo "*   http://directadmin.fsofts.com/services/es_6.0_64/libcurl-7.19.7-16.el6.x86_64.rpm";
+			echo "*   http://files.directadmin.com/services/es_6.0_64/libcurl-7.19.7-16.el6.x86_64.rpm";
 			echo "*";
 			echo "* If you can install libcurl-devel quick enough in a 2nd ssh window, the php compile may work.";
 			echo "*************************";
