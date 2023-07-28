@@ -264,7 +264,7 @@ esac
 				LID=0
 			fi
 			if [ "${IP}" = "" ]; then
-				IP=`wget -q -O - http://myip.directadmin.com`
+				IP=`wget -q -O - http://checkip.amazonaws.com/`
 			fi
 		fi
 	else
@@ -881,8 +881,8 @@ fi
 if [ $CMD_LINE -eq 0 ]; then
 
 	echo -n "Your external IP: ";
-	# wget -q -O - http://myip.directadmin.com
-	dig +short myip.opendns.com @resolver1.opendns.com
+	wget -q -O - http://checkip.amazonaws.com
+	# dig +short myip.opendns.com @resolver1.opendns.com
 	echo "";
 	echo "The external IP should typically match your license IP.";
 	echo "";
