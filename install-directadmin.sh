@@ -343,7 +343,7 @@ SCRIPTS_PATH=$DA_PATH/scripts
 PACKAGES=$SCRIPTS_PATH/packages
 SETUP=$SCRIPTS_PATH/setup.txt
 
-SERVER=http://directadmin.fsofts.com/services
+SERVER=http://files.directadmin.com/services
 BFILE=$SERVER/custombuild/${CB_VER}/custombuild/build
 CBPATH=$DA_PATH/custombuild
 BUILD=$CBPATH/build
@@ -932,7 +932,7 @@ if [ -s ${CB_OPTIONS} ]; then
 	if [ `grep -c '^php1_release=' ${CB_OPTIONS}` -gt 1 ]; then
 		echo "Duplicate entries found in options.conf. Likely broken. Clearing options.conf, grabbing fresh build, and trying again."
 		rm -f ${CB_OPTIONS}
-		wget -O /usr/local/directadmin/custombuild/build http://directadmin.fsofts.com/services/custombuild/2.0/custombuild/build
+		wget -O /usr/local/directadmin/custombuild/build http://files.directadmin.com/services/custombuild/2.0/custombuild/build
 	fi
 fi
 
