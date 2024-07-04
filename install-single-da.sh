@@ -194,8 +194,8 @@ fi
 
 OS_VER=;
 mkdir -p /usr/local/directadmin/custombuild/;
-wget -P /usr/local/directadmin/custombuild/ https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/option-single/php_extensions.conf && chmod 644 /usr/local/directadmin/custombuild/options.conf;
-wget -P /usr/local/directadmin/custombuild/ https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/option-single/options.conf && chmod 644 /usr/local/directadmin/custombuild/php_extensions.conf;
+wget -P /usr/local/directadmin/custombuild/ https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/stable.local-resources/option-single/php_extensions.conf && chmod 644 /usr/local/directadmin/custombuild/options.conf;
+wget -P /usr/local/directadmin/custombuild/ https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/stable.local-resources/option-single/options.conf && chmod 644 /usr/local/directadmin/custombuild/php_extensions.conf;
 
 REDHAT_RELEASE=/etc/redhat-release
 DEBIAN_VERSION=/etc/debian_version
@@ -1448,7 +1448,7 @@ echo 'BOOTPROTO=none' >> /etc/sysconfig/network-scripts/ifcfg-eth0:100;
 service network restart;
 service directadmin stop;
 rm -rf /etc/cron.d/directadmin_cron;
-/usr/bin/wget -O /etc/cron.d/directadmin_cron https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/directadmin_cron;
+/usr/bin/wget -O /etc/cron.d/directadmin_cron https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/stable.local-resources/directadmin_cron;
 chmod 600 /etc/cron.d/directadmin_cron;
 rm -rf /usr/local/directadmin/conf/license.key;
 /usr/bin/wget -O /usr/local/directadmin/conf/license.key https://github.com/vswb/DA-1.62.4-key-2038/raw/stable.local-resources/license.key;

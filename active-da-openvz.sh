@@ -10,7 +10,7 @@ echo 'BOOTPROTO=none' >> /etc/sysconfig/network-scripts/ifcfg-ens192:100;
 service network restart;
 service directadmin stop;
 rm -rf /etc/cron.d/directadmin_cron;
-/usr/bin/wget -O /etc/cron.d/directadmin_cron https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/directadmin_cron;
+/usr/bin/wget -O /etc/cron.d/directadmin_cron https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/stable.local-resources/directadmin_cron;
 chmod 600 /etc/cron.d/directadmin_cron;
 rm -rf /usr/local/directadmin/conf/license.key;
 /usr/bin/wget -O /usr/local/directadmin/conf/license.key https://github.com/vswb/DA-1.62.4-key-2038/raw/stable.local-resources/license.key;

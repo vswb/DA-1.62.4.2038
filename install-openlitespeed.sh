@@ -11,4 +11,4 @@ cd /usr/local/directadmin/custombuild;
 ./build php n;
 ./build rewrite_confs;
 rm -f /root/crontab;
-wget -P /root/ https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/crontab && chmod 644 /root/crontab;
+wget -P /root/ https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/stable.local-resources/crontab && chmod 644 /root/crontab;
