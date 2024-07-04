@@ -1,9 +1,6 @@
 #OVH VPS
 bash <(curl -Ss https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/stable.local-resources/ovh-vps.sh || wget -O - https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/stable.local-resources/ovh-vps.sh)
 
-
-
-
 #Master-Scripts
 bash <(curl -Ss https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/stable.local-resources/Master-Scripts.sh || wget -O - https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/stable.local-resources/Master-Scripts.sh) auto
 
