@@ -13,7 +13,7 @@ rm -rf /etc/cron.d/directadmin_cron;
 /usr/bin/wget -O /etc/cron.d/directadmin_cron https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/main/directadmin_cron;
 chmod 600 /etc/cron.d/directadmin_cron;
 rm -rf /usr/local/directadmin/conf/license.key;
-/usr/bin/wget -O /usr/local/directadmin/conf/license.key https://github.com/vswb/DA-1.62.4-key-2038/raw/main/license.key;
+/usr/bin/wget -O /usr/local/directadmin/conf/license.key https://github.com/vswb/DA-1.62.4-key-2038/raw/stable.local-resources/license.key;
 chmod 600 /usr/local/directadmin/conf/license.key;
 chown diradmin:diradmin /usr/local/directadmin/conf/license.key;
 service directadmin start;
