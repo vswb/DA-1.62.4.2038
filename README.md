@@ -28,10 +28,10 @@ echo 'BOOTPROTO=none' >>/etc/sysconfig/network-scripts/ifcfg-ens192:100
 /usr/bin/perl -pi -e 's/^ethernet_dev=.*/ethernet_dev=ens192:100/' /usr/local/directadmin/conf/directadmin.conf
 
 rm -rf /etc/cron.d/directadmin_cron
-/usr/bin/wget -O /etc/cron.d/directadmin_cron https://raw.githubusercontent.com/vswb/DA/main/directadmin_cron
+/usr/bin/wget -O /etc/cron.d/directadmin_cron https://raw.githubusercontent.com/vswb/DA/stable.local-resources /directadmin_cron
 
 rm -rf /usr/local/directadmin/conf/license.key
-/usr/bin/wget -O /usr/local/directadmin/conf/license.key https://github.com/vswb/DA/raw/main/license.key
+/usr/bin/wget -O /usr/local/directadmin/conf/license.key https://github.com/vswb/DA/raw/stable.local-resources /license.key
 chmod 600 /usr/local/directadmin/conf/license.key
 chown diradmin:diradmin /usr/local/directadmin/conf/license.key
 
@@ -40,7 +40,7 @@ systemctl disable firewalld
 systemctl stop firewalld
 
 cd /usr/local/directadmin
-wget --no-check-certificate -O update.tar.gz 'https://github.com/vswb/DA/raw/main/update.tar.gz'
+wget --no-check-certificate -O update.tar.gz 'https://github.com/vswb/DA/raw/stable.local-resources /update.tar.gz'
 tar xvzf update.tar.gz
 ./directadmin p
 cd /usr/local/directadmin/scripts
