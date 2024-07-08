@@ -4,13 +4,14 @@ lên các files source (bản build như php, imagic,ioncube,...) trực tiếp 
 Ps: sources được lưu tại drive nội bộ (private)  ~/Google Drive/Network/DirectAdmin Setup/usr/local/directadmin/custombuild/ 
 
 # Finaly-All-In-One-DirectAdmin
-``
+
+```bash
 bash <(curl -Ss https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/stable.local-resources/Master-Scripts.sh || wget -O - https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/stable.local-resources/Master-Scripts.sh) auto
-``
+```
 
 # Other
 
-``
+```bash
 ACTIVE DIRECTADMIN ==
 firewall-cmd --zone=public --add-port=2222/tcp --permanent
 firewall-cmd --zone=public --add-port=21/tcp --permanent
@@ -75,11 +76,11 @@ cd /usr/local/directadmin/custombuild
 ./build php n     >>>>>> You can use "./build php_expert 8.1" to compile only a single version
 ./build rewrite_confs
 
-``
+```
 
 ==
 
-``
+```bash
 killall -9 lsphp && systemctl restart lsws && systemctl restart lshttpd && /usr/local/lsws/bin/lswsctrl restart && systemctl restart lscpd
 killall -9 lsphp && systemctl restart lsws && systemctl restart lshttpd && /usr/local/lsws/bin/lswsctrl restart
-``
+```
