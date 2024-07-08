@@ -11,8 +11,9 @@ bash <(curl -Ss https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/stable
 
 # Other
 
+## ACTIVE DIRECTADMIN
+
 ```bash
-ACTIVE DIRECTADMIN ==
 firewall-cmd --zone=public --add-port=2222/tcp --permanent
 firewall-cmd --zone=public --add-port=21/tcp --permanent
 firewall-cmd --zone=public --add-port=80/tcp --permanent
@@ -53,9 +54,9 @@ cd /usr/local/directadmin/scripts
 service directadmin restart
 cd /usr/local/directadmin
 rm -f update.tar.gz
-END ACTIVE DIRECTADMIN ==
+```
 
-
+```bash
 cd /usr/local/directadmin/custombuild
 ./build set webserver nginx_apache
 ./build set php1_mode lsphp
@@ -66,9 +67,6 @@ cd /usr/local/directadmin/custombuild
 ./build php n
 ./build rewrite_confs
 
-
-
-
 ./build set php4_release 5.6
 ./build set php3_release 7.4
 ./build set php2_release 8.0
@@ -77,8 +75,6 @@ cd /usr/local/directadmin/custombuild
 ./build rewrite_confs
 
 ```
-
-==
 
 ```bash
 killall -9 lsphp && systemctl restart lsws && systemctl restart lshttpd && /usr/local/lsws/bin/lswsctrl restart && systemctl restart lscpd
