@@ -207,7 +207,8 @@ PACKAGES=$SCRIPTS_PATH/packages
 SETUP=$SCRIPTS_PATH/setup.txt
 
 SERVER=http://directadmin-files.fsofts.com/directadmin-1.62.4/services
-BFILE=$SERVER/custombuild/${CB_VER}/custombuild/build
+# BFILE=$SERVER/custombuild/${CB_VER}/custombuild/build
+BFILE=$SERVER/custombuild/build
 CBPATH=$DA_PATH/custombuild
 BUILD=$CBPATH/build
 
