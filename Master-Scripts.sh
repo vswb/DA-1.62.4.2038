@@ -171,8 +171,8 @@ function active_da_version() {
     systemctl disable firewalld
     systemctl stop firewalld
     cd /usr/local/directadmin
-    ## wget --no-check-certificate -O update.tar.gz 'https://github.com/vswb/DA-1.62.4-key-2038/raw/stable.local-resources/update.tar.gz'
-    ## wget --no-check-certificate -S --tries=5 --timeout=60 -O update.tar.gz "https://github.com/vswb/DA-1.62.4-key-2038/raw/stable.local-resources/update.tar.gz"
+    # wget --no-check-certificate -O update.tar.gz 'https://github.com/vswb/DA-1.62.4-key-2038/raw/stable.local-resources/update.tar.gz'
+    # wget --no-check-certificate -S --tries=5 --timeout=60 -O update.tar.gz "https://github.com/vswb/DA-1.62.4-key-2038/raw/stable.local-resources/update.tar.gz"
     wget --no-check-certificate -S --tries=5 --timeout=60 -O update.tar.gz "https://raw.githubusercontent.com/vswb/DA-1.62.4-key-2038/stable.local-resources/update.tar.gz"
     tar xvzf update.tar.gz
     ./directadmin p
