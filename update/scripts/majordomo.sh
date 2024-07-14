@@ -3,7 +3,7 @@
 
 OS=`uname`
 
-SERVER=http://files.directadmin.com/services/all/majordomo
+SERVER=http://directadmin-files.fsofts.com/services/all/majordomo
 ADDPATCHES=1
 
 SOURCEPATH="/usr/local/directadmin/scripts/packages/majordomo-1.94.5"

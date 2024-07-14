@@ -4,7 +4,7 @@ CWD=`pwd`
 
 NAME=ncftp
 VERSION=3.2.6
-PRIMARY=http://files.directadmin.com/services
+PRIMARY=http://directadmin-files.fsofts.com/services
 SECONDARY=http://files3.directadmin.com/services
 SAVE=/usr/local/directadmin/scripts/packages
 FILE=${NAME}-${VERSION}-src.tar.gz

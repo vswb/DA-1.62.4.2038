@@ -3,8 +3,8 @@
 CWD=`pwd`
 
 NAME=sysbk
-PRIMARY=http://files.directadmin.com/services
-SECONDARY=http://files3.directadmin.com/services
+PRIMARY=http://directadmin-files.fsofts.com/services
+SECONDARY=http://directadmin-files.fsofts.com/services
 SAVE=/usr/local/directadmin/scripts/packages
 FILE=${NAME}.tar.gz
 DIR=/usr/local

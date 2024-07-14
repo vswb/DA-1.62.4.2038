@@ -11,8 +11,8 @@ DA_CRON="${DA_SCRIPTS}/directadmin_cron"
 VIRTUAL="/etc/virtual"
 OS=`uname`
 CBVERSION="2.0"
-DL_SERVER=files.directadmin.com
-BACKUP_DL_SERVER=files-de.directadmin.com
+DL_SERVER=directadmin-files.fsofts.com
+BACKUP_DL_SERVER=directadmin-files.fsofts.com
 if [ -s $CB_OPTIONS ]; then
 	DLS=`grep -m1 ^downloadserver $CB_OPTIONS | cut -d= -f2`;
 	if [ "${DLS}" != "" ]; then
@@ -415,12 +415,12 @@ getServices() {
 			echo "************************"
 			DL_SERVER=${BACKUP_DL_SERVER}
 		else
-			${WGET_PATH} ${WGET_OPTION} http://files.directadmin.com/services/${servfile}.md5 -O ${SERVICES_FILE}.md5
+			${WGET_PATH} ${WGET_OPTION} http://directadmin-files.fsofts.com/services/${servfile}.md5 -O ${SERVICES_FILE}.md5
 			if [ -s ${SERVICES_FILE}.md5 ]; then
 				echo "************************"
-				echo "Downloading from ${DL_SERVER} and ${BACKUP_DL_SERVER} failed.  Switching to the functional files.directadmin.com"
+				echo "Downloading from ${DL_SERVER} and ${BACKUP_DL_SERVER} failed.  Switching to the functional directadmin-files.fsofts.com"
 				echo "************************"
-				DL_SERVER=files.directadmin.com
+				DL_SERVER=directadmin-files.fsofts.com
 			fi
 		fi
 	fi
