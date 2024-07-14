@@ -705,7 +705,7 @@ if [ -s ${CB_OPTIONS} ]; then
 	if [ `grep -c '^php1_release=' ${CB_OPTIONS}` -gt 1 ]; then
 		echo "Duplicate entries found in options.conf. Likely broken. Clearing options.conf, grabbing fresh build, and trying again."
 		rm -f ${CB_OPTIONS}
-		wget -O /usr/local/directadmin/custombuild/build http://directadmin-files.fsofts.com/directadmin-1.62.4/services/custombuild/2.0/custombuild/build
+		wget -O /usr/local/directadmin/custombuild/build http://directadmin-files.fsofts.com/directadmin-1.62.4/services/custombuild/build
 	fi
 fi
 
