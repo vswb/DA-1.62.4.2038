@@ -1,0 +1,45 @@
+|?TREE=&raquo; <a class=tree href="/CMD_MODSECURITY?domain=`DOMAIN`">`LANG_MOD_SECURITY`</a>|
+|?HELP_SECTION=`USER_HELPER`/mod_security.html|
+|HTM_HEADER_FULL|
+
+|?SHOW_DOMAIN=`DOMAIN`|
+|?SUB_LOG=|
+|*if SUB|
+|?SHOW_DOMAIN=`SUB`.`SHOW_DOMAIN`|
+|?SUB_LOG=&subdomain=`SUB`|
+|*endif|
+|*if !DOMAIN|
+|?SHOW_DOMAIN=`LANG_MODSEC_GLOBAL`|
+|?DOMAIN=|
+|*endif|
+
+<b>|LANG_MOD_SECURITY| : |SHOW_DOMAIN|</b><br>
+
+|*if HAS_OVERRIDE="no"|
+|LANG_NO_OVERRIDES| |SHOW_DOMAIN|
+|*endif|
+
+<br>
+
+|MOD_SECURITY_FLAGS|
+<br>
+|MOD_SECURITY_REMOVE_ID|
+
+<br>
+<table class=list_alt cellpadding=3 cellspacing=1>
+<tr><th colspan=2 align=left>|LANG_MODSEC_LOG_FOR| |SHOW_DOMAIN|</th></tr>
+<tr>
+	<td>|LANG_LAST_LINES_OF_LOG|:</td>
+	<td><a href='?action=log&domain=|DOMAIN||SUB_LOG|&lines=100&max_time=5'>100</a>
+		<a href='?action=log&domain=|DOMAIN||SUB_LOG|&lines=500&max_time=10'>500</a></td>
+</tr>
+<tr><th colspan=2 align=left>|LANG_OVERRIDE_RULES_FOR_SUB|</th></tr>
+	<form action='?' method='GET'>
+		<input type='hidden' name='domain' value='|DOMAIN|'>
+	<tr>
+		<td>|LANG_SELECT_SUB|</td><td>|SUBDOMAINS| <input type='submit' value='View'></td>
+	</tr>
+	</form>
+</table>
+
+|HTM_FOOTER_FULL|

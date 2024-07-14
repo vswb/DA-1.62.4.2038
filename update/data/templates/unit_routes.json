@@ -1,0 +1,484 @@
+{
+"bugzilla": [
+    {
+        "match": {
+            "source": "192.20.225.0/24",
+            "uri": "|LOCATION|data/webdot/*.dot"
+        },
+
+        "action": {
+            "share": "|FULL_PATH|/bugzilla"
+        }
+    },
+    {
+        "match": {
+            "uri": [
+                "!|LOCATION|data/assets/*.css",
+                "!|LOCATION|data/assets/*.js",
+                "!|LOCATION|data/webdot/*.png",
+                "!|LOCATION|graphs/*.gif",
+                "!|LOCATION|graphs/*.png",
+                "*.pl",
+                "*.pm",
+                "*.psgi",
+                "*.tmpl",
+                "*/cpanfile",
+                "*/localconfig*",
+                "|LOCATION|Bugzilla/*",
+                "|LOCATION|contrib/*",
+                "|LOCATION|data/*",
+                "|LOCATION|lib/*",
+                "|LOCATION|t/*",
+                "|LOCATION|template/*",
+                "|LOCATION|xt/*"
+            ]
+        },
+
+        "action": {
+            "return": 403
+        }
+    },
+    {
+        "action": {
+            "share": "|FULL_PATH|/bugzilla",
+            "fallback": {
+                "pass": "applications/|APP_NAME|"
+            }
+        }
+    }
+],
+"drupal": [
+            {
+                "match": {
+                    "uri": [
+                        "!*|LOCATION|.well-known/*",
+                        "|LOCATION|vendor/*",
+                        "|LOCATION|core/profiles/demo_umami/modules/demo_umami_content/default_content/*",
+                        "*.engine",
+                        "*.inc",
+                        "*.install",
+                        "*.make",
+                        "*.module",
+                        "*.po",
+                        "*.profile",
+                        "*.sh",
+                        "*.theme",
+                        "*.tpl",
+                        "*.twig",
+                        "*.xtmpl",
+                        "*.yml",
+                        "*/.*",
+                        "*/Entries*",
+                        "*/Repository",
+                        "*/Root",
+                        "*/Tag",
+                        "*/Template",
+                        "*/composer.json",
+                        "*/composer.lock",
+                        "*/web.config",
+                        "*sql",
+                        "*.bak",
+                        "*.orig",
+                        "*.save",
+                        "*.swo",
+                        "*.swp",
+                        "*~"
+                    ]
+                },
+
+                "action": {
+                    "return": 403
+                }
+            },
+            {
+                "match": {
+                    "uri": [
+                        "|LOCATION|core/authorize.php",
+                        "|LOCATION|core/core.api.php",
+                        "|LOCATION|core/globals.api.php",
+                        "|LOCATION|core/install.php",
+                        "|LOCATION|core/modules/statistics/statistics.php",
+                        "|LOCATION|core/modules/system/tests/http.php*",
+                        "|LOCATION|core/modules/system/tests/https.php*",
+                        "|LOCATION|core/rebuild.php",
+                        "|LOCATION|update.php"
+                    ]
+                },
+
+                "action": {
+                    "pass": "applications/|APP_NAME|/direct"
+                }
+            },
+            {
+                "match": {
+                    "uri": [
+                        "!|LOCATION|index.php*",
+                        "*.php",
+                        "*.php/*"
+                    ]
+                },
+
+                "action": {
+                    "return": 403
+                }
+            },
+            {
+                "action": {
+                    "share": "|FULL_PATH|/web/",
+                    "fallback": {
+                        "pass": "applications/|APP_NAME|/index"
+                    }
+                }
+            }
+        ],
+"joomla": [
+    {
+        "match": {
+            "uri": [
+                "*.php",
+                "*.php/*",
+                "|LOCATION|administrator/"
+            ]
+        },
+
+        "action": {
+            "pass": "applications/|APP_NAME|/direct"
+        }
+    },
+    {
+        "action": {
+            "share": "|FULL_PATH|/",
+            "fallback": {
+                "pass": "applications/|APP_NAME|/index"
+            }
+        }
+    }
+],
+"nextcloud": [
+    {
+        "match": {
+            "uri": [
+                "|LOCATION|build/*",
+                "|LOCATION|tests/*",
+                "|LOCATION|config/*",
+                "|LOCATION|lib/*",
+                "|LOCATION|3rdparty/*",
+                "|LOCATION|templates/*",
+                "|LOCATION|data/*",
+                "|LOCATION|.*",
+                "|LOCATION|autotest*",
+                "|LOCATION|occ*",
+                "|LOCATION|issue*",
+                "|LOCATION|indie*",
+                "|LOCATION|db_*",
+                "|LOCATION|console*"
+            ]
+        },
+
+        "action": {
+            "share": "/dev/null/"
+        }
+    },
+    {
+        "match": {
+            "uri": [
+                "|LOCATION|core/ajax/update.php*",
+                "|LOCATION|cron.php*",
+                "|LOCATION|index.php*",
+                "|LOCATION|ocs/v1.php*",
+                "|LOCATION|ocs/v2.php*",
+                "|LOCATION|public.php*",
+                "|LOCATION|remote.php*",
+                "|LOCATION|status.php*"
+            ]
+        },
+
+        "action": {
+            "pass": "applications/|APP_NAME|/direct"
+        }
+    },
+ 
+    {
+        "match": {
+            "uri": "|LOCATION|ocm-provider*.php*"
+        },
+
+        "action": {
+            "pass": "applications/|APP_NAME|/direct"
+        }
+    },
+    {
+        "match": {
+            "uri": "|LOCATION|ocs-provider*.php*"
+        },
+
+        "action": {
+            "pass": "applications/|APP_NAME|/direct"
+        }
+    },
+    {
+        "match": {
+            "uri": "|LOCATION|ocm-provider*.php*"
+        },
+
+        "action": {
+            "pass": "applications/|APP_NAME|/ocm"
+        }
+    },
+    {
+        "match": {
+            "uri": "|LOCATION|ocs-provider*"
+        },
+
+        "action": {
+            "pass": "applications/|APP_NAME|/ocs"
+        }
+    },
+    {
+        "match": {
+            "uri": [
+                "|LOCATION|ocm-provider*",
+                "|LOCATION|ocs-provider*",
+                "|LOCATION|updater*"
+            ]
+        },
+        "action": {
+            "pass": "applications/|APP_NAME|/updater"
+        }
+    },
+    {
+        "action": {
+            "share": "|FULL_PATH|/nextcloud/",
+            "fallback": {
+                "pass": "applications/|APP_NAME|/index"
+            }
+        }
+    }
+],
+"phpbb": [
+    {
+        "match": {
+            "uri": [
+                "|LOCATION|cache/*",
+                "|LOCATION|common.php*",
+                "|LOCATION|config.php*",
+                "|LOCATION|config/*",
+                "|LOCATION|db/migration/data/*",
+                "|LOCATION|files/*",
+                "|LOCATION|images/avatars/upload/*",
+                "|LOCATION|includes/*",
+                "|LOCATION|store/*"
+            ]
+        },
+
+        "action": {
+            "return": 403
+        }
+    },
+    {
+        "match": {
+            "uri": [
+                "*.php",
+                "*.php/*"
+            ]
+        },
+
+        "action": {
+            "pass": "applications/|APP_NAME|/direct"
+        }
+    },
+    {
+        "action": {
+            "share": "|FULL_PATH|/phpbb/",
+            "fallback": {
+                "pass": "applications/|APP_NAME|/index"
+            }
+        }
+    }
+],
+"rb": [
+    {
+        "match": {
+            "uri": [
+                "|LOCATION|media/*",
+                "|LOCATION|static/*",
+                "|LOCATION|errordocs/*"
+            ]
+        },
+
+        "action": {
+            "share": "|FULL_PATH|/htdocs/"
+        }
+    },
+    {
+        "action": {
+            "pass": "applications/|APP_NAME|"
+        }
+    }
+],
+"trac": [
+    {
+        "match": {
+            "uri": "|LOCATION|chrome/*"
+        },
+        "action": {
+            "share": "|FULL_PATH|/trac/static/"
+        }
+    },
+    {
+        "action": {
+            "pass": "applications/|APP_NAME|"
+        }
+    }
+],
+"wordpress": [
+    {
+        "match": {
+            "uri": [
+                "*.php",
+                "*.php/*",
+                "|LOCATION|wp-admin/"
+            ]
+        },
+
+        "action": {
+            "pass": "applications/|APP_NAME|/direct"
+        }
+    },
+    {
+        "action": {
+            "share": "|FULL_PATH|/wordpress/",
+            "fallback": {
+                "pass": "applications/|APP_NAME|/index"
+            }
+        }
+    }
+],
+"cakephp": [
+    {
+        "match": {
+            "uri": [
+                "*.php",
+                "*.php/*"
+            ]
+        },
+
+        "action": {
+            "pass": "applications/|APP_NAME|/direct"
+        }
+    },
+    {
+        "action": {
+            "share": "|FULL_PATH|/webroot/",
+            "fallback": {
+                "pass": "applications/|APP_NAME|/index"
+            }
+        }
+    }
+],
+"codeigniter": [
+    {
+        "match": {
+            "uri": "!|LOCATION|index.php"
+        },
+
+        "action": {
+            "share": "|FULL_PATH|/public/",
+            "fallback": {
+                "pass": "applications/|APP_NAME|"
+            }
+        }
+    }
+],
+"django": [
+    {
+        "match": {
+            "uri": "|LOCATION|static/*"
+        },
+
+        "action": {
+            "share": "|FULL_PATH|/"
+        }
+    },
+    {
+        "action": {
+            "pass": "applications/|APP_NAME|"
+        }
+    }
+],
+"laravel": [
+    {
+        "match": {
+            "uri": "!|LOCATION|index.php"
+        },
+        "action": {
+            "share": "|FULL_PATH|/blog/public/",
+            "fallback": {
+                "pass": "applications/|APP_NAME|"
+            }
+        }
+    }
+],
+"starlette": [
+    {
+        "match": {
+            "uri": "|LOCATION|static/*"
+        },
+
+        "action": {
+            "share": "|FULL_PATH|/"
+        }
+    },
+
+    {
+        "action": {
+            "pass": "applications/|APP_NAME|"
+        }
+    }
+],
+"symfony": [
+    {
+        "match": {
+            "uri": [
+                "*.php",
+                "*.php/*"
+            ]
+        },
+
+        "action": {
+            "pass": "applications/|APP_NAME|/direct"
+        }
+    },
+    {
+        "action": {
+            "share": "|FULL_PATH|/public/",
+            "fallback": {
+                "pass": "applications/|APP_NAME|/index"
+            }
+        }
+    }
+],
+"yii": [
+    {
+        "match": {
+            "uri": [
+                "!|LOCATION|assets/*",
+                "*.php",
+                "*.php/*"
+            ]
+        },
+
+        "action": {
+            "pass": "applications/|APP_NAME|/direct"
+        }
+    },
+    {
+        "action": {
+            "share": "|FULL_PATH|/web/",
+            "fallback": {
+                "pass": "applications/|APP_NAME|/index"
+            }
+        }
+    }
+]
+}

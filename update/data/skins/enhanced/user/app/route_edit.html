@@ -1,0 +1,34 @@
+|LF_STANDARD|
+|LF_DB|
+|?TREE=&raquo; <a class=tree href="/CMD_SHOW_DOMAIN?domain=`DOMAIN`">`DOMAIN`</a> &raquo; <a class=tree href="/CMD_UNIT?DOMAIN=`DOMAIN`">Applications</a> &raquo; <a class=tree href="/CMD_UNIT?domain=`DOMAIN`&action=route_create">Create Route</a>|
+|?HELP_SECTION=`USER_HELPER`/applications.html#create|
+|HTM_HEADER_FULL|
+|?SUB_DOT=|
+|*if SUBDOMAIN!=""|
+|?SUB_DOT=`SUBDOMAIN`.|
+|*endif|
+<script language="javascript">
+
+|HTM_JAVASCRIPT|
+</script>
+
+<h3>Edit Routes</h3>
+
+<table class=list cellpadding=3 cellspacing=1>
+	<form action="/CMD_UNIT" method="POST">
+		<tr><td class=listtitle colspan=3>JSON route for |SUB_DOT||DOMAIN|<input type='text' name='location' value='|LOCATION|'></td></tr>
+		<input type="hidden" name="action" value="set_route">
+		<input type="hidden" name="domain" value="|DOMAIN|">		
+		|*if SUBDOMAIN|
+		<input type="hidden" name="subdomain"    value="|SUBDOMAIN|">
+		|*endif|
+	
+		<tr><td class=list_alt colspan=3><textarea cols=100 rows=40 name='routes'>|ROUTES_JSON|</textarea></td></tr>
+	
+		<tr><td class=listtitle colspan=3 align=right>
+			<input type=submit name=edit value="|LANG_SAVE|">
+		</td></tr>
+	</form>	
+</table>
+
+|HTM_FOOTER_FULL|

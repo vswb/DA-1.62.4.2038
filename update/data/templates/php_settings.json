@@ -1,0 +1,111 @@
+{
+	"ini" : {
+		"display_errors" : {
+			"default" : "On",
+			"type" : "bool"
+		},
+		"error_reporting" : {
+			"default" : "32759",
+			"type" : "list",
+			"values" : {
+				"-32768": "~E_ALL",
+				"32759": "E_ALL & ~E_NOTICE",
+				"32767": "E_ALL"
+			}
+		},
+		"file_uploads" : {
+			"default" : "On",
+			"type" : "bool"
+		},
+		"include_path" : {
+			"default" : "\".;/path/to/php/pear\"",
+			"type" : "value"
+		},
+		"log_errors" : {
+			"default" : "Off",
+			"type" : "bool"
+		},
+		"mail.force_extra_parameters" : {
+			"default" : "",
+			"type" : "value"
+		},
+		"max_execution_time" : {
+			"default" : 30,
+			"type" : "int",
+			"range" : [ 0, 14400 ]
+		},
+		"max_input_time" : {
+			"default" : 60,
+			"type": "int",
+			"range" : [ 0, 14400 ]
+		},
+		"max_input_vars" : {
+			"default" : 1000,
+			"type": "int",
+			"range" : [ 1, 100000 ]
+		},
+		"memory_limit" : {
+			"default" : "128M",
+			"type" : "list",
+			"values" : [
+				"64M",
+				"128M",
+				"192M",
+				"256M",
+				"368M",
+				"512M",
+				"768M",
+				"1024M"
+			]
+		},
+		"post_max_size" : {
+			"default" : "8M",
+			"type" : "list",
+			"values" : [
+				"2M",
+				"4M",
+				"8M",
+				"16M",
+				"32M",
+				"64M",
+				"128M"
+			]
+		},
+		"register_globals" : {
+			"default" : "Off",
+			"type" : "bool",
+			"require" : {
+				"php_ver" : "<5.4.0"
+			}
+		},
+		"session.gc_maxlifetime" : {
+			"default" : 1440,
+			"type" : "int",
+			"range" : [ 1, 1209600 ]
+		},
+		"short_open_tag" : {
+			"default" : "On",
+			"type" : "bool"
+		},
+		"upload_max_filesize" : {
+			"default" : "2M",
+			"type" : "list",
+			"values" : [
+				"2M",
+				"4M",
+				"8M",
+				"16M",
+				"32M",
+				"64M",
+				"128M",
+				"256M",
+				"512M",
+				"1G"
+			]
+		},
+		"zlib.output_compression" : {
+			"default" : "Off",
+			"type" : "bool"
+		}
+	}
+}

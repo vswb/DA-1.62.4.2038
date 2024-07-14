@@ -1,0 +1,45 @@
+|?TREE=&raquo; `ALL_DOMAINS_SELECT` &raquo; <a class=tree href="/CMD_EMAIL_POP?DOMAIN=`DOMAIN`">`LANG_POP_ACCOUNTS`</a>|
+|?HELP_SECTION=`USER_HELPER`/email.html#pop3|
+|HTM_HEADER_FULL|
+
+|*if HAVE_ONE_CLICK_WEBMAIL_LOGIN="yes"|
+<script type="text/javascript">
+<!-- // start preload code
+function webmail_login(email)
+{
+	document.getElementById("webmail_email").value = email;
+	document.getElementById("webmail_form").submit();
+}
+// done with preload code -->
+</script>
+<form id='webmail_form' action='CMD_WEBMAIL_LOGIN' method='POST' target="_blank">
+	<input id='webmail_email' type='hidden' name='email' value=''>
+</form>
+|*endif|
+
+|*if EMAIL_MESSAGE!=""|
+<b>|EMAIL_MESSAGE|</b><br><br>
+|*endif|
+
+<a href="HTM_EMAIL_POP_CREATE?DOMAIN=|DOMAIN|&DEFAULT_POP_QUOTA=|DEFAULT_POP_QUOTA|&USER_CAN_SET_SEND_LIMIT=|USER_CAN_SET_SEND_LIMIT|&GLOBAL_PER_EMAIL_LIMIT=|GLOBAL_PER_EMAIL_LIMIT|">|LANG_POP_CREATE|</a><br>
+
+<a href="CMD_EMAIL_USAGE?domain=|DOMAIN|">|LANG_EMAIL_USAGE|</a><br>
+
+|POPACCOUNTS|
+
+<br><span title='|LANG_USER_OVERRIDES_EMAIL_LIMIT| (|LANG_ZERO_UNLIMITED|)'>|LANG_USER_LIMIT| |USERNAME|: |USER_EMAIL_SEND_LIMIT|</span>
+
+<form action='?' method='POST'>
+	<input type='hidden' name='domain' value='|DOMAIN|'>
+	<input type='hidden' name='action' value='set_dkim'>
+|*if DKIM_ENABLED="1"|
+	|LANG_DKIM_ENABLED|
+	<input class='mt20' type='submit' name='disable' value='Disable DKIM'>
+|*endif|
+|*if DKIM_ENABLED="0"|
+	|LANG_DKIM_DISABLED|
+	<input class='mt20' type='submit' name='enable' value='Enable DKIM'>
+|*endif|
+</form>
+
+|HTM_FOOTER_FULL|

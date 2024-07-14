@@ -1,0 +1,13 @@
+|?NAME=Microsoft 365|
+|?EXTRA_SPF=include:spf.protection.outlook.com|
+|?SPF_STRICT=-all|
+|?LOCAL_DOMAIN=no|
+|DOMAIN|. 3600 IN MX 0 |DOMAIN_DASH_COM|.mail.protection.outlook.com.
+autodiscover 3600 IN CNAME autodiscover.outlook.com.
+lyncdiscover 3600 IN CNAME webdir.online.lync.com.
+msoid 3600 IN CNAME clientconfig.microsoftonline-p.net.
+sip 3600 IN CNAME sipdir.online.lync.com.
+enterpriseregistration 3600 IN CNAME enterpriseregistration.windows.net.
+enterpriseenrollment 3600 IN CNAME enterpriseenrollment.manage.microsoft.com.
+_sip._tls 3600 IN SRV 1 100 443 sipdir.online.lync.com.
+_sipfederationtls._tcp 3600 IN SRV 1 100 5061 sipfed.online.lync.com.

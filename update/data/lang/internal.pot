@@ -1,0 +1,8259 @@
+# #-#-#-#-#  internal.pot (DirectAdmin )  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"#-#-#-#-#  internal.pot (DirectAdmin )  #-#-#-#-#\n"
+"Project-Id-Version: DirectAdmin \n"
+"Report-Msgid-Bugs-To: support@directadmin.com\n"
+"POT-Creation-Date: 2021-06-09 14:36+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"#-#-#-#-#  bin.pot  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"X-Generator: xgotext\n"
+"#-#-#-#-#  util.pot  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"X-Generator: xgotext\n"
+
+#, c-format
+msgid " - %d New Message Inside"
+msgid_plural " - %d New Messages Inside"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid " / Day"
+msgstr ""
+
+msgid "# of Domains"
+msgstr ""
+
+msgid "# of IPs"
+msgstr ""
+
+msgid "# of MySQL DBs"
+msgstr ""
+
+msgid "# of Resellers"
+msgstr ""
+
+msgid "# of SubDomains"
+msgstr ""
+
+msgid "# of Users"
+msgstr ""
+
+msgid "# of free IPs"
+msgstr ""
+
+#, c-format
+msgid "%d Days, %d Hours and %d Minutes"
+msgstr ""
+
+#, c-format
+msgid "%d of %d Admin/Reseller accounts currently exist."
+msgstr ""
+
+#, c-format
+msgid "%d of %d accounts currently exist."
+msgstr ""
+
+#, c-format
+msgid "%d of %d domains currently exist."
+msgstr ""
+
+#, c-format
+msgid "%s %s %s did not exist"
+msgstr ""
+
+#, c-format
+msgid ""
+"%s '%s' cannot be restored under '%s'.  Restoring under the file's default: "
+"'%s'"
+msgstr ""
+
+#. /# %1$s - IP address
+#. /# %2$s - Username
+#, c-format
+msgid "%s - user's '%s' current IP"
+msgstr ""
+
+#, c-format
+msgid "%s Day(s)"
+msgstr ""
+
+#, c-format
+msgid ""
+"%s Edit the User Welcome Message to ensure the subject and message are set."
+msgstr ""
+
+#, c-format
+msgid "%s License"
+msgstr ""
+
+#, c-format
+msgid "%s Month(s)"
+msgstr ""
+
+#, c-format
+msgid "%s Removed"
+msgstr ""
+
+#, c-format
+msgid "%s Week(s)"
+msgstr ""
+
+#, c-format
+msgid "%s account %s has just been created"
+msgstr ""
+
+#, c-format
+msgid "%s already exists"
+msgstr ""
+
+#, c-format
+msgid "%s already exists on a remote server."
+msgstr ""
+
+#, c-format
+msgid "%s already exists on the server."
+msgstr ""
+
+#, c-format
+msgid "%s already exists. Pass overwrite=yes to force"
+msgstr ""
+
+#, c-format
+msgid "%s appears to be a link. Aborting."
+msgstr ""
+
+#, c-format
+msgid "%s can now be shared."
+msgstr ""
+
+#, c-format
+msgid "%s contains dangerous characters"
+msgstr ""
+
+#, c-format
+msgid "%s could not be assigned, it must first be free and unassigned."
+msgstr ""
+
+#, c-format
+msgid ""
+"%s could not be freed, it must first have zero domain if it is shared, or "
+"must be reserved."
+msgstr ""
+
+#, c-format
+msgid "%s could not be removed, you must free it first."
+msgstr ""
+
+#, c-format
+msgid "%s could not be shared, it must first be free"
+msgstr ""
+
+#, c-format
+msgid "%s deleted successfully."
+msgstr ""
+
+#, c-format
+msgid "%s does not exist"
+msgstr ""
+
+#, c-format
+msgid "%s does not have same ownership as %s"
+msgstr ""
+
+#, c-format
+msgid "%s has been blocked in %s to prevent further attempts on the account."
+msgstr ""
+
+#, c-format
+msgid "%s has been copied to %s."
+msgstr ""
+
+#, c-format
+msgid "%s has been removed from the list"
+msgstr ""
+
+#, c-format
+msgid "%s has been renamed to %s."
+msgstr ""
+
+#, c-format
+msgid "%s has been saved as %s."
+msgstr ""
+
+#, c-format
+msgid "%s is a directory, will not delete"
+msgstr ""
+
+#, c-format
+msgid "%s is a link"
+msgstr ""
+
+#, c-format
+msgid "%s is hard or symbolic link"
+msgstr ""
+
+#, c-format
+msgid "%s is missing"
+msgstr ""
+
+#, c-format
+msgid "%s is not a directory"
+msgstr ""
+
+#, c-format
+msgid "%s is not a socket"
+msgstr ""
+
+#, c-format
+msgid "%s is not a symlink"
+msgstr ""
+
+#, c-format
+msgid "%s is not a valid IP or range"
+msgstr ""
+
+#, c-format
+msgid "%s is not a valid access host"
+msgstr ""
+
+#, c-format
+msgid "%s is not a valid database name"
+msgstr ""
+
+#, c-format
+msgid "%s is not a valid file"
+msgstr ""
+
+#, c-format
+msgid "%s is not a valid ip range.  Use: 1.2.3.4-10"
+msgstr ""
+
+#, c-format
+msgid "%s is not a valid key, skipping"
+msgstr ""
+
+#, c-format
+msgid "%s is not chowned to %s which is a likely cause for extraction failure"
+msgstr ""
+
+#, c-format
+msgid "%s is not enabled"
+msgstr ""
+
+#, c-format
+msgid "%s is not in your commands list"
+msgstr ""
+
+#, c-format
+msgid "%s is not on your domain's IP list"
+msgstr ""
+
+#, c-format
+msgid "%s is not one of the listed redirect types"
+msgstr ""
+
+#, c-format
+msgid "%s is not owned by %s"
+msgstr ""
+
+#, c-format
+msgid "%s is not set to 'free' or is still assigned to a reseller"
+msgstr ""
+
+#, c-format
+msgid "%s is now controlled by %s"
+msgstr ""
+
+#, c-format
+msgid "%s is now free"
+msgstr ""
+
+#, c-format
+msgid "%s is now unassigned."
+msgstr ""
+
+#, c-format
+msgid "%s is now your default domain."
+msgstr ""
+
+#, c-format
+msgid "%s is out of range"
+msgstr ""
+
+#, c-format
+msgid ""
+"%s is reporting that IP %s has issued a password change request for user "
+"'%s' without approval."
+msgstr ""
+
+#, c-format
+msgid "%s is required for %s"
+msgstr ""
+
+#, c-format
+msgid "%s must not be a symlink"
+msgstr ""
+
+#, c-format
+msgid "%s no longer has a Name Server Label."
+msgstr ""
+
+#, c-format
+msgid "%s not implemented"
+msgstr ""
+
+#, c-format
+msgid "%s records disabled at this level"
+msgstr ""
+
+#, c-format
+msgid "%s value of '%s' is not in the home_override_list"
+msgstr ""
+
+#, c-format
+msgid "%s will now point to %s"
+msgstr ""
+
+#, c-format
+msgid "%s's config files have been removed"
+msgstr ""
+
+#, c-format
+msgid "%s: lstat error on linnk value '%s': %s"
+msgstr ""
+
+#, c-format
+msgid "%s: readlinke error: %s"
+msgstr ""
+
+#, c-format
+msgid "%s=%s requires nginx_proxy=1 and the %s Pro-Pack"
+msgstr ""
+
+#. /# %1$s - CPUQuota
+#. /# %1$s - 200%
+#. /# %1$s - percent
+#, c-format
+msgid "%s='%s' is not a valid %s type"
+msgstr ""
+
+#, c-format
+msgid "%sClick Here%s to learn how to enable it"
+msgstr ""
+
+#, c-format
+msgid "%sClick Here%s to view the local raw zone data"
+msgstr ""
+
+#, c-format
+msgid "%sSave Increase%s"
+msgstr ""
+
+#, c-format
+msgid "%sTemporary Bandwidth Increase"
+msgstr ""
+
+#, c-format
+msgid "%sYour IP will be blacklisted"
+msgstr ""
+
+#, c-format
+msgid "'%s' does not exist"
+msgstr ""
+
+#, c-format
+msgid "'%s' does not exist\n"
+msgstr ""
+
+#, c-format
+msgid "'%s' does not start with '%s'\n"
+msgstr ""
+
+#, c-format
+msgid "'%s' has been set to '%s'"
+msgstr ""
+
+#, c-format
+msgid "'%s' is a forbidden package name."
+msgstr ""
+
+#, c-format
+msgid "'%s' is disabled"
+msgstr ""
+
+#, c-format
+msgid "'%s' is not a valid css hex color"
+msgstr ""
+
+#, c-format
+msgid "'%s' is not assigned to your Reseller account."
+msgstr ""
+
+#, c-format
+msgid "'%s' is not enabled in your license"
+msgstr ""
+
+#, c-format
+msgid "'%s' is not enabled on the system."
+msgstr ""
+
+#, c-format
+msgid "'%s' is not on your list"
+msgstr ""
+
+#, c-format
+msgid "'%s' is required"
+msgstr ""
+
+#, c-format
+msgid "'%s' must be '%s' or '%s'"
+msgstr ""
+
+msgid "'import' does not appear to be base 64 encoded"
+msgstr ""
+
+msgid "'when' should be all, newer or older"
+msgstr ""
+
+#, c-format
+msgid "(%d) The following hard links have been found under User %s:"
+msgstr ""
+
+msgid "* irretrievable *"
+msgstr ""
+
+msgid "*** Stopped ***"
+msgstr ""
+
+msgid "-- None Available --"
+msgstr ""
+
+msgid "-- Reason:"
+msgstr ""
+
+msgid "-- Select IP"
+msgstr ""
+
+msgid "-- Select Package"
+msgstr ""
+
+msgid "-- any time --"
+msgstr ""
+
+msgid "-- anything --"
+msgstr ""
+
+msgid "1k-blocks"
+msgstr ""
+
+#, c-format
+msgid "A %s record already exists with that name"
+msgstr ""
+
+msgid "A 'free' IP can only be assigned to 1 User"
+msgstr ""
+
+msgid "A Record Type is required: A, NS, MX, CNAME, PTR, or TXT"
+msgstr ""
+
+msgid "A Reseller can only control level=user"
+msgstr ""
+
+msgid "A Reseller cannot control other equal or higher account levels"
+msgstr ""
+
+msgid "A file is required"
+msgstr ""
+
+msgid "A forwarder already exists with that name"
+msgstr ""
+
+msgid "A full domain/zone with this name already exists."
+msgstr ""
+
+msgid "A key with that name already exists"
+msgstr ""
+
+msgid "A list alias already exists with that name"
+msgstr ""
+
+msgid "A message for that user already exists"
+msgstr ""
+
+msgid "A pop account already exists with that name"
+msgstr ""
+
+msgid "A skin name is required"
+msgstr ""
+
+msgid ""
+"A subdomain with the same name already exists on the system under another "
+"domain."
+msgstr ""
+
+msgid "Abuse"
+msgstr ""
+
+msgid "Access Hosts"
+msgstr ""
+
+msgid "Access host has been added"
+msgstr ""
+
+msgid "Access hosts have been removed"
+msgstr ""
+
+msgid "Account"
+msgstr ""
+
+#, c-format
+msgid "Account %s has just created %s %s from IP %s"
+msgstr ""
+
+#, c-format
+msgid "Account %s skipped due to suspension"
+msgstr ""
+
+#, c-format
+msgid "Account %s was suspended by an Admin and you only have Reseller access."
+msgstr ""
+
+#, c-format
+msgid "Account %s with domain %s has an empty caroot cert"
+msgstr ""
+
+msgid "Account created"
+msgstr ""
+
+#, c-format
+msgid "Account created in directory '%s'"
+msgstr ""
+
+msgid "Account has been unblocked from BlockCracking"
+msgstr ""
+
+msgid "Account is not a Reseller"
+msgstr ""
+
+msgid "Account is suspended"
+msgstr ""
+
+msgid "Account password changed"
+msgstr ""
+
+#, c-format
+msgid "Accounts restored to %s partition."
+msgstr ""
+
+msgid "Action"
+msgstr ""
+
+msgid "Activate"
+msgstr ""
+
+msgid "Active"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+#, c-format
+msgid "Add %s"
+msgstr ""
+
+msgid "Add Codes"
+msgstr ""
+
+msgid "Add Host"
+msgstr ""
+
+msgid "Add Override"
+msgstr ""
+
+msgid "Add new Security Question"
+msgstr ""
+
+msgid "Add the new NS records first."
+msgstr ""
+
+msgid "Add to Apache"
+msgstr ""
+
+msgid "Add to Clipboard"
+msgstr ""
+
+msgid "Add to DNS"
+msgstr ""
+
+#, c-format
+msgid "Added ns1 as %s and ns2 as %s"
+msgstr ""
+
+msgid "Additional"
+msgstr ""
+
+msgid "Admin"
+msgstr ""
+
+msgid "Admin Backup/Transfer"
+msgstr ""
+
+msgid "Admin Certificate Management"
+msgstr ""
+
+msgid "Admin DNS Administration"
+msgstr ""
+
+msgid "Admin File Editor"
+msgstr ""
+
+msgid "Admin History"
+msgstr ""
+
+msgid "Admin IP Management"
+msgstr ""
+
+msgid "Admin Plugins"
+msgstr ""
+
+msgid "Admin Resource Limits"
+msgstr ""
+
+msgid "Admin SSL"
+msgstr ""
+
+msgid "Admin SSL is not enabled"
+msgstr ""
+
+msgid "Admin Settings"
+msgstr ""
+
+msgid "Admin Statistics"
+msgstr ""
+
+msgid "Advanced Search"
+msgstr ""
+
+msgid ""
+"After many tries, we were unable to create a unique login name.  This is "
+"improbable."
+msgstr ""
+
+msgid "Afternoon"
+msgstr ""
+
+#, c-format
+msgid "Alias %s@%s -> %s has been created"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "All Data"
+msgstr ""
+
+msgid "All E-Mail"
+msgstr ""
+
+msgid "All Months (cgi)"
+msgstr ""
+
+msgid "All Resellers"
+msgstr ""
+
+msgid "All User Cron Jobs"
+msgstr ""
+
+msgid "All Users"
+msgstr ""
+
+msgid "All Users Except Selected Users"
+msgstr ""
+
+msgid "All Users Except:"
+msgstr ""
+
+msgid "All Users deleted successfully"
+msgstr ""
+
+msgid "All databases removed succesfully"
+msgstr ""
+
+msgid "All of Your Users"
+msgstr ""
+
+msgid "All privileges have been set"
+msgstr ""
+
+msgid "All route steps except the last are required to have a 'match'"
+msgstr ""
+
+msgid "All selected Users have been suspended"
+msgstr ""
+
+msgid "All selected Users have been unsuspended"
+msgstr ""
+
+msgid "All specified forwarders removed"
+msgstr ""
+
+msgid "Allocated"
+msgstr ""
+
+msgid "Allow"
+msgstr ""
+
+msgid "Allow Overselling"
+msgstr ""
+
+#, c-format
+msgid "Allowance threshold is 0%%"
+msgstr ""
+
+#, c-format
+msgid "Allowing that much %s would put you over your limit of %s"
+msgstr ""
+
+msgid "Already Exists"
+msgstr ""
+
+msgid ""
+"Although a backup error has occurred, the upload of valid backups would have "
+"still been attempted to"
+msgstr ""
+
+msgid "An Error Occurred"
+msgstr ""
+
+msgid "An Error has occurred"
+msgstr ""
+
+msgid "An auto responder already exists with that name"
+msgstr ""
+
+msgid "An autoresponder with that name already exists"
+msgstr ""
+
+msgid "An error has occurred"
+msgstr ""
+
+msgid "An error has occurred while rewriting the Nginx Unit config"
+msgstr ""
+
+msgid "An error occured during extraction"
+msgstr ""
+
+msgid "An error occured while creating the compressed file"
+msgstr ""
+
+msgid "An error occured while resetting the file ownership"
+msgstr ""
+
+msgid "An error occurred during the backup"
+msgstr ""
+
+msgid "An error occurred listing the databases:"
+msgstr ""
+
+msgid "An error occurred when unblocking the account"
+msgstr ""
+
+msgid "An error occurred while applying settings to your Users"
+msgstr ""
+
+msgid "An error occurred while attempting to copy the file"
+msgstr ""
+
+msgid "An error occurred while attempting to create the directory"
+msgstr ""
+
+msgid "An error occurred while attempting to protect the directory"
+msgstr ""
+
+msgid "An error occurred while attempting to rename the file"
+msgstr ""
+
+msgid "An error occurred while attempting to restore the file"
+msgstr ""
+
+msgid "Anonymous Ftp"
+msgstr ""
+
+msgid "Answer"
+msgstr ""
+
+msgid "Apache"
+msgstr ""
+
+msgid "Apache Handlers"
+msgstr ""
+
+msgid "Apache config file re-written with new ip"
+msgstr ""
+
+msgid "Apparent Size"
+msgstr ""
+
+msgid "Appears as the first item within the <Directory> section."
+msgstr ""
+
+msgid "Appears at the very top of the template, before setting the variables."
+msgstr ""
+
+msgid ""
+"Appears in ALL context{} sections, used for password protected directories."
+msgstr ""
+
+msgid "Appears in phpIniOverride{} section."
+msgstr ""
+
+msgid "Appears in rewrite{} section."
+msgstr ""
+
+msgid "Appears in scripthandler{} section."
+msgstr ""
+
+msgid "Appears in vhssl{} section."
+msgstr ""
+
+msgid "Appears just before the <Directory> section."
+msgstr ""
+
+msgid "Apply to All Users"
+msgstr ""
+
+msgid "Apply to Me"
+msgstr ""
+
+msgid "Apply to existing Domains"
+msgstr ""
+
+msgid "Apr"
+msgstr ""
+
+msgid "Archive Size"
+msgstr ""
+
+msgid "Archives purged"
+msgstr ""
+
+msgid "Are you sure you want to Delete the selected accounts?"
+msgstr ""
+
+msgid "Are you sure you want to Delete the selected databases?"
+msgstr ""
+
+msgid "Are you sure you want to Delete the selected keys?"
+msgstr ""
+
+msgid "Are you sure you want to delete the selected zones?"
+msgstr ""
+
+msgid "Are you sure you want to delete these files?"
+msgstr ""
+
+msgid "Are you sure you want to kill these processes?"
+msgstr ""
+
+msgid "Ascending"
+msgstr ""
+
+msgid "Assign to"
+msgstr ""
+
+msgid "Assigned"
+msgstr ""
+
+msgid "At least one crediential is required."
+msgstr ""
+
+#, c-format
+msgid "Attempting to copy %s onto itself, file skipped."
+msgstr ""
+
+#, c-format
+msgid "Attempting to move %s onto itself, file skipped."
+msgstr ""
+
+msgid "Attempts"
+msgstr ""
+
+msgid "Aug"
+msgstr ""
+
+msgid "Auth::logoutCreator error"
+msgstr ""
+
+#, c-format
+msgid ""
+"Authenication::get_unique_login_hash: could not generate a unique login has "
+"after %s attempts"
+msgstr ""
+
+msgid "Authentication"
+msgstr ""
+
+msgid "Authorize"
+msgstr ""
+
+msgid "Auto"
+msgstr ""
+
+msgid "Auto media selection active."
+msgstr ""
+
+msgid "Auto+Confirm"
+msgstr ""
+
+msgid "AutoResponders"
+msgstr ""
+
+#, c-format
+msgid "Automated certificate renewal for %s has succeeded"
+msgstr ""
+
+msgid "Autoreply"
+msgstr ""
+
+msgid "Autoresponder"
+msgstr ""
+
+msgid "Autoresponder updated"
+msgstr ""
+
+msgid "Autoresponders"
+msgstr ""
+
+msgid "Available"
+msgstr ""
+
+msgid "Avoid use of trailers."
+msgstr ""
+
+msgid "Awstats"
+msgstr ""
+
+msgid "Awstats ..."
+msgstr ""
+
+msgid "Awstats setting changed"
+msgstr ""
+
+msgctxt "readable size"
+msgid "B"
+msgstr ""
+
+msgid "Back"
+msgstr ""
+
+msgid "Backing up Databases"
+msgstr ""
+
+msgid "Backing up E-Mail Data"
+msgstr ""
+
+msgid "Backing up E-Mail Settings"
+msgstr ""
+
+msgid "Backing up FTP"
+msgstr ""
+
+msgid "Backing up User Configs"
+msgstr ""
+
+msgid "Backing up User Data"
+msgstr ""
+
+msgid "Backing up extra E-Mail items"
+msgstr ""
+
+msgid "Backup"
+msgstr ""
+
+#, c-format
+msgid "Backup %d is not currently running."
+msgstr ""
+
+#, c-format
+msgid "Backup Abort (%d): A hard link was found under User %s's path"
+msgstr ""
+
+#, c-format
+msgid "Backup Error with Nginx Unit: %s"
+msgstr ""
+
+msgid "Backup Halted"
+msgstr ""
+
+msgid "Backup ID"
+msgstr ""
+
+msgid "Backup creation added to queue"
+msgstr ""
+
+#, c-format
+msgid "Backup path %s has been created."
+msgstr ""
+
+msgid "Backups added to Queue"
+msgstr ""
+
+msgid "Bad User usertype"
+msgstr ""
+
+msgid "Bandwidth"
+msgstr ""
+
+msgid "Bandwidth (MB)"
+msgstr ""
+
+msgid "Bandwidth Breakdown"
+msgstr ""
+
+msgid "Bandwidth Usage"
+msgstr ""
+
+msgid "Be sure to re-scan the QR code, as all old codes become invalid."
+msgstr ""
+
+msgid ""
+"Because the script meets the required criteria, it has been disabled via "
+"chmod to 0."
+msgstr ""
+
+msgid ""
+"Before Unblocking, ensure that any compromised scripts have been removed or "
+"fixed."
+msgstr ""
+
+msgid "Billing Issue"
+msgstr ""
+
+#, c-format
+msgid "Blank value: default, global limit of %d"
+msgstr ""
+
+msgid "Block Usage"
+msgstr ""
+
+msgid "BlockCracker Blocked Paths"
+msgstr ""
+
+msgid "Blocked"
+msgstr ""
+
+msgid "Both DNS Control and ttl override must be enabled"
+msgstr ""
+
+msgid "Brute Force Monitor"
+msgstr ""
+
+msgid "Brute-Force Attack detected in service log"
+msgstr ""
+
+msgid "CA Certificate is Invalid"
+msgstr ""
+
+msgid "CA Certificate is ok. Your site should be secure within a few minutes."
+msgstr ""
+
+msgid "CC Address"
+msgstr ""
+
+msgid "CGI-Bin"
+msgstr ""
+
+msgid "CPU Quota"
+msgstr ""
+
+msgid "Can use Server IP"
+msgstr ""
+
+msgid "Can't get file lock on"
+msgstr ""
+
+#, c-format
+msgid "Can't open file %s for reading"
+msgstr ""
+
+#, c-format
+msgid "Can't reopen file %s for appending"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Cannot Add A Record"
+msgstr ""
+
+msgid "Cannot Add CNAME Record"
+msgstr ""
+
+msgid "Cannot Add Record"
+msgstr ""
+
+msgid "Cannot Create Account"
+msgstr ""
+
+msgid "Cannot Create Another Autoresponder"
+msgstr ""
+
+msgid "Cannot Create Another Database"
+msgstr ""
+
+msgid "Cannot Create Another Domain"
+msgstr ""
+
+msgid "Cannot Create Another Domain Pointer"
+msgstr ""
+
+msgid "Cannot Create Another FTP Account"
+msgstr ""
+
+msgid "Cannot Create Another Forwarder"
+msgstr ""
+
+msgid "Cannot Create Another Mailing List"
+msgstr ""
+
+msgid "Cannot Create Another POP Account"
+msgstr ""
+
+msgid "Cannot Create Another Subdomain"
+msgstr ""
+
+msgid "Cannot Create Autoresponder"
+msgstr ""
+
+msgid "Cannot Create Domain"
+msgstr ""
+
+msgid "Cannot Create Vacation Message"
+msgstr ""
+
+msgid "Cannot Create a Message"
+msgstr ""
+
+msgid "Cannot Execute Command"
+msgstr ""
+
+msgid "Cannot Execute Your Request"
+msgstr ""
+
+msgid "Cannot Modify Key"
+msgstr ""
+
+msgid "Cannot Modify User"
+msgstr ""
+
+msgid "Cannot View Domain Settings"
+msgstr ""
+
+#, c-format
+msgid "Cannot add pointer %s, you have reached your limit of %s"
+msgstr ""
+
+msgid "Cannot be an object"
+msgstr ""
+
+msgid "Cannot change the ip"
+msgstr ""
+
+msgid ""
+"Cannot change the password for a system account.  Login to the control panel "
+"to do that."
+msgstr ""
+
+msgid ""
+"Cannot change the password for this email account.  The account is currently "
+"on a suspended domain."
+msgstr ""
+
+msgid "Cannot change your email"
+msgstr ""
+
+msgid "Cannot change your name"
+msgstr ""
+
+msgid "Cannot change your password"
+msgstr ""
+
+msgid "Cannot create User Backup"
+msgstr ""
+
+msgid "Cannot create domain"
+msgstr ""
+
+msgid "Cannot create that domain"
+msgstr ""
+
+msgid "Cannot create user using those settings"
+msgstr ""
+
+msgid "Cannot delete records"
+msgstr ""
+
+msgid "Cannot delete the skin you're currently using."
+msgstr ""
+
+#, c-format
+msgid "Cannot determine owner of subdomain '%s'"
+msgstr ""
+
+msgid "Cannot execute your request"
+msgstr ""
+
+#, c-format
+msgid "Cannot find %s"
+msgstr ""
+
+#, c-format
+msgid "Cannot find %s in list"
+msgstr ""
+
+#, c-format
+msgid "Cannot find %s in name"
+msgstr ""
+
+#, c-format
+msgid "Cannot find %s to convert %s"
+msgstr ""
+
+#, c-format
+msgid "Cannot find %s, skipping."
+msgstr ""
+
+#, c-format
+msgid "Cannot find %s.  Ensure the domain exists and is not suspended"
+msgstr ""
+
+#, c-format
+msgid "Cannot find '%s'"
+msgstr ""
+
+#, c-format
+msgid "Cannot find '%s' in the list of allowed values for %s"
+msgstr ""
+
+#, c-format
+msgid "Cannot find '%s' in the template"
+msgstr ""
+
+msgid "Cannot find IP"
+msgstr ""
+
+#, c-format
+msgid "Cannot find Security Question ID %d in the User list"
+msgstr ""
+
+#, c-format
+msgid "Cannot find User '%s'"
+msgstr ""
+
+msgid "Cannot find a valid system username in the domainowners file."
+msgstr ""
+
+msgid "Cannot find any SAN values in the certificate."
+msgstr ""
+
+msgid "Cannot find any message subjects from clear_message_system_list"
+msgstr ""
+
+msgid "Cannot find any security questions from security_questions.txt"
+msgstr ""
+
+#, c-format
+msgid "Cannot find any tar.gz after converting from %s"
+msgstr ""
+
+msgid "Cannot find domain in domain owners file"
+msgstr ""
+
+msgid "Cannot find domain in the certificate."
+msgstr ""
+
+#, c-format
+msgid "Cannot find key value in %s"
+msgstr ""
+
+#, c-format
+msgid "Cannot find logo file for token %s in skin %s"
+msgstr ""
+
+#, c-format
+msgid "Cannot find logo file for token %s=%s in skin %s"
+msgstr ""
+
+#, c-format
+msgid "Cannot find plugin %s"
+msgstr ""
+
+msgid "Cannot find show_blocked_ips.sh"
+msgstr ""
+
+msgid "Cannot find template_php_ini or domain_php_ini in json"
+msgstr ""
+
+msgid "Cannot find that code. It's likely expired."
+msgstr ""
+
+msgid "Cannot find that domain in the domainowners file"
+msgstr ""
+
+msgid "Cannot find that key id"
+msgstr ""
+
+msgid "Cannot find the account nor the forwarder"
+msgstr ""
+
+msgid "Cannot find the letsencrypt.sh script"
+msgstr ""
+
+msgid "Cannot find the sql file after backup was run:"
+msgstr ""
+
+#, c-format
+msgid "Cannot find the user %s which should already exist"
+msgstr ""
+
+#, c-format
+msgid "Cannot get '%s' index from skin.conf"
+msgstr ""
+
+#, c-format
+msgid "Cannot get mime-type for %s"
+msgstr ""
+
+#, c-format
+msgid "Cannot get the user list for database %s"
+msgstr ""
+
+msgid "Cannot have newline characters in subject"
+msgstr ""
+
+msgid "Cannot have unlimited E-Mail quotas"
+msgstr ""
+
+msgid "Cannot load lang po"
+msgstr ""
+
+msgid "Cannot load lang request"
+msgstr ""
+
+msgid "Cannot manage zone"
+msgstr ""
+
+#, c-format
+msgid "Cannot move a directory (%s) onto an existing file or directory (%s)"
+msgstr ""
+
+msgid "Cannot open the password file to add the user"
+msgstr ""
+
+msgid "Cannot open the password file to change the password"
+msgstr ""
+
+msgid "Cannot open the user password file for reading"
+msgstr ""
+
+msgid "Cannot read the numerical 'limit' (original -1 is still set)"
+msgstr ""
+
+msgid "Cannot rename a directory onto an existing file or directory"
+msgstr ""
+
+msgid "Cannot resend welcome email"
+msgstr ""
+
+msgid "Cannot resolve host value for license check"
+msgstr ""
+
+#, c-format
+msgid ""
+"Cannot restore the ftp account for %s.  You have reached your limit (%s)."
+msgstr ""
+
+msgid "Cannot set TTL"
+msgstr ""
+
+msgid "Cannot set default domain"
+msgstr ""
+
+msgid "Cannot stat the source file"
+msgstr ""
+
+msgid "Cannot use the main account username"
+msgstr ""
+
+msgid "Case Sensitive"
+msgstr ""
+
+#, c-format
+msgid "Catch all is now set to %s"
+msgstr ""
+
+msgid "Catch-All E-Mail"
+msgstr ""
+
+msgid "Catch-All Email"
+msgstr ""
+
+msgid "Catch-All Email has been disabled on this account"
+msgstr ""
+
+msgid "Catch-All email updated successfully"
+msgstr ""
+
+msgid "Catch-All is now set to fail"
+msgstr ""
+
+msgid "Catch-All is now set to ignore wrong addresses"
+msgstr ""
+
+msgid "Certificate"
+msgstr ""
+
+msgid "Certificate and Key Saved."
+msgstr ""
+
+msgid "Certificate is Invalid"
+msgstr ""
+
+msgid "Certificate is Self-Signed"
+msgstr ""
+
+msgid "Change Password"
+msgstr ""
+
+msgid "Change the password to unblock it."
+msgstr ""
+
+#, c-format
+msgid "Changed by IP: %s"
+msgstr ""
+
+msgid "Changes saved"
+msgstr ""
+
+msgid "Check"
+msgstr ""
+
+msgid "Check has already been done recently. Try later."
+msgstr ""
+
+msgid "Check the error log for more information."
+msgstr ""
+
+msgid "Check the time on both your server and your phone."
+msgstr ""
+
+msgid "Check to see if the current software is valid"
+msgstr ""
+
+#, c-format
+msgid "Child user %s deleted"
+msgstr ""
+
+msgid ""
+"Choose from: blacklist_usernames, blacklist_smtp_usernames, "
+"blacklist_script_usernames"
+msgstr ""
+
+msgid "City must only contain letters, spaces and/or periods"
+msgstr ""
+
+msgid "Clean Forwarders"
+msgstr ""
+
+#, c-format
+msgid "Cleaning %s"
+msgstr ""
+
+msgid "Clear Customization"
+msgstr ""
+
+msgid "Clear Messages System"
+msgstr ""
+
+msgid "Clear NS"
+msgstr ""
+
+msgid "Clear Search Filter"
+msgstr ""
+
+#, c-format
+msgid "Click %sHERE%s to go back"
+msgstr ""
+
+#, c-format
+msgid "Click %sHERE%s to return"
+msgstr ""
+
+#, c-format
+msgid "Click %sHERE%s to return to main page"
+msgstr ""
+
+msgid "Click Here to Download the Latest Backup"
+msgstr ""
+
+msgid "Click here to close this window"
+msgstr ""
+
+msgid "Click here to enable SSL on the domain"
+msgstr ""
+
+msgid "Clipboard"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Closed"
+msgstr ""
+
+msgid "Closed+Confirm"
+msgstr ""
+
+msgid "Code"
+msgstr ""
+
+msgid "Code does not match"
+msgstr ""
+
+#, c-format
+msgid "Color %s (%s) is not from the list: %s"
+msgstr ""
+
+msgid "Color has been customized"
+msgstr ""
+
+msgid "Column in"
+msgstr ""
+
+msgid "Command"
+msgstr ""
+
+msgid "Command Returned"
+msgstr ""
+
+msgid "Comment"
+msgstr ""
+
+msgid "Comments"
+msgstr ""
+
+msgid "Company must only contain letters, numbers, spaces, and/or periods"
+msgstr ""
+
+msgid "Compressed File Created"
+msgstr ""
+
+#, c-format
+msgid "Compressing %s"
+msgstr ""
+
+msgid "Confirm"
+msgstr ""
+
+#, c-format
+msgid "Confirm results on the %sDirectAdmin Website%s"
+msgstr ""
+
+#, c-format
+msgid "Connection error: %s"
+msgstr ""
+
+msgid "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+
+msgid "Continuing with the other files."
+msgstr ""
+
+msgid ""
+"Controlling widgets for accounts under your control requires an Admin or "
+"Reseller login"
+msgstr ""
+
+msgid "Copy"
+msgstr ""
+
+msgid "Copy Clipboard Files here"
+msgstr ""
+
+msgid "Copy the packages export data"
+msgstr ""
+
+msgid "Copying Admin Data"
+msgstr ""
+
+msgid "Copying Reseller Data"
+msgstr ""
+
+msgid ""
+"Copying files has been disabled with the filemanager_disable_features option"
+msgstr ""
+
+msgid "Copying unreadable data"
+msgstr ""
+
+msgid "Could not excute your request"
+msgstr ""
+
+msgid "Could not execute your request"
+msgstr ""
+
+#, c-format
+msgid "Could not generate a random hash name after %d tries."
+msgstr ""
+
+#, c-format
+msgid "Could not get rDNS for IP '%s'"
+msgstr ""
+
+msgid "Could not read tickets"
+msgstr ""
+
+msgid "Could not write tickets"
+msgstr ""
+
+#, c-format
+msgid "Couldn't find any IPs of any type to give User (requested ip=%s)."
+msgstr ""
+
+msgid "Couldn't find the 2nd part of the MX value, after the number"
+msgstr ""
+
+#, c-format
+msgid "Couldn't read db file for %s. Unable to add ns1 and ns2 to it."
+msgstr ""
+
+msgid "Count"
+msgstr ""
+
+msgid "Counted"
+msgstr ""
+
+msgid "Country code must be 2 letters"
+msgstr ""
+
+msgid "Create/Restore Backups"
+msgstr ""
+
+msgid "Created"
+msgstr ""
+
+msgid ""
+"Creating directories has been disabled with the filemanager_disable_features "
+"option"
+msgstr ""
+
+#, c-format
+msgid "Creating that many %s would put you over your limit of %s"
+msgstr ""
+
+msgid "Creating zip files is disabled"
+msgstr ""
+
+msgid "Creator"
+msgstr ""
+
+msgid "Creator Duplicate"
+msgstr ""
+
+msgid "Cron Created"
+msgstr ""
+
+msgid "Cron E-Mail set"
+msgstr ""
+
+msgid "Cron Job(s) Deleted"
+msgstr ""
+
+msgid "Cron Jobs"
+msgstr ""
+
+msgid "Cron Jobs Deleted"
+msgstr ""
+
+msgid "Cron Jobs Duplicated"
+msgstr ""
+
+msgid "Cron Jobs will run in the background"
+msgstr ""
+
+msgid "Cron Modified"
+msgstr ""
+
+msgid "Cron job has been created"
+msgstr ""
+
+msgid "Current IPs"
+msgstr ""
+
+#, c-format
+msgid "Current IPs Assigned to %s"
+msgstr ""
+
+msgid "Current Protected Directories"
+msgstr ""
+
+msgid "Current Usage"
+msgstr ""
+
+msgid "Custom"
+msgstr ""
+
+msgid "Custom Color"
+msgstr ""
+
+msgid "Custom HTTPD Configurations"
+msgstr ""
+
+msgid "Custom Question"
+msgstr ""
+
+msgid "Custom Skin Logo uploaded"
+msgstr ""
+
+msgid "Custom Skin Logos are not enabled"
+msgstr ""
+
+msgid "Custom logo deleted"
+msgstr ""
+
+msgid "Custom threshold must be a valid number. A decimal is allowed."
+msgstr ""
+
+msgid "Customization Disabled"
+msgstr ""
+
+msgid "Customization written"
+msgstr ""
+
+msgid "Customize the skin"
+msgstr ""
+
+msgid "DKIM disabled"
+msgstr ""
+
+msgid "DKIM enabled"
+msgstr ""
+
+msgid "DNS"
+msgstr ""
+
+msgid "DNS Control"
+msgstr ""
+
+msgid "DNS Management"
+msgstr ""
+
+msgid "DNSSEC Keys generated"
+msgstr ""
+
+msgid "DNSSEC is not enabled"
+msgstr ""
+
+msgid "DNSSSEC - DNS Security"
+msgstr ""
+
+msgid "Database"
+msgstr ""
+
+#, c-format
+msgid "Database %s was removed successfully"
+msgstr ""
+
+msgid "Database Created"
+msgstr ""
+
+msgid "Database Disk Usage"
+msgstr ""
+
+msgid "Database has been successfully Restored"
+msgstr ""
+
+msgid "Database:"
+msgstr ""
+
+msgid "Databases"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "Date Added"
+msgstr ""
+
+msgid "Date Blocked"
+msgstr ""
+
+msgid "Date Created"
+msgstr ""
+
+msgid "Date Suspended"
+msgstr ""
+
+msgid "Day of Month"
+msgstr ""
+
+msgid "Day of Week"
+msgstr ""
+
+msgid "Days must be a valid number."
+msgstr ""
+
+msgid "Debug Guide"
+msgstr ""
+
+msgid "Dec"
+msgstr ""
+
+msgid "Decending"
+msgstr ""
+
+#, c-format
+msgid "Decryption of %s has failed"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Delete Extension"
+msgstr ""
+
+msgid "Delete Handler"
+msgstr ""
+
+msgid "Delete MimeType"
+msgstr ""
+
+msgid "Delete Selected"
+msgstr ""
+
+msgid "Delete the DNSSEC keys and use a non-signed zone"
+msgstr ""
+
+msgid "Delete the following User"
+msgid_plural "Delete the following Users"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Delete the following domains:"
+msgstr ""
+
+msgid "Delete web data"
+msgstr ""
+
+msgid "Deleted"
+msgstr ""
+
+msgid "Deleted User Bandwidth"
+msgstr ""
+
+#, c-format
+msgid "Deleting %s ..."
+msgstr ""
+
+msgid ""
+"Deleting files/directories has been disabled with the "
+"filemanager_disable_features option"
+msgstr ""
+
+msgid "Deleting these NS records will leave you with 0."
+msgstr ""
+
+msgid "Deny"
+msgstr ""
+
+msgid "Destination"
+msgstr ""
+
+#, c-format
+msgid "Destination URL error: %s"
+msgstr ""
+
+msgid "Detail"
+msgstr ""
+
+msgid "Details"
+msgstr ""
+
+msgid "Digest Subscriber"
+msgstr ""
+
+msgid "Digest Subscribers"
+msgstr ""
+
+msgid "DirectAdmin will be restarted in 1 minute"
+msgstr ""
+
+msgid "Directory Protection Settings have been saved."
+msgstr ""
+
+msgid "Directory created"
+msgstr ""
+
+msgid "Disable"
+msgstr ""
+
+msgid "Disable Auto-Renew"
+msgstr ""
+
+msgid "Disabled"
+msgstr ""
+
+msgid ""
+"Disabled Reseller settings will be applied to Users and Packages in the "
+"background."
+msgstr ""
+
+msgid "Disk Space"
+msgstr ""
+
+msgid "Disk Space (MB)"
+msgstr ""
+
+msgid "Disk Usage"
+msgstr ""
+
+msgid "Disk Usage Details"
+msgstr ""
+
+msgid "Division must only contain letters, numbers, spaces, and/or periods"
+msgstr ""
+
+msgid "Dns Provider reset."
+msgstr ""
+
+msgid "Dns Provider saved."
+msgstr ""
+
+msgid "Do not use CAPS in the domain name."
+msgstr ""
+
+msgid "Do not use any spaces between the email names."
+msgstr ""
+
+#, c-format
+msgid "Do not use spaces in the %s value"
+msgstr ""
+
+msgid "Do you want to overwrite any existing files?"
+msgstr ""
+
+msgid "DocumentRoot"
+msgstr ""
+
+#, c-format
+msgid "Does not match setting: %s"
+msgstr ""
+
+msgid "Domain"
+msgstr ""
+
+#, c-format
+msgid "Domain %s Created"
+msgstr ""
+
+#, c-format
+msgid "Domain %s may not use a %s override path of %s"
+msgstr ""
+
+#, c-format
+msgid ""
+"Domain %s was suspended by an Admin and you not have this access. You cannot "
+"unsuspend this domain."
+msgstr ""
+
+msgid "Domain AWstats"
+msgstr ""
+
+msgid "Domain AWstats + Webalizer"
+msgstr ""
+
+msgid "Domain Bandwidth"
+msgstr ""
+
+msgid "Domain Created"
+msgstr ""
+
+msgid "Domain Created Successfully"
+msgstr ""
+
+msgid "Domain Deletion Results"
+msgstr ""
+
+msgid "Domain Pointer"
+msgid_plural "Domain Pointers"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Domain Pointer Added"
+msgstr ""
+
+msgid "Domain Pointer on"
+msgstr ""
+
+msgid "Domain Pointers"
+msgstr ""
+
+msgid "Domain Quota"
+msgstr ""
+
+msgid "Domain Renaming is not enabled"
+msgstr ""
+
+msgid "Domain Setup"
+msgstr ""
+
+msgid "Domain Webalizer Stats"
+msgstr ""
+
+msgid "Domain and password are required"
+msgstr ""
+
+msgid "Domain does not belong to you"
+msgstr ""
+
+#, c-format
+msgid "Domain exists on %s"
+msgstr ""
+
+msgid "Domain has already been deleted. It wasn't in the named.conf file"
+msgstr ""
+
+msgid ""
+"Domain is already processing an SSL request.  Please allow it to finish "
+"before making other changes."
+msgstr ""
+
+msgid "Domain is forbidden"
+msgstr ""
+
+msgid "Domain is not in your list"
+msgstr ""
+
+msgid "Domain name has been successfully changed"
+msgstr ""
+
+msgid "Domain php.ini overrides"
+msgstr ""
+
+#, c-format
+msgid "Domain pointer %s for domain %s for user %s already exists"
+msgstr ""
+
+msgid "Domain(s)"
+msgstr ""
+
+msgid "Domain(s) modified"
+msgstr ""
+
+msgid "Domains"
+msgstr ""
+
+msgid "Domains directory created successfully"
+msgstr ""
+
+msgid "Domains directory created successfully in user's home"
+msgstr ""
+
+msgid "Double click for main domain page"
+msgstr ""
+
+#, c-format
+msgid "Dovecot file '%s' is missing data. Run './build dovecot_conf'"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid "Download Backup"
+msgstr ""
+
+#, c-format
+msgid "Downloaded: %s"
+msgstr ""
+
+msgid "Downloading a new webalizer binary"
+msgstr ""
+
+msgid ""
+"Downloading compress folders has been disabled with the "
+"filemanager_disable_features option"
+msgstr ""
+
+msgid ""
+"Downloading files has been disabled with the filemanager_disable_features "
+"option"
+msgstr ""
+
+msgid "Driver signals L1 up."
+msgstr ""
+
+msgid "Driver signals dormant."
+msgstr ""
+
+msgid "Duplicate"
+msgstr ""
+
+msgid "E-Mail"
+msgstr ""
+
+msgid "E-Mail Accounts"
+msgstr ""
+
+msgid "E-Mail Accounts Deleted"
+msgstr ""
+
+msgid "E-Mail Address has been successfully changed"
+msgstr ""
+
+msgid "E-Mail Limit has been set"
+msgstr ""
+
+msgid "E-Mail Updated"
+msgstr ""
+
+msgid "E-Mail Usage"
+msgstr ""
+
+msgid "E-Mail account already exists"
+msgstr ""
+
+msgid "E-Mail has been changed"
+msgstr ""
+
+#, c-format
+msgid "E-Mail has been changed to %s"
+msgstr ""
+
+#, c-format
+msgid "E-Mail quota must not exceed %s"
+msgstr ""
+
+msgid "EC-256"
+msgstr ""
+
+msgid "EC-384"
+msgstr ""
+
+msgid "EC-521"
+msgstr ""
+
+msgid "Echo sent packets."
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Edit Admin Welcome Message"
+msgstr ""
+
+msgid "Edit Reseller Welcome Message"
+msgstr ""
+
+msgid "Edit Suspension Message"
+msgstr ""
+
+msgid "Edit User Welcome Message"
+msgstr ""
+
+msgid "Edit the zone on the master server."
+msgstr ""
+
+msgid ""
+"Either have your account creator change your password to unblock it, or use "
+"the Lost Password feature on the login page (if enabled)."
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+#, c-format
+msgid "Email '%s' does not exist"
+msgstr ""
+
+msgid "Email Deliveries (Sent)"
+msgstr ""
+
+msgid "Email Disk Usage"
+msgstr ""
+
+msgid "Email Forwarders"
+msgstr ""
+
+msgid "Email Only"
+msgstr ""
+
+msgid "Email Sent"
+msgstr ""
+
+msgid "Email created but"
+msgstr ""
+
+msgid "Empty Clipboard"
+msgstr ""
+
+msgid "Empty:"
+msgstr ""
+
+msgid "Enable"
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+#, c-format
+msgid "Encryption of %s has failed"
+msgstr ""
+
+msgid "End Time"
+msgstr ""
+
+#, c-format
+msgid ""
+"End of file reached while trying reading in %lld bytes from %s. filled=%lld"
+msgstr ""
+
+#, c-format
+msgid "Ensure %s exists and is chmod to 1777."
+msgstr ""
+
+msgid "Ensure the 2nd key matches the first"
+msgstr ""
+
+msgid "Ensure the Reseller's ip.list has some usable IPs."
+msgstr ""
+
+msgid "Ensuring stored domains are present"
+msgstr ""
+
+msgid "Enter your Two-Step Authentication Code"
+msgstr ""
+
+#, c-format
+msgid "Error %s widgets from accounts: %s"
+msgstr ""
+
+msgid "Error Adding Main Username to database:"
+msgstr ""
+
+msgid "Error Compressing the backup file"
+msgstr ""
+
+msgid "Error Creating Cron Job"
+msgstr ""
+
+msgid "Error Creating Domain"
+msgstr ""
+
+msgid "Error Creating Key"
+msgstr ""
+
+msgid "Error Creating User"
+msgstr ""
+
+#, c-format
+msgid "Error Deleting %s"
+msgstr ""
+
+msgid "Error Executing Perl"
+msgstr ""
+
+msgid "Error Flushing Privileges"
+msgstr ""
+
+msgid "Error Flushing Privileges:"
+msgstr ""
+
+msgid "Error Log"
+msgstr ""
+
+msgid "Error Reading Message File"
+msgstr ""
+
+msgid "Error Reading db file"
+msgstr ""
+
+#, c-format
+msgid "Error Removing User %s"
+msgstr ""
+
+msgid "Error Resetting Key Uses"
+msgstr ""
+
+msgid "Error Resetting Zone"
+msgstr ""
+
+msgid "Error Restoring database"
+msgstr ""
+
+#, c-format
+msgid "Error Saving Password: %s"
+msgstr ""
+
+msgid "Error Unblocking paths"
+msgstr ""
+
+msgid "Error Updating User"
+msgstr ""
+
+#, c-format
+msgid "Error Writing %s"
+msgstr ""
+
+#, c-format
+msgid "Error activating %s's user %s: %s"
+msgstr ""
+
+#, c-format
+msgid "Error activating cronjobs: %s"
+msgstr ""
+
+#, c-format
+msgid "Error activating data for %s: %s"
+msgstr ""
+
+#, c-format
+msgid "Error adding DS records for %s to remote parent zone: %s"
+msgstr ""
+
+msgid "Error authorizing SSH Key"
+msgstr ""
+
+msgid "Error changing password"
+msgstr ""
+
+msgid "Error changing password.  Contact your webhost."
+msgstr ""
+
+msgid "Error clearing LetsEncrypt files"
+msgstr ""
+
+msgid "Error converting file: "
+msgstr ""
+
+#, c-format
+msgid "Error copying %s to %s : %s"
+msgstr ""
+
+#, c-format
+msgid "Error copying %s to %s: %s"
+msgstr ""
+
+#, c-format
+msgid "Error copying logo file: %s"
+msgstr ""
+
+#, c-format
+msgid "Error creating %s"
+msgstr ""
+
+#, c-format
+msgid "Error creating %s: %s"
+msgstr ""
+
+msgid "Error creating Autoresponder"
+msgstr ""
+
+#, c-format
+msgid "Error creating NginxUnit application '%s': %s"
+msgstr ""
+
+#, c-format
+msgid "Error creating NginxUnit route '%s': %s"
+msgstr ""
+
+msgid "Error creating SSH Key"
+msgstr ""
+
+msgid "Error creating User"
+msgstr ""
+
+msgid "Error creating Vacation Message"
+msgstr ""
+
+msgid "Error creating account"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error creating default directories in %s.  See error.log for more "
+"information."
+msgstr ""
+
+msgid "Error creating forwarder"
+msgstr ""
+
+msgid "Error creating the database"
+msgstr ""
+
+msgid "Error decoding the base 64 data"
+msgstr ""
+
+#, c-format
+msgid "Error deleting %s: %s"
+msgstr ""
+
+msgid "Error deleting SSH Key"
+msgstr ""
+
+msgid "Error deleting Security Questions"
+msgstr ""
+
+msgid "Error deleting account(s)"
+msgstr ""
+
+msgid "Error deleting autoresponder(s)"
+msgstr ""
+
+msgid "Error deleting filter(s)"
+msgstr ""
+
+msgid "Error deleting key(s)"
+msgstr ""
+
+msgid "Error deleting records"
+msgstr ""
+
+msgid "Error determining username from "
+msgstr ""
+
+#, c-format
+msgid "Error during automated certificate renewal for %s"
+msgstr ""
+
+#, c-format
+msgid "Error during deletion of child user %s"
+msgstr ""
+
+msgid "Error during extraction"
+msgstr ""
+
+msgid "Error executing your request"
+msgstr ""
+
+msgid "Error generating scratch codes"
+msgstr ""
+
+msgid "Error generating zone keys"
+msgstr ""
+
+msgid "Error importing base 64 encoded packages"
+msgstr ""
+
+msgid "Error in post.  Requires domain, type and value."
+msgstr ""
+
+msgid "Error modifying SSH key"
+msgstr ""
+
+msgid "Error parsing 'routes'."
+msgstr ""
+
+msgid "Error parsing json output"
+msgstr ""
+
+msgid "Error purging archives"
+msgstr ""
+
+#, c-format
+msgid "Error reading %s: %s"
+msgstr ""
+
+msgid "Error reading admin list file."
+msgstr ""
+
+msgid "Error reading domain config file"
+msgstr ""
+
+msgid "Error reading domain config files"
+msgstr ""
+
+msgid "Error reading domainowners"
+msgstr ""
+
+msgid "Error reading domainowners file"
+msgstr ""
+
+msgid "Error reading named db file"
+msgstr ""
+
+#, c-format
+msgid "Error reading new license: %s"
+msgstr ""
+
+msgid "Error reading the db file after writing to it, before DNSSEC signing"
+msgstr ""
+
+msgid "Error reading the license file for restore."
+msgstr ""
+
+#, c-format
+msgid "Error reading user files for %s, continuing anyway."
+msgstr ""
+
+msgid "Error reading user_ip.list file"
+msgstr ""
+
+#, c-format
+msgid "Error removing %s: %s"
+msgstr ""
+
+#, c-format
+msgid "Error removing IP(s) from %s"
+msgstr ""
+
+msgid "Error removing file: "
+msgstr ""
+
+#, c-format
+msgid "Error removing path %s: %s"
+msgstr ""
+
+msgid "Error removing subdomain"
+msgstr ""
+
+msgid "Error removing subdomain(s)"
+msgstr ""
+
+msgid "Error removing subdomains"
+msgstr ""
+
+#, c-format
+msgid "Error removing user %s"
+msgstr ""
+
+#, c-format
+msgid "Error renaming %s to %s: %s"
+msgstr ""
+
+#, c-format
+msgid "Error restoring %s: %s"
+msgstr ""
+
+#, c-format
+msgid "Error restoring php settings for '%s': %s"
+msgstr ""
+
+#, c-format
+msgid "Error rewriting %s"
+msgstr ""
+
+#, c-format
+msgid "Error running %s auto: %s"
+msgstr ""
+
+#, c-format
+msgid "Error running %s: %s"
+msgstr ""
+
+msgid "Error running rndc addzone."
+msgstr ""
+
+msgid "Error running rndc delzone."
+msgstr ""
+
+msgid "Error saving Cron E-Mail"
+msgstr ""
+
+msgid "Error saving Nameservers"
+msgstr ""
+
+#, c-format
+msgid "Error selecting database %s: %s"
+msgstr ""
+
+#, c-format
+msgid "Error sending signal to %d: %s"
+msgstr ""
+
+msgid "Error setting MX Template"
+msgstr ""
+
+msgid "Error setting MX template for pointer"
+msgstr ""
+
+msgid "Error setting PHP versions"
+msgstr ""
+
+msgid "Error setting Security Question"
+msgstr ""
+
+#, c-format
+msgid "Error setting cgroup limits for %s: %s"
+msgstr ""
+
+msgid "Error setting clipboard files"
+msgstr ""
+
+msgid "Error setting global key"
+msgstr ""
+
+#, c-format
+msgid "Error setting permission on %s: %s"
+msgstr ""
+
+msgid "Error setting the filter"
+msgstr ""
+
+msgid "Error setting the spam filter"
+msgstr ""
+
+msgid "Error setting timezone"
+msgstr ""
+
+msgid "Error showing Email Acounts"
+msgstr ""
+
+msgid "Error showing message ID info"
+msgstr ""
+
+msgid "Error showing smtp log info"
+msgstr ""
+
+msgid "Error signing zone"
+msgstr ""
+
+#, c-format
+msgid "Error suspending %s's user %s: %s"
+msgstr ""
+
+#, c-format
+msgid "Error suspending cronjobs: %s"
+msgstr ""
+
+msgid "Error updating Autoresponder"
+msgstr ""
+
+msgid "Error updating Catch-All value"
+msgstr ""
+
+msgid "Error updating Vacation Message"
+msgstr ""
+
+msgid "Error updating forwarder"
+msgstr ""
+
+#, c-format
+msgid "Error while backing up database %s"
+msgstr ""
+
+msgid "Error while compressing file"
+msgstr ""
+
+msgid "Error while creating User"
+msgstr ""
+
+msgid "Error while creating the backup"
+msgstr ""
+
+msgid "Error while deleting Users"
+msgstr ""
+
+msgid "Error while saving changes"
+msgstr ""
+
+msgid "Error while saving password"
+msgstr ""
+
+msgid "Error while sending email"
+msgstr ""
+
+#, c-format
+msgid "Error while writing %s"
+msgstr ""
+
+#, c-format
+msgid "Error with Command::master_login:search:gettimeofday: %s"
+msgstr ""
+
+msgid "Error with LetsEncrypt request"
+msgstr ""
+
+msgid "Error with Security Questions"
+msgstr ""
+
+msgid "Error with Two-Step Authentication"
+msgstr ""
+
+msgid "Error with command:"
+msgstr ""
+
+msgid "Error with curl request"
+msgstr ""
+
+msgid "Error with exigrep"
+msgstr ""
+
+msgid "Error with fchownat"
+msgstr ""
+
+#, c-format
+msgid "Error with request: '%s' More info in debug output."
+msgstr ""
+
+msgid "Error with system Quotas"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error with the backup plan (rename failed): the copy of %s to %s has also "
+"failed: %s"
+msgstr ""
+
+#, c-format
+msgid "Error writing %s"
+msgstr ""
+
+#, c-format
+msgid "Error writing %s: %s"
+msgstr ""
+
+msgid "Error writing domain config file"
+msgstr ""
+
+msgid "Error writing password request file."
+msgstr ""
+
+msgid "Error writing pop cache"
+msgstr ""
+
+#, c-format
+msgid "Error writing settings file for %s"
+msgstr ""
+
+msgid "Error writing the directadmin.conf"
+msgstr ""
+
+#, c-format
+msgid "Error writing to %s: %s"
+msgstr ""
+
+msgid "Errors"
+msgstr ""
+
+msgid "Evening"
+msgstr ""
+
+msgid "Expecting 0 or 1"
+msgstr ""
+
+msgid "Expecting any integer"
+msgstr ""
+
+msgid "Expecting any long long integer"
+msgstr ""
+
+msgid "Expired"
+msgstr ""
+
+msgid "Expires"
+msgstr ""
+
+msgid "Expiry"
+msgstr ""
+
+msgid "Export Selected"
+msgstr ""
+
+msgid "Extension"
+msgstr ""
+
+msgid "Extensions"
+msgstr ""
+
+msgid "Extract"
+msgstr ""
+
+msgid "Extract selected to directory"
+msgstr ""
+
+msgid "Extracting User Data"
+msgstr ""
+
+msgid ""
+"Extracting files has been disabled with the filemanager_disable_features "
+"option"
+msgstr ""
+
+msgid "Extracting non-readable files"
+msgstr ""
+
+msgid "Extracting ~/domains directory"
+msgstr ""
+
+msgid "Extracting ~/imap directory"
+msgstr ""
+
+msgid "FTP"
+msgstr ""
+
+msgid "FTP account already exists"
+msgstr ""
+
+msgid "FTP information invalid."
+msgstr ""
+
+msgid "FTP: default creation error"
+msgstr ""
+
+msgid "Failed Referer Check"
+msgstr ""
+
+msgid "Failed to verify"
+msgstr ""
+
+msgid "Feature Disabled"
+msgstr ""
+
+msgid "Feb"
+msgstr ""
+
+msgid "File"
+msgstr ""
+
+#, c-format
+msgid "File %s already exists, file skipped."
+msgstr ""
+
+msgid "File Extracted"
+msgstr ""
+
+msgid "File Manager"
+msgstr ""
+
+#, c-format
+msgid "File being read as '%s'"
+msgstr ""
+
+msgid "File copied successfully"
+msgstr ""
+
+msgid "File does not exist"
+msgstr ""
+
+msgid "File does not exist or you don't have access to file"
+msgstr ""
+
+msgid "File ownership reset"
+msgstr ""
+
+msgid "File restored successfully"
+msgstr ""
+
+msgid "Filename"
+msgstr ""
+
+msgid "Files added to clipboard"
+msgstr ""
+
+msgid "Filesystem"
+msgstr ""
+
+msgid "Filter"
+msgstr ""
+
+msgid "Fingerprint"
+msgstr ""
+
+msgid "First"
+msgstr ""
+
+msgid "First PHP"
+msgstr ""
+
+msgid "First Page"
+msgstr ""
+
+#, c-format
+msgid "Flag value for '%s' is blank"
+msgstr ""
+
+msgid "Flush from DNS"
+msgstr ""
+
+msgid "Follow the link above to find a directory and protect it"
+msgstr ""
+
+msgid "For backwards compatibility"
+msgstr ""
+
+msgid ""
+"For cases where the large number of domains to process may cause a timeout"
+msgstr ""
+
+#, c-format
+msgid "For debugging purposes, this file came from: %s"
+msgstr ""
+
+msgid "Forgot your Password?"
+msgstr ""
+
+msgid "Forwarder"
+msgstr ""
+
+#, c-format
+msgid "Forwarder %s cannot point to itself"
+msgstr ""
+
+#, c-format
+msgid "Forwarder %s@%s deleted as it had zero recipients remaining."
+msgstr ""
+
+#, c-format
+msgid "Forwarder '%s' already exists."
+msgstr ""
+
+msgid "Forwarder already exists"
+msgstr ""
+
+#, c-format
+msgid ""
+"Forwarder contains a local_part_suffix character: '%s' meaning everything "
+"after it will be ignored and the forwarder will never match."
+msgstr ""
+
+msgid "Forwarder created"
+msgstr ""
+
+#, c-format
+msgid "Forwarder loop found: %s"
+msgstr ""
+
+msgid "Forwarder updated"
+msgstr ""
+
+msgid "Forwarders"
+msgstr ""
+
+msgid "Free - randomly selected"
+msgstr ""
+
+msgid "Free Memory"
+msgstr ""
+
+msgid "Free Selected"
+msgstr ""
+
+msgid "Free Swap Memory"
+msgstr ""
+
+msgid "From"
+msgstr ""
+
+msgid "Frontpage Not Installed"
+msgstr ""
+
+msgid "Frontpage changes successful."
+msgstr ""
+
+msgid "Frontpage is not active on this server"
+msgstr ""
+
+msgid "Ftp"
+msgstr ""
+
+msgid "Ftp Accounts"
+msgstr ""
+
+msgid "Ftp IPs successfully swapped"
+msgstr ""
+
+msgid "Ftp Management"
+msgstr ""
+
+msgid "Ftp account changed"
+msgstr ""
+
+msgid "Ftp settings saved"
+msgstr ""
+
+msgid "Full Date"
+msgstr ""
+
+msgid "Full Name has been successfully changed"
+msgstr ""
+
+#, c-format
+msgid "Full format name '%s' does not end with zone name"
+msgstr ""
+
+msgid "GB"
+msgstr ""
+
+msgid "GID"
+msgstr ""
+
+msgid "Generate Keys"
+msgstr ""
+
+msgid "Get the code from your phone's app, or use a backup scratch code."
+msgstr ""
+
+msgid "Global"
+msgstr ""
+
+msgid "Global - randomly selected"
+msgstr ""
+
+msgid "Global Key"
+msgstr ""
+
+msgid "Global Key set"
+msgstr ""
+
+msgid "Global ssh keys not available to Users"
+msgstr ""
+
+#, c-format
+msgid "Go to %s"
+msgstr ""
+
+#, c-format
+msgid "Group %s already exists. Please chose a different username."
+msgstr ""
+
+msgid "Handler"
+msgstr ""
+
+msgid ""
+"Hello,\n"
+"\n"
+"This message is to notify you that your account '|USERNAME|' has been "
+"suspended.\n"
+"Reason: |REASON|\n"
+"\n"
+"If you feel this has been done in error, please contact your hosting "
+"provider for more information\n"
+"\n"
+"|MSG_FOOTER|\n"
+msgstr ""
+
+msgid "Hello, this is my autoresponder"
+msgstr ""
+
+msgid "Here are the results"
+msgstr ""
+
+msgid "Here are the results:"
+msgstr ""
+
+#. /# %c here denotes newline character
+#, c-format
+msgid ""
+"Hi,%c  I am currently on vacation. I will view your message when I get back."
+msgstr ""
+
+msgid "High"
+msgstr ""
+
+msgid "Highest"
+msgstr ""
+
+msgid "Hit end-of-file while searching for @ or domain header line in"
+msgstr ""
+
+msgid "Home Directory"
+msgstr ""
+
+#, c-format
+msgid "Home path '%s' is not in the allowed home_override_list"
+msgstr ""
+
+msgid "Host:"
+msgstr ""
+
+msgid "Hosts"
+msgstr ""
+
+msgid "Hotlink Protection"
+msgstr ""
+
+msgid "Hour"
+msgstr ""
+
+msgid "How to process the request"
+msgstr ""
+
+#, c-format
+msgid ""
+"However, after %s attempts, they were not able to provide a valid Two-Step "
+"Authentication code, so no access was granted."
+msgstr ""
+
+#, c-format
+msgid ""
+"However, after %s attempts, they were not able to provide a valid answer for "
+"the security questions, so no access was granted."
+msgstr ""
+
+msgid "However, subdomains have been found instead.  Proceeding with them."
+msgstr ""
+
+msgid "ID"
+msgstr ""
+
+msgid "ID does not belong to you"
+msgstr ""
+
+msgid "ID: 1234 or \"1234-1239\""
+msgstr ""
+
+msgid "IO Read Bandwidth Max"
+msgstr ""
+
+msgid "IO Write Bandwidth Max"
+msgstr ""
+
+msgid "IOPS Read Max"
+msgstr ""
+
+msgid "IOPS Write Max"
+msgstr ""
+
+msgid "IP"
+msgstr ""
+
+msgid "IP Added"
+msgstr ""
+
+msgid "IP Info"
+msgstr ""
+
+msgid "IP Link Added"
+msgstr ""
+
+msgid "IP Link(s) Removed"
+msgstr ""
+
+msgid "IP List is empty"
+msgstr ""
+
+msgid "IP Netmask Set"
+msgstr ""
+
+msgid "IP Type"
+msgstr ""
+
+#, c-format
+msgid "IP in domain config file (%s) is not valid."
+msgstr ""
+
+msgid "IP must be shared or free"
+msgstr ""
+
+msgid "IP will be linked in the background"
+msgstr ""
+
+msgid "IP(s)"
+msgstr ""
+
+msgid "IP(s) removed"
+msgstr ""
+
+msgid "IP/User"
+msgstr ""
+
+msgid "IPs"
+msgstr ""
+
+msgid ""
+"If the username entered is correct, you will receive a confirmation email "
+"shortly."
+msgstr ""
+
+#, c-format
+msgid "If this continues, consider putting %s in the ip_blacklist file."
+msgstr ""
+
+msgid "If this is not your IP, change your password."
+msgstr ""
+
+msgid ""
+"If you aren't expecting a new license the same license file will be "
+"generated."
+msgstr ""
+
+msgid ""
+"If you do not wish to overwrite the current certificate, please disable the "
+"auto-renewal"
+msgstr ""
+
+msgid ""
+"If you proceed, these User accounts, along with ALL the associated website "
+"and email contents, which are not listed here, will also be removed."
+msgstr ""
+
+msgid ""
+"If you set it to 0, no basic httpd request will work.  You wont even be able "
+"to login."
+msgstr ""
+
+msgid "Image filenames only have 1 dot"
+msgstr ""
+
+msgid "Imap"
+msgstr ""
+
+msgid "Imap Folders"
+msgstr ""
+
+msgid "In what city did you meet your spouse/significant other?"
+msgstr ""
+
+msgid "In what city does your nearest sibling live?"
+msgstr ""
+
+msgid "In what city or town did your mother and father meet?"
+msgstr ""
+
+msgid "In what city or town was your first job?"
+msgstr ""
+
+msgid "Inactive"
+msgstr ""
+
+msgid "Inbox"
+msgstr ""
+
+msgid "Include Domains"
+msgstr ""
+
+msgid "Include your license information"
+msgstr ""
+
+msgid "Info"
+msgstr ""
+
+msgid "Info for admins"
+msgstr ""
+
+msgid "Inherit"
+msgstr ""
+
+msgid "Inodes"
+msgstr ""
+
+msgid "Install Serverwide"
+msgstr ""
+
+msgid "Installed"
+msgstr ""
+
+msgid "Installed Perl Modules"
+msgstr ""
+
+msgid "Interface is a loopback interface."
+msgstr ""
+
+msgid "Interface is a point-to-point link."
+msgstr ""
+
+msgid "Interface is in promiscuous mode."
+msgstr ""
+
+msgid "Interface is running."
+msgstr ""
+
+msgid "Internal debugging flag."
+msgstr ""
+
+msgid "Invalid "
+msgstr ""
+
+#, c-format
+msgid "Invalid '%s'"
+msgstr ""
+
+msgid "Invalid CC email address"
+msgstr ""
+
+msgid ""
+"Invalid Characters in the skin name.  Only use a-zA-Z0-9._-[] Must not start "
+"with '.'"
+msgstr ""
+
+msgid "Invalid Cron ID"
+msgstr ""
+
+msgid "Invalid DNS name"
+msgstr ""
+
+msgid "Invalid DNS value"
+msgstr ""
+
+msgid "Invalid Domain"
+msgstr ""
+
+msgid "Invalid Domain Name"
+msgstr ""
+
+msgid "Invalid E-Mail"
+msgstr ""
+
+msgid "Invalid E-Mail User"
+msgstr ""
+
+msgid ""
+"Invalid E-Mail address. Multiple and DirectAdmin login username, or blank "
+"also allowed"
+msgstr ""
+
+msgid "Invalid Email"
+msgstr ""
+
+msgid "Invalid Email Name"
+msgstr ""
+
+msgid "Invalid Email limit"
+msgstr ""
+
+msgid "Invalid FTP account"
+msgstr ""
+
+msgid "Invalid IP (1.2.3.4) or IP range (1.2.3.4-5)"
+msgstr ""
+
+msgid "Invalid IP/Domain for the ftp connection"
+msgstr ""
+
+#, c-format
+msgid "Invalid Log Rotate Value: %d"
+msgstr ""
+
+msgid "Invalid MX value"
+msgstr ""
+
+msgid "Invalid Name"
+msgstr ""
+
+msgid "Invalid Netmask"
+msgstr ""
+
+msgid "Invalid Password"
+msgstr ""
+
+msgid "Invalid RSA comment"
+msgstr ""
+
+msgid "Invalid RSA id. Use simple characters: a-zA-Z0-9"
+msgstr ""
+
+msgid "Invalid RSA key"
+msgstr ""
+
+msgid "Invalid SecRuleRemoveById value"
+msgstr ""
+
+#, c-format
+msgid "Invalid Session Minutes value: %lld"
+msgstr ""
+
+msgid "Invalid Subdomain"
+msgstr ""
+
+msgid "Invalid Two-Step Auth code"
+msgstr ""
+
+msgid "Invalid URL"
+msgstr ""
+
+msgid "Invalid User"
+msgstr ""
+
+msgid "Invalid User type"
+msgstr ""
+
+msgid "Invalid Username"
+msgstr ""
+
+msgid "Invalid Username or Password"
+msgstr ""
+
+msgid "Invalid action"
+msgstr ""
+
+#, c-format
+msgid "Invalid characters in description.  Allowed %s"
+msgstr ""
+
+msgid "Invalid characters in password"
+msgstr ""
+
+msgid "Invalid characters in search"
+msgstr ""
+
+msgid "Invalid characters in security answer"
+msgstr ""
+
+msgid "Invalid characters in security question"
+msgstr ""
+
+msgid "Invalid characters in word"
+msgstr ""
+
+msgid "Invalid code"
+msgstr ""
+
+msgid "Invalid crypted passwd"
+msgstr ""
+
+msgid "Invalid database name:"
+msgstr ""
+
+msgid "Invalid delete_messages_days or delete_tickets_days.  Too big.  Max = "
+msgstr ""
+
+msgid ""
+"Invalid delete_messages_days or delete_tickets_days. Should be 0 or a "
+"positive integer."
+msgstr ""
+
+msgid "Invalid dnsprovider"
+msgstr ""
+
+msgid "Invalid domain"
+msgstr ""
+
+msgid "Invalid email address"
+msgstr ""
+
+msgid "Invalid email address on file.  Contact your webhost."
+msgstr ""
+
+msgid "Invalid email user"
+msgstr ""
+
+msgid "Invalid email username"
+msgstr ""
+
+msgid "Invalid encryption password"
+msgstr ""
+
+msgid "Invalid file extension list"
+msgstr ""
+
+msgid "Invalid filename:"
+msgstr ""
+
+msgid "Invalid filter type"
+msgstr ""
+
+msgid "Invalid fingerprint"
+msgstr ""
+
+msgid "Invalid ftp password"
+msgstr ""
+
+msgid "Invalid ftp path"
+msgstr ""
+
+msgid "Invalid ftp port"
+msgstr ""
+
+msgid "Invalid ftp username"
+msgstr ""
+
+#, c-format
+msgid "Invalid key bit length: '%s'"
+msgstr ""
+
+#, c-format
+msgid "Invalid key option name or value: %s=%s"
+msgstr ""
+
+#, c-format
+msgid "Invalid key type: '%s'"
+msgstr ""
+
+#, c-format
+msgid "Invalid keysize. Valid values: %s"
+msgstr ""
+
+msgid "Invalid language"
+msgstr ""
+
+msgid "Invalid list of allowed domains"
+msgstr ""
+
+msgid "Invalid local path"
+msgstr ""
+
+msgid "Invalid login. Please verify your Username and Password"
+msgstr ""
+
+#, c-format
+msgid "Invalid master type: %d for '%s'"
+msgstr ""
+
+msgid "Invalid message days. Should be a positive integer."
+msgstr ""
+
+msgid "Invalid message id"
+msgstr ""
+
+msgid "Invalid message type. Only request, reply and message are allowed"
+msgstr ""
+
+#, c-format
+msgid "Invalid method: '%s'"
+msgstr ""
+
+msgid "Invalid name or extension"
+msgstr ""
+
+msgid "Invalid netmask type for IP type"
+msgstr ""
+
+msgid "Invalid new user value"
+msgstr ""
+
+msgid "Invalid number"
+msgstr ""
+
+msgid "Invalid package name"
+msgstr ""
+
+msgid "Invalid password (empty)"
+msgstr ""
+
+msgid "Invalid path"
+msgstr ""
+
+msgid "Invalid path append value"
+msgstr ""
+
+msgid "Invalid path.  Must start with /"
+msgstr ""
+
+msgid "Invalid plugin name"
+msgstr ""
+
+msgid "Invalid redirect URL"
+msgstr ""
+
+#, c-format
+msgid "Invalid request: '%s'"
+msgstr ""
+
+msgid "Invalid session timeout or max filesize values"
+msgstr ""
+
+msgid "Invalid subdomain name"
+msgstr ""
+
+msgid "Invalid ticket days. Should be a positive integer."
+msgstr ""
+
+#, c-format
+msgid "Invalid ticket days. Too big. Max = %s"
+msgstr ""
+
+#, c-format
+msgid "Invalid type for '%s': '%s'"
+msgstr ""
+
+msgid "Invalid user"
+msgstr ""
+
+msgid "Invalid username"
+msgstr ""
+
+msgid "Invalid values"
+msgstr ""
+
+msgid "Invalid widget name"
+msgstr ""
+
+msgid "Is able to select media type via ifmap."
+msgstr ""
+
+msgid "Issue verifying license"
+msgstr ""
+
+msgid "Issuer"
+msgstr ""
+
+msgid "It already exists on the following system(s)"
+msgstr ""
+
+msgid "It has been disabled"
+msgstr ""
+
+msgid "It must be a positive integer."
+msgstr ""
+
+msgid "It must not be an IP"
+msgstr ""
+
+#, c-format
+msgid "It's already associated with %s"
+msgstr ""
+
+msgid "Items per page"
+msgstr ""
+
+msgid "Jailed Home"
+msgstr ""
+
+msgid "Jan"
+msgstr ""
+
+msgid "Jul"
+msgstr ""
+
+msgid "Jun"
+msgstr ""
+
+msgctxt "readable size"
+msgid "KB"
+msgstr ""
+
+msgid "Keep it for future reference."
+msgstr ""
+
+msgid "Keep the numbers to a realistic value please."
+msgstr ""
+
+msgid "Key"
+msgstr ""
+
+msgid "Key Created. Take note of it's value and keep it safe."
+msgstr ""
+
+msgid "Key ID"
+msgstr ""
+
+msgid ""
+"Key Modified. If you've modified its value, take note of it and keep it safe."
+msgstr ""
+
+msgid "Key Name"
+msgstr ""
+
+msgid "Key Name must be simple: a-zA-Z0-9"
+msgstr ""
+
+msgid "Key Uses Reset"
+msgstr ""
+
+msgid "Key already exists via fingerprint matching"
+msgstr ""
+
+msgid "Key contains invalid characters"
+msgstr ""
+
+msgid "Key is Invalid"
+msgstr ""
+
+msgid "Key value must differ from your DirectAdmin password"
+msgstr ""
+
+msgid "Key(s) deleted"
+msgstr ""
+
+msgid "Keys"
+msgstr ""
+
+msgid "Keys listed below"
+msgstr ""
+
+msgid "Kill"
+msgstr ""
+
+msgid "Language"
+msgstr ""
+
+#, c-format
+msgid "Language has been changed to %s"
+msgstr ""
+
+msgid "Language has been successfully changed"
+msgstr ""
+
+msgid "Last"
+msgstr ""
+
+msgid "Last Accessed"
+msgstr ""
+
+msgid "Last Changed"
+msgstr ""
+
+#, c-format
+msgid "Last Login IP: %s"
+msgstr ""
+
+#, c-format
+msgid "Last Login: %s"
+msgstr ""
+
+msgid "Last Message"
+msgstr ""
+
+msgid "Last Modified"
+msgstr ""
+
+msgid "Last Page"
+msgstr ""
+
+msgid "Last Tally Completion"
+msgstr ""
+
+msgid "Leave DNS"
+msgstr ""
+
+#, c-format
+msgid "Left user on %s's list"
+msgstr ""
+
+msgid "Let's Encrypt Certificate Entries"
+msgstr ""
+
+msgid "Let's Encrypt is not enabled.  You cannot use this option."
+msgstr ""
+
+msgid "LetsEncrypt files have been cleared"
+msgstr ""
+
+msgid "LetsEncrypt request successful"
+msgstr ""
+
+msgid "LetsEncrypt request successful for"
+msgstr ""
+
+#, c-format
+msgid "License is limited to %d Admins/Resellers, and you currently have %d"
+msgstr ""
+
+#, c-format
+msgid "License is limited to %d accounts, and you currently have %d"
+msgstr ""
+
+#, c-format
+msgid "License is limited to %d domains, and you currently have %d"
+msgstr ""
+
+msgid "License is not valid"
+msgstr ""
+
+msgid "License limits exceeded"
+msgstr ""
+
+msgid ""
+"License requires a newer version of DirectAdmin, but auto_update is "
+"disabled.  Please update your DirectAdmin version."
+msgstr ""
+
+msgid ""
+"License requires a newer version of DirectAdmin, but your OS is end-of-life. "
+"Please install a newer OS to continue."
+msgstr ""
+
+msgid "License verified"
+msgstr ""
+
+msgid "Licensing / Updates"
+msgstr ""
+
+msgid "Limit Notice"
+msgstr ""
+
+msgid "Limit is not a number"
+msgstr ""
+
+msgid "Link"
+msgstr ""
+
+msgid "Link in Background"
+msgstr ""
+
+msgid "Linked IPs"
+msgstr ""
+
+msgid "List"
+msgstr ""
+
+msgid "List Admins"
+msgstr ""
+
+msgid "List Configurations Saved"
+msgstr ""
+
+msgid "List Resellers"
+msgstr ""
+
+msgid "List Users"
+msgstr ""
+
+msgid "List of Users is too long"
+msgstr ""
+
+#, c-format
+msgid "Listname must be %d characters or less"
+msgstr ""
+
+msgid "Listname must be all lower case letters"
+msgstr ""
+
+msgid "Load Average"
+msgstr ""
+
+msgid "Local Data"
+msgstr ""
+
+msgid "Local Default"
+msgstr ""
+
+msgid "Local Mail"
+msgstr ""
+
+msgid "Local URL Path"
+msgstr ""
+
+msgid "Log"
+msgstr ""
+
+msgid "Log Entry"
+msgstr ""
+
+msgid "Log Usage"
+msgstr ""
+
+msgid "Log Viewer"
+msgstr ""
+
+msgid "Login"
+msgstr ""
+
+msgid "Login Failures"
+msgstr ""
+
+msgid "Login History"
+msgstr ""
+
+msgid "Login Keys"
+msgstr ""
+
+msgid "Login Keys are disabled"
+msgstr ""
+
+msgid "Login Page"
+msgstr ""
+
+#, c-format
+msgid "Login as %s"
+msgstr ""
+
+msgid "Logout"
+msgstr ""
+
+msgid "Low"
+msgstr ""
+
+msgctxt "readable size"
+msgid "MB"
+msgstr ""
+
+msgid "MX Records"
+msgstr ""
+
+msgid "MX Template set"
+msgstr ""
+
+msgid "MX Templates are disabled"
+msgstr ""
+
+msgid "MX priority should be an positive number"
+msgstr ""
+
+msgid "Mail Queue Administration"
+msgstr ""
+
+msgid "Mailing List"
+msgstr ""
+
+msgid "Mailing Lists"
+msgstr ""
+
+msgid "Main"
+msgstr ""
+
+msgid "Main Domain ..."
+msgstr ""
+
+#, c-format
+msgid "Major Error: Error finding home for %s"
+msgstr ""
+
+msgid "Make sure 'unit' is running"
+msgstr ""
+
+msgid "Make sure that the values passed are valid for their type"
+msgstr ""
+
+msgid "Manage Reseller Packages"
+msgstr ""
+
+msgid "Manage Tickets"
+msgstr ""
+
+msgid "Manage User Backups"
+msgstr ""
+
+msgid "Manage User Packages"
+msgstr ""
+
+#, c-format
+msgid "Manually by %s"
+msgstr ""
+
+msgid "Mar"
+msgstr ""
+
+msgid "Mark as read"
+msgstr ""
+
+msgid "Master of a load balancing bundle."
+msgstr ""
+
+msgid "Max Tasks that may be created in the unit"
+msgstr ""
+
+msgid "Max Usage (Meg)"
+msgstr ""
+
+msgid "Max disk read operations per second."
+msgstr ""
+
+msgid "Max disk write operations per second."
+msgstr ""
+
+msgid "Max limit User can set per E-Mail"
+msgstr ""
+
+msgid "Max number of uses must be a valid number (no decimals)"
+msgstr ""
+
+msgid "Max rate data can be read from a disk."
+msgstr ""
+
+msgid "Max rate data can be written to a disk."
+msgstr ""
+
+msgid "Maximum Usage"
+msgstr ""
+
+#, c-format
+msgid "Maximum number of files listed (%d).  Suppressing further output."
+msgstr ""
+
+#, c-format
+msgid "Maximum value: %s=%s"
+msgstr ""
+
+msgid "May"
+msgstr ""
+
+msgid "Medium"
+msgstr ""
+
+msgid "Meg"
+msgstr ""
+
+msgid "Memory High"
+msgstr ""
+
+msgid "Memory Usage"
+msgstr ""
+
+msgid "Message #"
+msgstr ""
+
+msgid "Message Reset"
+msgstr ""
+
+msgid "Message System"
+msgstr ""
+
+msgid "Message Type"
+msgstr ""
+
+msgid "Message is being sent"
+msgstr ""
+
+msgid "Message removed"
+msgid_plural "Messages removed"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Messages Updated"
+msgstr ""
+
+msgid "Mime Types"
+msgstr ""
+
+msgid "MimeType"
+msgstr ""
+
+msgid "Minute"
+msgstr ""
+
+msgid "Missing closing bracket in zone line."
+msgstr ""
+
+msgid "Missing open bracket in zone line."
+msgstr ""
+
+msgid "Missing template"
+msgstr ""
+
+msgid "ModSecurity Flags"
+msgstr ""
+
+msgid "ModSecurity Rules"
+msgstr ""
+
+msgid "ModSecurity Rules Saved"
+msgstr ""
+
+msgid "ModSecurity Skipped Rules"
+msgstr ""
+
+msgid "ModSecurity is not enabled"
+msgstr ""
+
+msgid "Modify"
+msgstr ""
+
+msgid "Modify Password"
+msgstr ""
+
+msgid "Month"
+msgstr ""
+
+msgid "More Info"
+msgstr ""
+
+msgid "Morning"
+msgstr ""
+
+msgid "Mounted on"
+msgstr ""
+
+msgid "Move Clipboard Files here"
+msgstr ""
+
+msgid "Move Users between Resellers"
+msgstr ""
+
+msgid "Move any existing files to trash?"
+msgstr ""
+
+msgid "Move to Trash"
+msgstr ""
+
+msgid "Multi-Server Setup"
+msgstr ""
+
+msgid ""
+"Must provide a mime type or handler name and a single extention. eg: \"text/"
+"html\" or \"cgi-script\" and \"html\""
+msgstr ""
+
+msgid "Must select more than zero LetsEncrypt entries."
+msgstr ""
+
+#, c-format
+msgid "Must use letsencrypt=1 for options.  letsencrypt=%d is currently set."
+msgstr ""
+
+msgid "MySQL is not enabled on this server"
+msgstr ""
+
+msgid "NGINX Unit"
+msgstr ""
+
+msgid ""
+"NOTE: You are using the server IP, so your CA Root Certificate has been "
+"saved to"
+msgstr ""
+
+msgid ""
+"NOTE: You are using the server IP, so your certificate and key have been "
+"saved to"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Name Server 1"
+msgstr ""
+
+msgid "Name Server 2"
+msgstr ""
+
+msgid "Name Servers"
+msgstr ""
+
+msgid "Name must only contain letters, spaces and/or periods"
+msgstr ""
+
+msgid "Nameserver"
+msgstr ""
+
+msgid "Nameservers deleted"
+msgstr ""
+
+msgid "Nameservers have been changed"
+msgstr ""
+
+msgid "Namesevers have been changed."
+msgstr ""
+
+msgid "Netmask"
+msgstr ""
+
+msgid "Never"
+msgstr ""
+
+#, c-format
+msgid "New License is invalid: %s"
+msgstr ""
+
+#, c-format
+msgid "New Secret Set: %s"
+msgstr ""
+
+msgid "New password isn't different"
+msgstr ""
+
+#, c-format
+msgid "Newly installed key is %s-bit"
+msgstr ""
+
+msgid "Next Retry"
+msgstr ""
+
+msgid "Nginx Template"
+msgstr ""
+
+msgid "Nginx is not enabled"
+msgstr ""
+
+msgid "NginxUnit is not enabled or not running"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "No Awstats"
+msgstr ""
+
+msgid "No Data to Show"
+msgstr ""
+
+msgid "No IPs selected"
+msgstr ""
+
+#, c-format
+msgid "No ListFile in container at route position %lld"
+msgstr ""
+
+msgid "No Send class set"
+msgstr ""
+
+msgid "No User Data"
+msgstr ""
+
+msgid "No arp protocol, L2 destination address not set."
+msgstr ""
+
+msgid "No changes have been made"
+msgstr ""
+
+msgid "No changes were needed. Skipping write."
+msgstr ""
+
+msgid "No colors have been selected"
+msgstr ""
+
+#, c-format
+msgid "No container at route position %lld"
+msgstr ""
+
+msgid "No events for this period."
+msgstr ""
+
+msgid "No files have been selected for upload."
+msgstr ""
+
+msgid "No free IPs found"
+msgstr ""
+
+msgid "No global IPs found"
+msgstr ""
+
+msgid "No keys have been selected"
+msgstr ""
+
+msgid "No keys selected"
+msgstr ""
+
+msgid "No options were selected"
+msgstr ""
+
+msgid "No passwd entries provided."
+msgstr ""
+
+msgid "No paths were provided."
+msgstr ""
+
+msgid "No shared IPs found"
+msgstr ""
+
+msgid "No such username in the request list.  Your request may have expired."
+msgstr ""
+
+msgid "No such username in the request list. Your request may have expired."
+msgstr ""
+
+msgid "No text provided"
+msgstr ""
+
+msgid "No vacation message set"
+msgstr ""
+
+msgid "Not a valid IP Address"
+msgstr ""
+
+#, c-format
+msgid ""
+"Not enough IP's to create nameservers. It requires at least %d free, un-"
+"assigned ips."
+msgstr ""
+
+msgid "Not setting up Mail SNI."
+msgstr ""
+
+msgid "Not yet generated"
+msgstr ""
+
+msgid "Not yet signed"
+msgstr ""
+
+#, c-format
+msgid ""
+"Note: the previous Let's Encrypt config is still set to renew in %d days."
+msgstr ""
+
+msgid "Nothing"
+msgstr ""
+
+#, c-format
+msgid "Notification that Login Key %s has been successfully created by %s"
+msgstr ""
+
+msgid "Notified"
+msgstr ""
+
+msgid "Nov"
+msgstr ""
+
+msgid "Null values"
+msgstr ""
+
+#, c-format
+msgid "Number %s=%s is out of range (required: %d-%d)"
+msgstr ""
+
+msgid "Number of Users"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "Oct"
+msgstr ""
+
+msgid "Off"
+msgstr ""
+
+#, c-format
+msgid "Old %s-bit key has been backed up to %s"
+msgstr ""
+
+msgid "Old password incorrect"
+msgstr ""
+
+msgid "Older than"
+msgstr ""
+
+msgid "On"
+msgstr ""
+
+msgid "One (or more) of the selected IPs are not currently in your list"
+msgstr ""
+
+#, c-format
+msgid ""
+"One-Click login requires does not support webmail_link=%s.  Try "
+"webmail_link=roundcube."
+msgstr ""
+
+msgid "One-Time Login URL Created"
+msgstr ""
+
+#, c-format
+msgid "Only %d of the requested %d global IPs were assigned."
+msgstr ""
+
+msgid "Only 'Additional' IPs can be removed from a User using this method"
+msgstr ""
+
+msgid "Only Admin accounts can save settings"
+msgstr ""
+
+msgid "Only Admins can reset the usage count"
+msgstr ""
+
+msgid "Only Admins may run this request"
+msgstr ""
+
+msgid ""
+"Only provide one extension at a time. eg: \"jpg\" and NOT \"jpg jpeg jpe\""
+msgstr ""
+
+msgid "Only the location of the route can be renamed"
+msgstr ""
+
+msgid "Only use wildcard on domains who currently have functional local DNS"
+msgstr ""
+
+msgid "Open"
+msgstr ""
+
+msgid "Open Basedir disabled on selected domains"
+msgstr ""
+
+msgid "Open Basedir enabled on selected domains"
+msgstr ""
+
+msgid "Open+Confirm"
+msgstr ""
+
+msgid "Operation"
+msgstr ""
+
+msgid "Optimize"
+msgstr ""
+
+#, c-format
+msgid "Option '%s' has already been set"
+msgstr ""
+
+msgid "Options"
+msgstr ""
+
+msgid "Options changed successfully"
+msgstr ""
+
+msgid "Order"
+msgstr ""
+
+msgid "Order (when the first sort values are equal)"
+msgstr ""
+
+msgid "Original Package"
+msgstr ""
+
+msgid "Other"
+msgstr ""
+
+msgid "Other Disk Usage"
+msgstr ""
+
+msgid "Other Usage"
+msgstr ""
+
+msgid "Outlook Settings"
+msgstr ""
+
+msgid "Overview"
+msgstr ""
+
+msgid "Owner"
+msgstr ""
+
+#, c-format
+msgid "Owner of global IP swapped to Admin %s"
+msgstr ""
+
+msgid "PHP"
+msgstr ""
+
+msgid "PHP Configuration"
+msgstr ""
+
+msgid "PHP Script Name"
+msgstr ""
+
+msgid "PHP Version Selector"
+msgstr ""
+
+msgid "PHP versions saved"
+msgstr ""
+
+msgid "PID"
+msgstr ""
+
+#, c-format
+msgid "PID '%s' is not a number"
+msgstr ""
+
+msgid "POP Email Accounts"
+msgstr ""
+
+msgid "POP/IMAP Server"
+msgstr ""
+
+msgid "Package"
+msgstr ""
+
+#, c-format
+msgid "Package '%s' already exists"
+msgstr ""
+
+#, c-format
+msgid "Package '%s' does not exist"
+msgstr ""
+
+#, c-format
+msgid "Package '%s' is not in your list"
+msgstr ""
+
+msgid "Package not found"
+msgstr ""
+
+msgid "Page"
+msgstr ""
+
+#, c-format
+msgid "Parent directory %s was created."
+msgstr ""
+
+msgid "Parsing Error. Check logs"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Password Changed"
+msgstr ""
+
+#, c-format
+msgid "Password Changed: %s"
+msgstr ""
+
+msgid "Password Not Changed"
+msgstr ""
+
+msgid "Password Protected Directories"
+msgstr ""
+
+msgid "Password Saved!"
+msgstr ""
+
+msgid "Password cannot contain single quotes"
+msgstr ""
+
+msgid "Password is not valid"
+msgstr ""
+
+msgid "Password is too long"
+msgstr ""
+
+msgid "Password is too long for the database"
+msgstr ""
+
+msgid "Password is too short"
+msgstr ""
+
+#, c-format
+msgid "Password is too short (%d).  Use at least %d characters"
+msgstr ""
+
+#, c-format
+msgid "Password must be more than %d characters"
+msgstr ""
+
+msgid "Password/Quota"
+msgstr ""
+
+msgid "Password:"
+msgstr ""
+
+msgid "Passwords do not match"
+msgstr ""
+
+msgid "Passwords do not match or are invalid"
+msgstr ""
+
+msgid "Path"
+msgstr ""
+
+#, c-format
+msgid "Path %s does not exist or is not accessible by the %s user."
+msgstr ""
+
+#, c-format
+msgid ""
+"Path '%s' already exists before User creation. Please remove/rename this "
+"path first."
+msgstr ""
+
+msgid "Path does not exist"
+msgstr ""
+
+#, c-format
+msgid "Path must start with '%s'"
+msgstr ""
+
+msgid "Path must start with a forward slash (/)"
+msgstr ""
+
+msgid "Paths Unblocked"
+msgstr ""
+
+msgid "Paths must be within your home directory"
+msgstr ""
+
+msgid "Percent"
+msgstr ""
+
+#, no-c-format
+msgid "Percent must end with a % character"
+msgstr ""
+
+#, c-format
+msgid "Percent of CPU Core. >100% for more cores."
+msgstr ""
+
+#, c-format
+msgid "Percentage must be between %d and %d, inclusive"
+msgstr ""
+
+msgid "Perl Modules"
+msgstr ""
+
+msgid "Perm."
+msgstr ""
+
+msgid "Permissions set"
+msgstr ""
+
+msgid "Php Settings"
+msgstr ""
+
+msgid "Php is not enabled"
+msgstr ""
+
+msgid "Please answer this Security Question"
+msgstr ""
+
+#, c-format
+msgid ""
+"Please check the zone for %s to ensure the nameserver A records are correct."
+msgstr ""
+
+msgid "Please confirm you wish to delete your DNSSEC data"
+msgstr ""
+
+#, c-format
+msgid "Please contact %s for more info."
+msgstr ""
+
+msgid "Please enter your Username and Password"
+msgstr ""
+
+msgid "Please generate a secret before adding the scratch codes"
+msgstr ""
+
+msgid "Please pick only one skin to apply"
+msgstr ""
+
+#, c-format
+msgid "Please provide an '%s'"
+msgstr ""
+
+msgid "Please redirect accordingly"
+msgstr ""
+
+#, c-format
+msgid "Please see this URL and check for curl exit code '(%d)': %s"
+msgstr ""
+
+msgid "Please select 1 Security Question"
+msgstr ""
+
+msgid "Please select 1 domain to be your default domain"
+msgstr ""
+
+msgid "Please select at least one User"
+msgstr ""
+
+msgid "Please select at least one domains"
+msgstr ""
+
+msgid "Please select at least one file"
+msgstr ""
+
+msgid "Please select at least one item"
+msgstr ""
+
+msgid "Please select at least one package"
+msgstr ""
+
+msgid "Please select at least one widget"
+msgstr ""
+
+msgid "Please select more than zero files to extract from the archive"
+msgstr ""
+
+msgid "Please select one or more Databases"
+msgstr ""
+
+msgid "Please select only 1 cronjob to edit"
+msgstr ""
+
+#, c-format
+msgid "Please set a limit between 1 and %d"
+msgstr ""
+
+msgid "Please specify 'who' to get"
+msgstr ""
+
+msgid "Please specify add or delete"
+msgstr ""
+
+#, c-format
+msgid "Please unlink all IPs from '%s' prior to deleting it."
+msgstr ""
+
+msgid "Please use all lower case characters in the username"
+msgstr ""
+
+msgid "Plugin Manager"
+msgstr ""
+
+msgid "Plugin Uploaded"
+msgstr ""
+
+msgid "Plugin(s) Installed"
+msgstr ""
+
+msgid "Plugin(s) Un-Installed"
+msgstr ""
+
+msgid "Plugin(s) Updated"
+msgstr ""
+
+msgid "Plugins"
+msgstr ""
+
+#, c-format
+msgid "Pointer '%s' does not belong to you."
+msgstr ""
+
+msgid "Pop"
+msgstr ""
+
+msgid "Post Scripts"
+msgstr ""
+
+msgid "Post scripts"
+msgstr ""
+
+msgid "Pre-backup hard-link check"
+msgstr ""
+
+msgid "Preparing 'domains' data"
+msgstr ""
+
+msgid "Preparing data (no 'domains')"
+msgstr ""
+
+msgid "Present"
+msgstr ""
+
+msgid ""
+"Preserving the web data only applies to /domains/domain.com. Other areas "
+"like E-Mail data will not be preserved."
+msgstr ""
+
+msgid "Print"
+msgstr ""
+
+msgid "Priority"
+msgstr ""
+
+msgid "Private Directory"
+msgstr ""
+
+msgid "Privileges"
+msgstr ""
+
+#, c-format
+msgid "Process ID %d is not 'dataskq'. It's '%s'"
+msgstr ""
+
+msgid "Process Monitor"
+msgstr ""
+
+msgid "Process is running"
+msgstr ""
+
+msgid "Process is stopped"
+msgstr ""
+
+msgid "Processor Name"
+msgstr ""
+
+msgid "Processor Speed (MHz)"
+msgstr ""
+
+msgid "Progress"
+msgstr ""
+
+msgid "Protect"
+msgstr ""
+
+msgid "Protected directory name contains invalid characters. Keep it simple"
+msgstr ""
+
+msgid ""
+"Protecting directories has been disabled with the "
+"filemanager_disable_features option"
+msgstr ""
+
+msgid "Provide either an IP, an IP range, domain, or wildcard domain."
+msgstr ""
+
+msgid "Provided password is not correct."
+msgstr ""
+
+msgid "Provided value is not a Username or Email address"
+msgstr ""
+
+msgid "Provided value is not valid."
+msgstr ""
+
+msgid "Proxy socket address"
+msgstr ""
+
+msgid "Publish"
+msgstr ""
+
+msgid "Purge"
+msgstr ""
+
+msgid "Purge Archives"
+msgstr ""
+
+msgid "Purge From"
+msgstr ""
+
+#, c-format
+msgid "Purge in %s"
+msgstr ""
+
+msgid "Ranges must be put in \"quotes\""
+msgstr ""
+
+msgid "Re-sign your zone."
+msgstr ""
+
+#, c-format
+msgid "Read error with %s: %s"
+msgstr ""
+
+msgid "Reason:"
+msgstr ""
+
+msgid "Reboot"
+msgstr ""
+
+msgid "Receive all multicast packets."
+msgstr ""
+
+msgid "Received"
+msgstr ""
+
+msgid "Received Emails"
+msgstr ""
+
+msgid "Reconfiguration Error"
+msgstr ""
+
+msgid "Record Added"
+msgstr ""
+
+msgid "Record Edited"
+msgstr ""
+
+msgid "Records Deleted"
+msgstr ""
+
+msgid "Recursive"
+msgstr ""
+
+#, c-format
+msgid "Recursive search at max depth on %s"
+msgstr ""
+
+msgid "Recursively"
+msgstr ""
+
+msgid ""
+"Recursively resetting ownership has been disabled with the "
+"filemanager_disable_features option"
+msgstr ""
+
+msgid "Redirect Added"
+msgstr ""
+
+msgid "Redirect URL"
+msgstr ""
+
+msgid "Redirect(s) deleted"
+msgstr ""
+
+msgid "Redis"
+msgstr ""
+
+msgid "Refresh"
+msgstr ""
+
+msgid "Related"
+msgstr ""
+
+msgid "Reload"
+msgstr ""
+
+msgid "Reload requested"
+msgstr ""
+
+msgid "Remote Mail"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Remove DNS records for IP(s)"
+msgstr ""
+
+msgid "Remove DNSSEC"
+msgstr ""
+
+msgid "Remove Directory Contents"
+msgstr ""
+
+msgid "Remove From Skip List"
+msgstr ""
+
+msgid "Remove from reseller"
+msgstr ""
+
+#, c-format
+msgid "Removed user from %s's list"
+msgstr ""
+
+msgid "Rename"
+msgstr ""
+
+msgid "Rename Domain"
+msgstr ""
+
+msgid ""
+"Renaming files has been disabled with the filemanager_disable_features option"
+msgstr ""
+
+msgid "Repair"
+msgstr ""
+
+msgid "Replies"
+msgstr ""
+
+msgid "Reply"
+msgstr ""
+
+msgid "Reply Sent"
+msgstr ""
+
+msgid "Report of false password reset request"
+msgstr ""
+
+msgid "Report sent to the server admins"
+msgstr ""
+
+msgid "Request added to task.queue"
+msgstr ""
+
+#, c-format
+msgid "Request: %s"
+msgstr ""
+
+#, c-format
+msgid "Requested LetsEncrypt value of '%s' is not an allowed value."
+msgstr ""
+
+#, c-format
+msgid "Requested filesize (%lld) exceeds the maxfilesize value (%lld)"
+msgstr ""
+
+#, c-format
+msgid "Required: '%s' or '%s'"
+msgstr ""
+
+msgid "Reseller"
+msgstr ""
+
+msgid "Reseller Bandwidth"
+msgstr ""
+
+msgid "Reseller History"
+msgstr ""
+
+msgid "Reseller IP Management"
+msgstr ""
+
+msgid "Reseller Plugins"
+msgstr ""
+
+msgid "Reseller Quota"
+msgstr ""
+
+msgid "Reseller Resource Limits"
+msgstr ""
+
+msgid "Reseller Statistics"
+msgstr ""
+
+msgid "Reseller created"
+msgstr ""
+
+msgid "Reseller deleted"
+msgstr ""
+
+msgid "Reseller is assigned zero IP's. Cannot create a domain without an ip."
+msgstr ""
+
+#, c-format
+msgid "Reseller only got %s of their %s ip."
+msgid_plural "Reseller only got %s of their %s ips."
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Reseller's IP"
+msgstr ""
+
+msgid "Reseller::add_widgets_to_acccounts: Invalid widget level"
+msgstr ""
+
+msgid "Reseller::delete_widgets_from_accounts: Invalid widget level"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "Reset Owner"
+msgstr ""
+
+msgid "Reset Ownership"
+msgstr ""
+
+msgid "Reset Today"
+msgstr ""
+
+msgid "Reset Uses"
+msgstr ""
+
+msgid ""
+"Resetting file ownership has been disabled with the "
+"filemanager_disable_features option"
+msgstr ""
+
+msgid "Resources allocated."
+msgstr ""
+
+msgid "Restart"
+msgstr ""
+
+msgid "Restore"
+msgstr ""
+
+msgid "Restore Complete!"
+msgstr ""
+
+#, c-format
+msgid "Restore Error with Nginx Unit: %s"
+msgstr ""
+
+#, c-format
+msgid ""
+"Restore of account '%s' to creator '%s' has been denied, as this account "
+"already exists under the control of creator '%s'"
+msgstr ""
+
+msgid "Restore will run in the background"
+msgstr ""
+
+msgid "Restores added to Queue"
+msgstr ""
+
+msgid "Restoring Databases"
+msgstr ""
+
+msgid "Restoring Domains Data"
+msgstr ""
+
+msgid "Restoring E-Mail Data"
+msgstr ""
+
+msgid "Restoring E-Mail Settings"
+msgstr ""
+
+msgid "Restoring Extra Admin Data"
+msgstr ""
+
+msgid "Restoring Extra Reseller Data"
+msgstr ""
+
+msgid "Restoring Extra User Data"
+msgstr ""
+
+msgid "Restoring FTP"
+msgstr ""
+
+msgid "Restoring extra E-Mail items"
+msgstr ""
+
+msgid ""
+"Restoring files has been disabled with the filemanager_disable_features "
+"option"
+msgstr ""
+
+msgid "Result"
+msgstr ""
+
+msgid "Result of file copy"
+msgstr ""
+
+msgid "Result of file move"
+msgstr ""
+
+msgid "Results"
+msgstr ""
+
+msgid "Retries"
+msgstr ""
+
+msgid "Retry"
+msgstr ""
+
+#, c-format
+msgid "Return code 3XX(%d) requires a location"
+msgstr ""
+
+#, c-format
+msgid "Return code: %s"
+msgstr ""
+
+msgid "Return with httpd code"
+msgstr ""
+
+msgid ""
+"Revoking all privileges would delete the User from the mysql.db. Please "
+"grant at least 1 privilege."
+msgstr ""
+
+msgid "Rewrite Apache"
+msgstr ""
+
+msgid "RoundCube missing direct_login option. Please re-install RoundCube."
+msgstr ""
+
+#, c-format
+msgid "Route '%s' does not end with '%s'"
+msgstr ""
+
+msgid "Rules Reset"
+msgstr ""
+
+msgid "Run Now"
+msgstr ""
+
+msgid "Running"
+msgstr ""
+
+msgid "SMTP Log"
+msgstr ""
+
+msgid "SMTP Server"
+msgstr ""
+
+msgid "SNI Host"
+msgstr ""
+
+msgid "SNI is disabled for this domain"
+msgstr ""
+
+msgid "SSH Key Modified"
+msgstr ""
+
+msgid "SSH Key authorized"
+msgstr ""
+
+msgid "SSH Key created"
+msgstr ""
+
+msgid "SSH Key deleted"
+msgstr ""
+
+msgid "SSH Keys"
+msgstr ""
+
+msgid "SSH is not enabled"
+msgstr ""
+
+msgid "SSL Certificates"
+msgstr ""
+
+msgid "SSL is not enabled for this domain"
+msgstr ""
+
+msgid "Safe Mode Disabled on selected domains"
+msgstr ""
+
+msgid "Safe Mode Enabled on selected domains"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Save Awstats"
+msgstr ""
+
+msgid "Save Comments"
+msgstr ""
+
+msgid "Save E-Mail"
+msgstr ""
+
+msgid "Save Increase"
+msgstr ""
+
+msgid "Save Language"
+msgstr ""
+
+msgid "Save Limit"
+msgstr ""
+
+msgid "Save Limit Notice"
+msgstr ""
+
+msgid "Save Name"
+msgstr ""
+
+msgid "Save Nameservers"
+msgstr ""
+
+msgid "Save Skin"
+msgstr ""
+
+msgid ""
+"Saving/Editing files has been disabled with the filemanager_disable_features "
+"option"
+msgstr ""
+
+msgid "Scratch Codes"
+msgstr ""
+
+msgid "Scratch codes"
+msgstr ""
+
+msgid "Script output"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "SecRuleRemoveById id is blank"
+msgstr ""
+
+msgid "Second PHP"
+msgstr ""
+
+msgid "Secure Socket Layer (ssl)"
+msgstr ""
+
+#, c-format
+msgid "Secured Home of %s"
+msgstr ""
+
+#, c-format
+msgid "Security Answer is too long max=%d"
+msgstr ""
+
+msgid "Security Question"
+msgstr ""
+
+msgid "Security Question set"
+msgstr ""
+
+msgid "Security Questions"
+msgstr ""
+
+msgid "Security Questions are disabled"
+msgstr ""
+
+msgid "Security Questions deleted"
+msgstr ""
+
+#, c-format
+msgid "See %sthis guide%s to fix it."
+msgstr ""
+
+msgid "Select"
+msgstr ""
+
+msgid "Select MX Template"
+msgstr ""
+
+#, c-format
+msgid "Select an IP to Link to %s"
+msgstr ""
+
+msgid "Selected Content-Type is not valid."
+msgstr ""
+
+msgid "Selected Data"
+msgstr ""
+
+msgid "Selected Plugins Activated"
+msgstr ""
+
+msgid "Selected Plugins De-Activated"
+msgstr ""
+
+msgid "Selected Plugins Deleted"
+msgstr ""
+
+msgid "Selected Users"
+msgstr ""
+
+msgid "Selected character-set encoding is not valid."
+msgstr ""
+
+msgid "Send Count"
+msgstr ""
+
+msgid "Send Signal"
+msgstr ""
+
+msgid "Send a Message"
+msgstr ""
+
+msgid "Send limit must be a valid number, or blank."
+msgstr ""
+
+msgid "Sender"
+msgstr ""
+
+msgid "Sender Host"
+msgstr ""
+
+#, c-format
+msgid "Sender domain must match the list domain '%s', or use '%s'"
+msgstr ""
+
+msgid "Sent"
+msgstr ""
+
+msgid "Sent E-mails"
+msgstr ""
+
+msgid "Sent Emails"
+msgstr ""
+
+msgid "Sep"
+msgstr ""
+
+msgid "Server"
+msgstr ""
+
+msgid "Server History"
+msgstr ""
+
+msgid "Server Path"
+msgstr ""
+
+msgid "Service"
+msgstr ""
+
+msgid "Service Monitor"
+msgstr ""
+
+msgid "Set"
+msgstr ""
+
+msgid "Set 0 for unlimited.  Set a blank value to reset to default."
+msgstr ""
+
+msgid "Set Global"
+msgstr ""
+
+msgid "Set Global Shared"
+msgstr ""
+
+msgid "Set as Default"
+msgstr ""
+
+msgid "Set selected domains to be publicly viewable from"
+msgstr ""
+
+msgid "Set selected to"
+msgstr ""
+
+msgid "Set to"
+msgstr ""
+
+msgid "Setting"
+msgstr ""
+
+msgid "Setting changed"
+msgstr ""
+
+msgid ""
+"Setting file/directory permissions has been disabled with the "
+"filemanager_disable_features option"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Settings Saved"
+msgstr ""
+
+msgid "Share Selected"
+msgstr ""
+
+msgid "Share a static path"
+msgstr ""
+
+msgid "Shared"
+msgstr ""
+
+msgid "Shared - randomly selected"
+msgstr ""
+
+msgid "Shell Access (ssh)"
+msgstr ""
+
+msgid "Shell for Resellers's Users"
+msgstr ""
+
+msgid "Show"
+msgstr ""
+
+msgid "Show All Users"
+msgstr ""
+
+msgid "Show Domain"
+msgstr ""
+
+msgid "Sign"
+msgstr ""
+
+msgid "Signed"
+msgstr ""
+
+msgid "Site Redirection"
+msgstr ""
+
+msgid "Site Summary / Statistics / Logs"
+msgstr ""
+
+msgid "Size"
+msgstr ""
+
+msgid "Size is not a number"
+msgstr ""
+
+msgid "Skin"
+msgstr ""
+
+#, c-format
+msgid "Skin '%s' does not have any custom color variables to set"
+msgstr ""
+
+msgid "Skin Installed"
+msgstr ""
+
+msgid "Skin Name"
+msgstr ""
+
+msgid "Skin Owner"
+msgstr ""
+
+msgid "Skin Set"
+msgstr ""
+
+msgid "Skin applied to all users"
+msgstr ""
+
+msgid "Skin has been customized"
+msgstr ""
+
+msgid "Skin has been successfully changed"
+msgstr ""
+
+msgid "Skins"
+msgstr ""
+
+msgid "Skins Deleted"
+msgstr ""
+
+msgid "Skip Suspended"
+msgstr ""
+
+msgid "Skipped rule added"
+msgstr ""
+
+msgid "Skipping system E-Mail account"
+msgstr ""
+
+msgid "Slave of a load balancing bundle."
+msgstr ""
+
+msgid "Sorry, this function does not support domain pointers at this time"
+msgstr ""
+
+msgid "Sort"
+msgstr ""
+
+msgid "Sort Selected Column in"
+msgstr ""
+
+msgid "Source Domain"
+msgstr ""
+
+msgid "Spam"
+msgstr ""
+
+msgid "Spam Filters"
+msgstr ""
+
+msgid "SpamAassassin is disabled on your account"
+msgstr ""
+
+msgid "SpamAssassin"
+msgstr ""
+
+msgid "Spamassassin disabled"
+msgstr ""
+
+msgid "Spambox"
+msgstr ""
+
+msgid "Spamd is not running on your system."
+msgstr ""
+
+msgid "Splitting error for unix socket"
+msgstr ""
+
+msgid "Ssl"
+msgstr ""
+
+msgid "Start"
+msgstr ""
+
+msgid "Start Time"
+msgstr ""
+
+msgid "Start Time must be before End Time."
+msgstr ""
+
+msgid "State/Province must only contain letters, spaces and/or periods"
+msgstr ""
+
+msgid "Stats links created"
+msgstr ""
+
+msgid "Stats links removed"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Sticky bit's not allowed: 777 is the max allowed permission"
+msgstr ""
+
+msgid "Stop"
+msgstr ""
+
+msgid "Stopped"
+msgstr ""
+
+msgid "String contains an invalid email address"
+msgstr ""
+
+msgid "Sub Domains"
+msgstr ""
+
+msgid "Sub Sort"
+msgstr ""
+
+msgid "Sub Sort Selected Column in"
+msgstr ""
+
+msgid "Sub-domain is forbidden"
+msgstr ""
+
+msgid "SubDomain Name"
+msgstr ""
+
+msgid "Subdomain Created"
+msgstr ""
+
+msgid "Subdomain Removed"
+msgstr ""
+
+msgid "Subdomain Stats"
+msgstr ""
+
+msgid "Subdomain already exists"
+msgstr ""
+
+msgid "Subdomain created"
+msgstr ""
+
+msgid "Subdomain does not exist"
+msgstr ""
+
+#, c-format
+msgid "Subdomain name too long. Maximum %d characters."
+msgstr ""
+
+msgid "Subdomains"
+msgstr ""
+
+msgid "Subdomains Removed"
+msgstr ""
+
+msgid "Subdomains deleted"
+msgstr ""
+
+msgid "Subject"
+msgstr ""
+
+msgid "Subject Contains"
+msgstr ""
+
+#, c-format
+msgid "Subject prefix contains invalid characters. Use %s"
+msgstr ""
+
+msgid "Submit"
+msgstr ""
+
+msgid "Subscriber"
+msgstr ""
+
+msgid "Subscribers"
+msgstr ""
+
+msgid "Success"
+msgstr ""
+
+#, c-format
+msgid "Success with %s of selected widgets"
+msgstr ""
+
+#, c-format
+msgid "Success with '%s'"
+msgstr ""
+
+msgid "Supports multicast"
+msgstr ""
+
+msgid "Suspend"
+msgstr ""
+
+msgid "Suspend / Unsuspend"
+msgstr ""
+
+msgid "Suspend Reason"
+msgstr ""
+
+msgid "Suspend at Limit"
+msgstr ""
+
+msgid "Suspended"
+msgstr ""
+
+msgid "Syntax check has been disabled"
+msgstr ""
+
+msgid "System Backup"
+msgstr ""
+
+msgid "System Info"
+msgstr ""
+
+msgid "System Information"
+msgstr ""
+
+msgid "System Rebooting Now!"
+msgstr ""
+
+msgid "System Uptime"
+msgstr ""
+
+#, c-format
+msgid ""
+"System account exists, but unable to read the User data files for user %s"
+msgstr ""
+
+msgid "Systems Quotas are size 0."
+msgstr ""
+
+msgid "TB"
+msgstr ""
+
+msgid "TTL has been saved"
+msgstr ""
+
+msgid "Table"
+msgstr ""
+
+msgid "Tail"
+msgstr ""
+
+msgid "Tasks Max"
+msgstr ""
+
+#, c-format
+msgid "Temp file %s is 0 bytes after writing to disk.  Will not rename it."
+msgstr ""
+
+msgid "Template does not exist"
+msgstr ""
+
+msgid "Temporary Bandwidth Increase"
+msgstr ""
+
+#, c-format
+msgid ""
+"Temporary account action lock in place.  There might be some other process "
+"working on the account.  This should last no more than %d minutes"
+msgstr ""
+
+msgid "Temporary bandwidth increase has been set"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "Text contains invalid characters"
+msgstr ""
+
+msgid "That ID is not of type 'admin'"
+msgstr ""
+
+msgid "That IP already exists on the domain"
+msgstr ""
+
+msgid "That IP does not exist"
+msgstr ""
+
+msgid "That IP does not exist in your User's IP list"
+msgstr ""
+
+msgid "That IP does not exist in your list"
+msgstr ""
+
+msgid "That IP is already in your list of Additional IPs"
+msgstr ""
+
+msgid "That IP is already owned"
+msgstr ""
+
+msgid "That IP is not available for linking"
+msgstr ""
+
+msgid "That User already exists on another server"
+msgstr ""
+
+msgid "That database already exists"
+msgstr ""
+
+msgid "That database does not belong to you"
+msgstr ""
+
+msgid "That database does not exist"
+msgstr ""
+
+msgid "That domain already exists"
+msgstr ""
+
+msgid "That domain already exists on another server"
+msgstr ""
+
+msgid "That domain does not belong to you"
+msgstr ""
+
+msgid "That domain does not exist"
+msgstr ""
+
+msgid "That domain is on the forbidden domains list"
+msgstr ""
+
+msgid "That domain is suspended.  Unsuspend it before changing it's name"
+msgstr ""
+
+msgid "That email user does not exist"
+msgstr ""
+
+msgid "That file was empty"
+msgstr ""
+
+msgid "That filter already exists"
+msgstr ""
+
+msgid "That ftp_password file does not exist"
+msgstr ""
+
+msgid "That is an invalid email address / email list"
+msgstr ""
+
+msgid "That is an invalid filename"
+msgstr ""
+
+msgid "That is not a valid access host"
+msgstr ""
+
+msgid ""
+"That is not a valid path.  Either it is not in your home directory, it "
+"contains symbolic links, or it contains invalid characters"
+msgstr ""
+
+msgid ""
+"That is not a valid path.  Either it is not in your home directory, it "
+"doesn't exist, it contains symbolic links, or it contains invalid characters"
+msgstr ""
+
+msgid "That is not a valid quota"
+msgstr ""
+
+msgid "That is not a valid username"
+msgstr ""
+
+msgid "That is not your domain"
+msgstr ""
+
+msgid "That is not your system password"
+msgstr ""
+
+msgid ""
+"That is the hostname which is reserved. Either change the hostname, or use a "
+"different domain"
+msgstr ""
+
+msgid "That isn't a gzip file"
+msgstr ""
+
+msgid "That key does not exist"
+msgstr ""
+
+msgid "That password is incorrect"
+msgstr ""
+
+msgid "That path isn't protectable"
+msgstr ""
+
+msgid "That pop account doesn't exist"
+msgstr ""
+
+#, c-format
+msgid "That skin cannot be customized. It's skin.conf requires %s"
+msgstr ""
+
+msgid "That skin does not exist"
+msgstr ""
+
+msgid "That skin is not in your list"
+msgstr ""
+
+msgid "That skin name already exists in your Reseller skin list"
+msgstr ""
+
+msgid "That user already Exists"
+msgstr ""
+
+msgid "That user already exists"
+msgstr ""
+
+#, c-format
+msgid ""
+"That user contains the ftp separator (%c) which cannot be in the username."
+msgstr ""
+
+msgid "That user does not belong to you"
+msgstr ""
+
+msgid "That user does not exist"
+msgstr ""
+
+msgid ""
+"That user does not exist, please create the user before changing their "
+"privileges"
+msgstr ""
+
+msgid "That user doesn't exist"
+msgstr ""
+
+msgid "That user is reserved for the anonymous account"
+msgstr ""
+
+msgid "That username already exists on the system"
+msgstr ""
+
+msgid "That username is a reserved system name"
+msgstr ""
+
+msgid "That zone already exists"
+msgstr ""
+
+msgid "Thats a reserved skin name."
+msgstr ""
+
+#, c-format
+msgid "The %s backups have been created in %s"
+msgstr ""
+
+msgid "The 'ttl' value passed is not a number or is too large"
+msgstr ""
+
+msgid "The Administrator has disabled the User Backup Function"
+msgstr ""
+
+msgid ""
+"The CA Certificate will not be used.  The file will remain, but will not be "
+"included."
+msgstr ""
+
+msgid ""
+"The CC value entered will create an infinite loop.  Please use a different "
+"CC value."
+msgstr ""
+
+#, c-format
+msgid "The E-Mail '%s' contains invalid characters"
+msgstr ""
+
+#, c-format
+msgid "The IP %s does not exist. User %s will not be created"
+msgstr ""
+
+#, c-format
+msgid "The IP %s has provided the correct password for the %s account."
+msgstr ""
+
+#, c-format
+msgid "The OS being updated %s has expired. No further updates can be done"
+msgstr ""
+
+msgid "The Ticket System is not enabled."
+msgstr ""
+
+msgid "The User backups have been uploaded to"
+msgstr ""
+
+#, c-format
+msgid "The User files have been restored from %s"
+msgstr ""
+
+msgid "The Users display cache will be updated momentarily."
+msgstr ""
+
+msgid "The addresses are lost when the interface goes down."
+msgstr ""
+
+msgid ""
+"The cache is being updated, the current values may not be correct. Please "
+"refresh the page in 1 minute."
+msgstr ""
+
+msgid ""
+"The certificate and key do not match.  Please ensure you are using the "
+"correct key with this certificate"
+msgstr ""
+
+msgid ""
+"The clipboard has been disabled with the filemanager_disable_features option"
+msgstr ""
+
+msgid "The code is valid, but for a different time."
+msgstr ""
+
+msgid "The command cannot contain any newline characters"
+msgstr ""
+
+#, c-format
+msgid "The database '%s' does not belong to you"
+msgstr ""
+
+msgid "The day of month is not a valid cron value (1-31)"
+msgstr ""
+
+msgid "The day of week is not a valid cron value (0-7)"
+msgstr ""
+
+msgid "The default has been set"
+msgstr ""
+
+#, c-format
+msgid ""
+"The directory %s seems to be owned by 'apache'.  Try using the 'Reset Owner' "
+"option, then try again."
+msgstr ""
+
+#, c-format
+msgid ""
+"The disk usage for the selected Users totals more than %d MB, thus will be "
+"removed in the background."
+msgstr ""
+
+#, c-format
+msgid "The domain %s does not belong to you."
+msgstr ""
+
+#, c-format
+msgid ""
+"The domain %s does not belong to you. The subdomain will not be created."
+msgstr ""
+
+msgid ""
+"The domain entered is invalid.  It must be of the form 'sourcedomain.com'"
+msgstr ""
+
+msgid "The domain must not match your hostname."
+msgstr ""
+
+#, c-format
+msgid ""
+"The download of %s has failed the md5sum check. Please check the file and "
+"retry the update again.  Not extracted."
+msgstr ""
+
+msgid "The e-mail containing your new password has been sent."
+msgstr ""
+
+msgid "The email address provided is not a valid email address"
+msgstr ""
+
+msgid "The entered path must be a-zA-Z0-9"
+msgstr ""
+
+msgid "The expiry entered is too far in the future"
+msgstr ""
+
+#, c-format
+msgid "The file %s has more than 1 hard link"
+msgstr ""
+
+msgid "The file is generated when the account is reset."
+msgstr ""
+
+msgid "The file must be of the form: type.creator.username.tar.gz"
+msgstr ""
+
+msgid "The file must be of the form: username.tar.gz"
+msgstr ""
+
+#, c-format
+msgid "The file: '%s' is not in the form username.tar.gz"
+msgstr ""
+
+msgid "The following file could not be found.  No reset required"
+msgstr ""
+
+#, c-format
+msgid "The following hard links have been found under User %s:"
+msgstr ""
+
+msgid "The following test database tables have been found:"
+msgstr ""
+
+#, c-format
+msgid "The ftp user %s does not exist in passwd file %s"
+msgstr ""
+
+msgid "The full format name entered does not end with the name of the zone"
+msgstr ""
+
+msgid "The local url path or the destination url is invalid."
+msgstr ""
+
+msgid "The location has not changed"
+msgstr ""
+
+msgid "The lost password feature is disabled"
+msgstr ""
+
+msgid "The max upload size cannot be 0"
+msgstr ""
+
+#, c-format
+msgid "The maximum for %s is %s"
+msgstr ""
+
+#, c-format
+msgid "The maximum value is %d"
+msgstr ""
+
+#, c-format
+msgid "The minimum for %s is %s"
+msgstr ""
+
+msgid "The month is not a valid cron value (1-12)"
+msgstr ""
+
+msgid "The name you've entered contains invalid characters"
+msgstr ""
+
+msgid "The new key was created, but there was an issue during authorization"
+msgstr ""
+
+msgid "The new passwords do not match"
+msgstr ""
+
+msgid "The number and type of ticket is required"
+msgstr ""
+
+#, c-format
+msgid "The owner of %s is not %s"
+msgstr ""
+
+msgid "The password changing feature has been disabled"
+msgstr ""
+
+#, c-format
+msgid "The path %s already exists"
+msgstr ""
+
+msgid "The path already exists, but is not a directory"
+msgstr ""
+
+msgid ""
+"The process is currently being used to execute this request so it will be "
+"executed shortly by the Task Queue."
+msgstr ""
+
+msgid "The provided IP is not valid"
+msgstr ""
+
+msgid "The provided domain name matches your hostname."
+msgstr ""
+
+msgid "The question was"
+msgstr ""
+
+#, c-format
+msgid "The referer request set (%s) is not in the allowed list: %s"
+msgstr ""
+
+#, c-format
+msgid "The referer used is not safe as it can be controlled by a User: %s"
+msgstr ""
+
+msgid ""
+"The request you've made cannot be executed because it does not exist in your "
+"authority level"
+msgstr ""
+
+msgid "The requested command requires POST but GET was used"
+msgstr ""
+
+msgid ""
+"The skin package did not install properly.  Either there were files missing, "
+"or their permissions were incorrectly set"
+msgstr ""
+
+msgid "The sql file is 0 bytes in size:"
+msgstr ""
+
+#, c-format
+msgid "The subdomain '%s' already exists under the %s domain"
+msgstr ""
+
+msgid ""
+"The times must formatted like one of the following (eg. hour, no spaces)"
+msgstr ""
+
+msgid "The update is not allowed to be downloaded."
+msgstr ""
+
+#, c-format
+msgid "The user %s does not belong to you"
+msgstr ""
+
+#, c-format
+msgid "The user %s does not exist"
+msgstr ""
+
+#, c-format
+msgid ""
+"The username is invalid. Usernames must start with a-z, contain >= 3 "
+"characters and <= %d."
+msgstr ""
+
+msgid "The username is invalid. Usernames must use a-z0-9"
+msgstr ""
+
+msgid "The value must be an IP address"
+msgstr ""
+
+msgid "The very last entry."
+msgstr ""
+
+msgid "The welcome email(s) has successfully been resent."
+msgstr ""
+
+msgid "There are no messages for that ticket"
+msgstr ""
+
+#, c-format
+msgid ""
+"There are still Users on %s.  Remove them from the IP first and set it to "
+"'free'."
+msgstr ""
+
+#, c-format
+msgid ""
+"There have been %d renew failures, thus no more attempts will be made.%s"
+msgstr ""
+
+msgid "There is already a CNAME record with that name"
+msgstr ""
+
+msgid "There is already a mailing list alias with that name"
+msgstr ""
+
+msgid "There is already an A record with that name"
+msgstr ""
+
+msgid "There is already an account with that name"
+msgstr ""
+
+msgid "There is already an autoresponder with that name"
+msgstr ""
+
+#, c-format
+msgid "There is not sufficient space on %s to upload %lld bytes of data"
+msgstr ""
+
+#, c-format
+msgid "There is only 1 %s record for %s=%s, not removing it"
+msgstr ""
+
+msgid ""
+"There were md5 errors from all servers, above.  Please send report to "
+"DirectAdmin Support."
+msgstr ""
+
+msgid "These are dynamic values. They change with the date."
+msgstr ""
+
+msgid "They should not exist. To delete them, run:"
+msgstr ""
+
+#, c-format
+msgid ""
+"This OS is now End-Of-Life and no further updates are availble. The "
+"automated updater will no longer accept request after %s (manual attempts "
+"can be done with https://help.directadmin.com/item.php?id=29) but may not do "
+"anything."
+msgstr ""
+
+msgid "This OS is now end-of-life. Future automated updates may fail."
+msgstr ""
+
+#, c-format
+msgid ""
+"This Reseller account is unable to allocate unlimited %s, yet that amount "
+"has alredy been allocated."
+msgstr ""
+
+msgid ""
+"This account already exists on the system. If you restore, it will overwrite "
+"and/or merge the data."
+msgstr ""
+
+msgid "This account is blocked via BlockCracking."
+msgstr ""
+
+msgid "This account is blocked via BlockCracking. Unblocking is disabled."
+msgstr ""
+
+msgid ""
+"This domain will now temporarily use the Shared Server Certificate, unless "
+"you restore the backup key (but backup the new key first or it will become "
+"lost)"
+msgstr ""
+
+msgid "This hash has already been converted to a key."
+msgstr ""
+
+msgid "This is a Hash URL login. You can delete it, but you cannot modify it."
+msgstr ""
+
+msgid "This is a placeholder for the subdomain"
+msgstr ""
+
+msgid "This is information about my mailing list"
+msgstr ""
+
+msgid "This may give unexpected results"
+msgstr ""
+
+msgid "This may give unexpected results."
+msgstr ""
+
+msgid "This plugin has been disabled for your account"
+msgstr ""
+
+msgid ""
+"This will only happen *after* logs exist (domain must resolve and be used)."
+msgstr ""
+
+msgid "This will skip the removal of the dns zone, leaving it in place."
+msgstr ""
+
+msgid "Thread Count"
+msgstr ""
+
+msgid "Throttle Memory above this limit."
+msgstr ""
+
+msgid "Ticket #"
+msgstr ""
+
+msgid "Tickets Updated"
+msgstr ""
+
+msgid "Time"
+msgstr ""
+
+#, c-format
+msgid "Time slice discrepancy = %d"
+msgstr ""
+
+msgid "Timeout during read"
+msgstr ""
+
+#, c-format
+msgid "Timeout while trying to connect to %s"
+msgstr ""
+
+#, c-format
+msgid "Timezone '%s' does not exist on the system"
+msgstr ""
+
+msgid "Timezone does not exist"
+msgstr ""
+
+msgid ""
+"To add a cron job, you require all of the following: minute, hour, "
+"dayofmonth, month, dayofweek and command"
+msgstr ""
+
+msgid ""
+"To change this page, upload a new index.html to your private_html folder"
+msgstr ""
+
+msgid "Today"
+msgstr ""
+
+msgid "Today at"
+msgstr ""
+
+#, c-format
+msgid "Today's E-Mail count has been reset for User %s"
+msgstr ""
+
+msgid "Too long"
+msgstr ""
+
+msgid "Too short"
+msgstr ""
+
+msgid "Total"
+msgstr ""
+
+msgid "Total Disk Usage (MB)"
+msgstr ""
+
+msgid "Total Memory"
+msgstr ""
+
+msgid "Total Size:"
+msgstr ""
+
+msgid "Total Swap Memory"
+msgstr ""
+
+msgid "Total Usage"
+msgstr ""
+
+msgid "Trial License"
+msgstr ""
+
+#, c-format
+msgid "Tried to restore '%s' to '%s', but this path is not in the %s"
+msgstr ""
+
+msgid "Trust cookie has been cleared"
+msgstr ""
+
+#, c-format
+msgid "Trust this device for %d day"
+msgid_plural "Trust this device for %d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#, c-format
+msgid "Try updating manually: %s"
+msgstr ""
+
+msgid "Trying another random redirection URL from the same control server"
+msgstr ""
+
+msgid "Two-Step Auth secret is not set."
+msgstr ""
+
+msgid "Two-Step Authentication"
+msgstr ""
+
+msgid "Two-Step Authentication is disabled"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+#, c-format
+msgid "Type '%s' is disabled"
+msgstr ""
+
+msgid "Type must be either 'paste' or 'id'"
+msgstr ""
+
+msgid "UID"
+msgstr ""
+
+msgid "URL"
+msgstr ""
+
+msgid "Un-Link"
+msgstr ""
+
+msgid "Un-Set"
+msgstr ""
+
+msgid "Unable To Execute Your Request"
+msgstr ""
+
+msgid "Unable to Execute Your Command"
+msgstr ""
+
+msgid "Unable to Locate that domain"
+msgstr ""
+
+msgid "Unable to Logout"
+msgstr ""
+
+msgid "Unable to add IP"
+msgstr ""
+
+msgid "Unable to add access host:"
+msgstr ""
+
+msgid "Unable to add domain pointer"
+msgstr ""
+
+#, c-format
+msgid "Unable to add user %s."
+msgstr ""
+
+msgid "Unable to add user to ssh config file"
+msgstr ""
+
+#, c-format
+msgid ""
+"Unable to allocate unlimited %s. This account is not allowed to create that "
+"amount."
+msgstr ""
+
+msgid ""
+"Unable to assign the Reseller ANY ips. Make sure to have free, un-assigned "
+"ips."
+msgstr ""
+
+msgid "Unable to authenitcate: Check your password for syntax"
+msgstr ""
+
+msgid "Unable to authenticate: Invalid password"
+msgstr ""
+
+#, c-format
+msgid "Unable to change %s"
+msgstr ""
+
+msgid "Unable to change password"
+msgstr ""
+
+msgid "Unable to change the E-Mail Address"
+msgstr ""
+
+msgid "Unable to change the Message System E-Mail Address"
+msgstr ""
+
+msgid "Unable to change the Name"
+msgstr ""
+
+msgid "Unable to change the limit"
+msgstr ""
+
+msgid "Unable to change the temporary bandwidth increase"
+msgstr ""
+
+msgid "Unable to connect to any site for the update"
+msgstr ""
+
+msgid "Unable to connect to secure socket"
+msgstr ""
+
+msgid "Unable to connect to the database"
+msgstr ""
+
+#, c-format
+msgid "Unable to copy %s to %s: %s"
+msgstr ""
+
+#, c-format
+msgid "Unable to copy directory %s to %s: %s"
+msgstr ""
+
+#, c-format
+msgid "Unable to create %s: %s"
+msgstr ""
+
+msgid "Unable to create a Reseller"
+msgstr ""
+
+msgid "Unable to create a User"
+msgstr ""
+
+#, c-format
+msgid "Unable to create backup directory (uid=%s)"
+msgstr ""
+
+msgid "Unable to create database"
+msgstr ""
+
+#, c-format
+msgid "Unable to create directory %s"
+msgstr ""
+
+msgid "Unable to create new file"
+msgstr ""
+
+msgid "Unable to create reverse IP lookup"
+msgstr ""
+
+msgid "Unable to create subdomain"
+msgstr ""
+
+msgid "Unable to create user's data directory"
+msgstr ""
+
+msgid "Unable to create zone"
+msgstr ""
+
+msgid "Unable to create zone."
+msgstr ""
+
+#, c-format
+msgid "Unable to delete %s: %s"
+msgstr ""
+
+#, c-format
+msgid "Unable to delete directory %s: %s"
+msgstr ""
+
+msgid "Unable to delete files"
+msgstr ""
+
+msgid "Unable to delete the main email account"
+msgstr ""
+
+msgid "Unable to delete the reseller's ip.list file."
+msgstr ""
+
+msgid "Unable to delete users's domains directory"
+msgstr ""
+
+msgid "Unable to download backup"
+msgstr ""
+
+msgid "Unable to edit file"
+msgstr ""
+
+msgid "Unable to execute your command"
+msgstr ""
+
+msgid "Unable to execute your request"
+msgstr ""
+
+msgid "Unable to export packages"
+msgstr ""
+
+#, c-format
+msgid "Unable to extract %s from"
+msgstr ""
+
+msgid "Unable to extract user.conf, reseller.conf or ip.list from"
+msgstr ""
+
+#, c-format
+msgid "Unable to find %s"
+msgstr ""
+
+#, c-format
+msgid "Unable to find %s to create mysql backup"
+msgstr ""
+
+#, c-format
+msgid "Unable to find %s to extract mysql backup"
+msgstr ""
+
+msgid "Unable to find CA certificate"
+msgstr ""
+
+msgid "Unable to find certificate"
+msgstr ""
+
+msgid "Unable to find key"
+msgstr ""
+
+msgid "Unable to generate a random username for login"
+msgstr ""
+
+#, c-format
+msgid "Unable to get file stats on %s"
+msgstr ""
+
+#, c-format
+msgid "Unable to get lock on %s"
+msgstr ""
+
+#, c-format
+msgid "Unable to get privileges for %s: %s"
+msgstr ""
+
+msgid "Unable to get the user's crypted password for the ftp passwd file"
+msgstr ""
+
+#, c-format
+msgid "Unable to lock %s area"
+msgstr ""
+
+#, c-format
+msgid "Unable to lock %s: %s"
+msgstr ""
+
+#, c-format
+msgid "Unable to lock the '%s' account actions"
+msgstr ""
+
+#, c-format
+msgid "Unable to lock user %s: %s"
+msgstr ""
+
+msgid "Unable to modify that domain"
+msgstr ""
+
+#, c-format
+msgid "Unable to open %s for appending"
+msgstr ""
+
+#, c-format
+msgid "Unable to open %s for appending: %s"
+msgstr ""
+
+#, c-format
+msgid "Unable to open %s for reading"
+msgstr ""
+
+#, c-format
+msgid "Unable to open %s for writing: %s"
+msgstr ""
+
+#, c-format
+msgid "Unable to open %s to restore the databases"
+msgstr ""
+
+#, c-format
+msgid "Unable to open %s: %s"
+msgstr ""
+
+msgid "Unable to open a socket"
+msgstr ""
+
+#, c-format
+msgid "Unable to open ca certificate file (%s) to write to: %s"
+msgstr ""
+
+#, c-format
+msgid "Unable to open certificate file (%s) to write to: %s"
+msgstr ""
+
+#, c-format
+msgid "Unable to open directory %s: %s"
+msgstr ""
+
+#, c-format
+msgid "Unable to parse %s from script '%s '(%s) output:"
+msgstr ""
+
+#, c-format
+msgid "Unable to read %s as account %s"
+msgstr ""
+
+#, c-format
+msgid "Unable to read %s's user files"
+msgstr ""
+
+#, c-format
+msgid "Unable to read %s.  This file is only created after a tally is run."
+msgstr ""
+
+#, c-format
+msgid ""
+"Unable to read %s.  This file is only created when emails are delivered."
+msgstr ""
+
+#, c-format
+msgid "Unable to read %s: %s"
+msgstr ""
+
+#, c-format
+msgid "Unable to read DS file %s"
+msgstr ""
+
+msgid "Unable to read History File."
+msgstr ""
+
+#, c-format
+msgid "Unable to read RoundCube backup script: %s"
+msgstr ""
+
+#, c-format
+msgid "Unable to read RoundCube restore script: %s"
+msgstr ""
+
+#, c-format
+msgid "Unable to read data from %s"
+msgstr ""
+
+msgid "Unable to read directatdmin.conf"
+msgstr ""
+
+msgid "Unable to read domain configuration files"
+msgstr ""
+
+msgid "Unable to read package"
+msgstr ""
+
+msgid "Unable to read system uptime"
+msgstr ""
+
+#, c-format
+msgid "Unable to read the %s file. Make sure it exists."
+msgstr ""
+
+msgid "Unable to read the cliboard file"
+msgstr ""
+
+msgid "Unable to read the system ftp passwd file to add the user to it."
+msgstr ""
+
+msgid "Unable to read the system ftp passwd file to remove the system ftp user"
+msgstr ""
+
+msgid "Unable to read the user's files"
+msgstr ""
+
+msgid "Unable to read ticket config file"
+msgstr ""
+
+msgid "Unable to read zone file to increase serial"
+msgstr ""
+
+#, c-format
+msgid "Unable to read zonefile for %s"
+msgstr ""
+
+msgid "Unable to reboot"
+msgstr ""
+
+msgid "Unable to remove IP(s)"
+msgstr ""
+
+msgid "Unable to remove Unix User."
+msgstr ""
+
+msgid "Unable to remove all the of the reseller's users"
+msgstr ""
+
+#, c-format
+msgid "Unable to rename %s to %s: %s"
+msgstr ""
+
+#, c-format
+msgid "Unable to restore %s to %s: %s"
+msgstr ""
+
+#, c-format
+msgid ""
+"Unable to restore '%s' because the Reseller or Admin '%s' cannot be found. "
+"Rename the file if needed."
+msgstr ""
+
+msgid "Unable to restore database"
+msgstr ""
+
+msgid "Unable to satisfy difficult password check."
+msgstr ""
+
+msgid "Unable to save dns zone: named-checkzone returned:"
+msgstr ""
+
+msgid "Unable to save your changes"
+msgstr ""
+
+msgid "Unable to set bandwidth"
+msgstr ""
+
+msgid "Unable to set file permissions"
+msgstr ""
+
+#, c-format
+msgid "Unable to set ip %s to be nameserver. Continuing anyway."
+msgstr ""
+
+msgid "Unable to set password"
+msgstr ""
+
+msgid "Unable to set quota"
+msgstr ""
+
+msgid "Unable to set stats link"
+msgstr ""
+
+msgid "Unable to set the E-Mail Limit"
+msgstr ""
+
+msgid "Unable to set the shell"
+msgstr ""
+
+msgid "Unable to show Admin History"
+msgstr ""
+
+msgid "Unable to show Reseller History"
+msgstr ""
+
+msgid "Unable to show User History"
+msgstr ""
+
+msgid "Unable to show current E-Mail usage"
+msgstr ""
+
+msgid "Unable to show the system information"
+msgstr ""
+
+#, c-format
+msgid "Unable to trash %s to %s: %s"
+msgstr ""
+
+#, c-format
+msgid "Unable to unlock user %s: %s"
+msgstr ""
+
+msgid "Unable to update your Disk Usage"
+msgstr ""
+
+msgid "Unable to use that new domain name"
+msgstr ""
+
+#, c-format
+msgid "Unable to write %s's user files"
+msgstr ""
+
+#, c-format
+msgid "Unable to write %s: %s"
+msgstr ""
+
+msgid "Unable to write User's httpd.conf"
+msgstr ""
+
+msgid "Unable to write reseller's IP list"
+msgstr ""
+
+msgid "Unable to write the domain config file"
+msgstr ""
+
+msgid ""
+"Unable to write the main ftp password file.  Your changes will not take "
+"effect."
+msgstr ""
+
+#, c-format
+msgid ""
+"Unable to write the quota file. Let your administartor know that %s is "
+"unwriteable."
+msgstr ""
+
+msgid ""
+"Unable to write the system ftp passwd file to remove the system ftp user"
+msgstr ""
+
+#, c-format
+msgid ""
+"Unable to write the usage.cache file. Let your administartor know that %s is "
+"unwriteable."
+msgstr ""
+
+msgid "Unable to write ticket config"
+msgstr ""
+
+#, c-format
+msgid ""
+"Unable to write to the password file. Let your administrator know that %s is "
+"unwritable."
+msgstr ""
+
+msgid "Unable to write to the system ftp passwd file to add the user to it."
+msgstr ""
+
+msgid "Unable to write zone file to increase serial"
+msgstr ""
+
+#, c-format
+msgid "Unable to write zonefile for %s"
+msgstr ""
+
+msgid "Unblock"
+msgstr ""
+
+msgid "Unblocking is disabled."
+msgstr ""
+
+msgid ""
+"Unchecking will immediately delete the file from disk and cannot be recovered"
+msgstr ""
+
+msgid "Unhandled exception name"
+msgstr ""
+
+#, c-format
+msgid "Unhandled route %s value '%s'"
+msgstr ""
+
+msgid "Unix User created successfully"
+msgstr ""
+
+msgid "Unix User removed from the server"
+msgstr ""
+
+msgid "Unix proxy IP/port should not have any of path, query or hash"
+msgstr ""
+
+#, c-format
+msgid "Unknown '%s'"
+msgstr ""
+
+msgid "Unknown action"
+msgstr ""
+
+msgid "Unknown backup destination"
+msgstr ""
+
+msgid "Unknown certificate type. Only server, create and paste are allowed"
+msgstr ""
+
+msgid "Unknown ftp type"
+msgstr ""
+
+#, c-format
+msgid "Unknown option '%s'"
+msgstr ""
+
+#, c-format
+msgid "Unknown value for %s"
+msgstr ""
+
+msgid "Unlimited"
+msgstr ""
+
+msgid "Unsuspend"
+msgstr ""
+
+msgid ""
+"Until the cache is created, the values may not be correct. Refresh the page "
+"in 1 minute."
+msgstr ""
+
+msgid "Up a Level"
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "Update Successful"
+msgstr ""
+
+msgid "Update queued"
+msgstr ""
+
+msgid "Upload successful"
+msgstr ""
+
+#, c-format
+msgid "Uploaded %s value is not valid json"
+msgstr ""
+
+msgid "Uploaded file is not valid for copy"
+msgstr ""
+
+#, c-format
+msgid "Uploaded: %s"
+msgstr ""
+
+msgid ""
+"Uploading files has been disabled with the filemanager_disable_features "
+"option"
+msgstr ""
+
+msgid "Usage (Meg)"
+msgstr ""
+
+msgid "Usage Log"
+msgstr ""
+
+msgid "Usage statistics have not yet been collected for this account"
+msgstr ""
+
+#, c-format
+msgid "Use%%"
+msgstr ""
+
+msgid "Used"
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+#, c-format
+msgid "User %s Removed"
+msgstr ""
+
+#, c-format
+msgid "User %s already exists.  Please chose a different username."
+msgstr ""
+
+#, c-format
+msgid "User %s created"
+msgstr ""
+
+#, c-format
+msgid "User %s did not exist on the server.  Removing it from your list."
+msgstr ""
+
+#, c-format
+msgid "User %s does not exist on the system."
+msgstr ""
+
+#, c-format
+msgid "User %s exists on the system but is not in your User list"
+msgstr ""
+
+#, c-format
+msgid "User %s has been added to your database.  Use the following values:"
+msgstr ""
+
+#, c-format
+msgid "User %s has been backed up."
+msgstr ""
+
+#, c-format
+msgid "User %s has been restored"
+msgstr ""
+
+#, c-format
+msgid "User %s has been updated.  Use the following values:"
+msgstr ""
+
+#, c-format
+msgid "User %s has one or more hard links in their path:"
+msgstr ""
+
+#, c-format
+msgid "User %s is already suspended"
+msgstr ""
+
+#, c-format
+msgid "User %s is already unsuspended"
+msgstr ""
+
+#, c-format
+msgid "User %s is not on your list.  You cannot make a backup for him."
+msgstr ""
+
+#, c-format
+msgid "User %s is not on your list.  You cannot make a backup for them."
+msgstr ""
+
+#, c-format
+msgid "User %s not deleted. Unable to delete all of their users."
+msgstr ""
+
+#, c-format
+msgid "User %s was not created by you-> Not Deleted."
+msgstr ""
+
+#, c-format
+msgid "User %s was suspended in the backup.  Account suspended."
+msgstr ""
+
+#, c-format
+msgid "User %s was suspended in the backup.  Error suspending the account:"
+msgstr ""
+
+#, c-format
+msgid "User '%s' does not exist"
+msgstr ""
+
+msgid "User Acconts"
+msgstr ""
+
+msgid "User Accounts"
+msgstr ""
+
+msgid "User Bandwidth"
+msgstr ""
+
+msgid "User Comment Box"
+msgstr ""
+
+msgid "User DNSSEC Control is disabled"
+msgstr ""
+
+msgid "User Disk Quota"
+msgstr ""
+
+msgid "User History"
+msgstr ""
+
+msgid "User Modified"
+msgstr ""
+
+msgid "User Resource Limits"
+msgstr ""
+
+msgid "User SMTP Logs are are not enabled"
+msgstr ""
+
+msgid "User Updated"
+msgstr ""
+
+msgid "User added to SSH config file successfully"
+msgstr ""
+
+msgid "User added to database"
+msgstr ""
+
+msgid "User added to named.conf file successfully"
+msgstr ""
+
+msgid "User added to ssh config file."
+msgstr ""
+
+msgid "User backups have been disabled."
+msgstr ""
+
+msgid "User config file updated."
+msgstr ""
+
+msgid "User deleted"
+msgid_plural "Users deleted"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "User does not exist"
+msgstr ""
+
+msgid "User password changed, however the account is still suspended"
+msgstr ""
+
+msgid "User removed from SSH"
+msgstr ""
+
+msgid "User's System Quotas set"
+msgstr ""
+
+msgid "User's config files deleted"
+msgstr ""
+
+msgid "User's data directory created successfully"
+msgstr ""
+
+msgid "User's data directory removed."
+msgstr ""
+
+msgid "User(s)"
+msgstr ""
+
+msgid "User::get_all_widgets: Invalid level"
+msgstr ""
+
+#, c-format
+msgid "UserDir: %s"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+#, c-format
+msgid "Username '%s' is too long. Length %d > max_username_length=%d"
+msgstr ""
+
+msgid "Username is too short. It must be at least 2 characters long."
+msgstr ""
+
+msgid ""
+"Username must be Alphanumeric (a-z, A-Z, 0-9), with the first character "
+"being a letter"
+msgstr ""
+
+msgid "Username:"
+msgstr ""
+
+msgid "Users"
+msgstr ""
+
+msgid "Users will be deleted in the background."
+msgstr ""
+
+msgid "Users's domains directory removed."
+msgstr ""
+
+msgid "Usertype"
+msgstr ""
+
+msgid "Uses"
+msgstr ""
+
+#, c-format
+msgid "Using path %s is not allowed."
+msgstr ""
+
+msgid "Vacation Account"
+msgstr ""
+
+msgid "Vacation Message Deleted"
+msgstr ""
+
+msgid "Vacation Message set"
+msgstr ""
+
+msgid "Vacation Message updated"
+msgstr ""
+
+msgid "Vacation Messages"
+msgstr ""
+
+msgid "Valid"
+msgstr ""
+
+msgid "Valid broadcast address set."
+msgstr ""
+
+msgid "Value"
+msgstr ""
+
+#, c-format
+msgid "Value is too long.  Max=%d"
+msgstr ""
+
+msgid "Variable 'ip' is missing from the submission"
+msgstr ""
+
+msgid "Vendor ID"
+msgstr ""
+
+msgid "Verify"
+msgstr ""
+
+msgid "View"
+msgstr ""
+
+msgid "View Clipboard"
+msgstr ""
+
+msgid "View previous sort"
+msgstr ""
+
+msgid "Warning from named-checkzone:"
+msgstr ""
+
+#, c-format
+msgid ""
+"Warning: %s has a valid password for %s but failed the Two-Step "
+"Authentication code %s times."
+msgstr ""
+
+#, c-format
+msgid ""
+"Warning: %s has a valid password for %s but failed the security questions %s "
+"times."
+msgstr ""
+
+msgid "Warning: Quota limit reached. File(s) may be empty."
+msgstr ""
+
+msgid "Warning: Saved filesize is less than uploaded filesize. Check quotas."
+msgstr ""
+
+msgid "Warning: The system load average is"
+msgstr ""
+
+#, c-format
+msgid "We've only read %lld of the %lld byte file from %s"
+msgstr ""
+
+msgid "Webalizer"
+msgstr ""
+
+msgid "Webmail"
+msgstr ""
+
+msgid "Webmail Attachments"
+msgstr ""
+
+msgid "Webmail SSO"
+msgstr ""
+
+msgid "Week of Month"
+msgstr ""
+
+#, c-format
+msgid "Weekly Rate limit of %d for '%s' has been reached"
+msgstr ""
+
+#, c-format
+msgid "Welcome to %s"
+msgstr ""
+
+msgid "What"
+msgstr ""
+
+msgid "What is the first name of the boy or girl that you first kissed?"
+msgstr ""
+
+msgid "What is the middle name of your oldest child?"
+msgstr ""
+
+msgid "What is the name of a college you applied to but didn't attend?"
+msgstr ""
+
+msgid "What is the name of the place your wedding reception was held?"
+msgstr ""
+
+msgid "What is the name of your favorite childhood friend?"
+msgstr ""
+
+msgid "What is your maternal grandmother's maiden name"
+msgstr ""
+
+msgid ""
+"What is your oldest brother's birthday month and year? (e.g: January 1970)"
+msgstr ""
+
+msgid "What is your oldest cousin's first and last name?"
+msgstr ""
+
+msgid ""
+"What is your oldest sibling's birthday month and year? (e.g: January 1970)"
+msgstr ""
+
+msgid "What is your oldest sibling's middle name?"
+msgstr ""
+
+msgid "What school did you attend for sixth grade?"
+msgstr ""
+
+msgid "What street did you live on in third grade?"
+msgstr ""
+
+msgid "What was the last name of your third grade teacher?"
+msgstr ""
+
+msgid "What was the name of your first stuffed animal?"
+msgstr ""
+
+msgid "What was your childhood nickname?"
+msgstr ""
+
+msgid ""
+"What was your childhood phone number including area code? (e.g: 000-000-0000)"
+msgstr ""
+
+msgid "When"
+msgstr ""
+
+msgid "Where"
+msgstr ""
+
+msgid "Where were you when you had your first kiss?"
+msgstr ""
+
+msgid "Who"
+msgstr ""
+
+#, c-format
+msgid "Widget '%s' is not available"
+msgstr ""
+
+msgid "Widgets are not enabled in this account level"
+msgstr ""
+
+msgid "Wildcard"
+msgstr ""
+
+msgid "With Selected"
+msgstr ""
+
+msgid "With selected"
+msgstr ""
+
+#, c-format
+msgid "Won't activate %s's account because its off"
+msgstr ""
+
+#, c-format
+msgid "Write error with %s: %s"
+msgstr ""
+
+msgid "Wrong Answer."
+msgstr ""
+
+#, c-format
+msgid "Wrong Answer. You have %d more attempt.%s"
+msgid_plural "Wrong Answer. You have %d more attempts.%s"
+msgstr[0] ""
+msgstr[1] ""
+
+#, c-format
+msgid "Wrong Answer. You have %d more attempts.%s"
+msgstr ""
+
+#, c-format
+msgid "Wrong number of '%s' elements.  Allowed: 1, or 2 with '%s')"
+msgstr ""
+
+#, c-format
+msgid "Wrong number of 'pass' values: %d in '%s' (slash separated)"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+#, c-format
+msgid ""
+"You are deleting Admin or Reseller accounts that have %d User under their "
+"control."
+msgid_plural ""
+"You are deleting Admin or Reseller accounts that have %d Users under their "
+"control."
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "You are not allowed to enable anonymous ftp"
+msgstr ""
+
+msgid "You are not allowed to modify your ssl settings"
+msgstr ""
+
+msgid "You are not logged in from a master account"
+msgstr ""
+
+msgid "You aren't allowed to modify that ticket"
+msgstr ""
+
+#, c-format
+msgid ""
+"You can click the E-Mail below to be immediately logged into %s as this "
+"User, without knowing their password."
+msgstr ""
+
+msgid "You can only add a certificate if you own the ip you are using"
+msgstr ""
+
+msgid "You can only add a certificate to your main domain"
+msgstr ""
+
+msgid "You can't make a list named majordomo as its a reserved alias"
+msgstr ""
+
+msgid "You can't suspend root.  That would be BAD"
+msgstr ""
+
+msgid "You cannot add that extension"
+msgstr ""
+
+msgid "You cannot assign the domain more bandwidth than your account"
+msgstr ""
+
+msgid "You cannot assign the domain more quota than your account"
+msgstr ""
+
+msgid "You cannot create more Users than you are allowed domains."
+msgstr ""
+
+msgid "You cannot delete all of your IPs"
+msgstr ""
+
+#, c-format
+msgid ""
+"You cannot delete the account %s because it is linked to your system account"
+msgstr ""
+
+#, c-format
+msgid "You cannot delete yourself (%s)"
+msgstr ""
+
+msgid "You cannot execute that command"
+msgstr ""
+
+msgid "You cannot login as yourself"
+msgstr ""
+
+msgid "You cannot modify yourself"
+msgstr ""
+
+msgid ""
+"You cannot restore multiple Users on one free IP.  The IP must first be "
+"shared."
+msgstr ""
+
+msgid "You cannot set an unlimited send limit."
+msgstr ""
+
+msgid "You cannot suspend yourself"
+msgstr ""
+
+msgid "You cannot suspend/unsuspend yourself"
+msgstr ""
+
+msgid "You cannot unsuspend this account."
+msgstr ""
+
+msgid ""
+"You cannot use that domain as a pointer. It already exists on the server"
+msgstr ""
+
+#, c-format
+msgid "You currently have %s Users and a maximum of %s domains."
+msgstr ""
+
+msgid "You did not select any domains to modify"
+msgstr ""
+
+msgid "You didn't chose a different ip, no changes have been made"
+msgstr ""
+
+msgid "You didn't select anyone to send it to"
+msgstr ""
+
+msgid "You do not have control over user"
+msgstr ""
+
+msgid "You do not own any IPs"
+msgstr ""
+
+msgid "You do not own that IP"
+msgstr ""
+
+msgid "You do not own that domain"
+msgstr ""
+
+msgid "You do not own that ip"
+msgstr ""
+
+msgid "You do not own that that cron ID"
+msgstr ""
+
+#, c-format
+msgid "You do not own the IP %s. User %s will not be created"
+msgstr ""
+
+msgid "You do not yet have any protected directories."
+msgstr ""
+
+msgid "You don't have authority over that User"
+msgstr ""
+
+msgid "You don't have authority over that user"
+msgstr ""
+
+msgid "You don't have permission to respond to that ticket"
+msgstr ""
+
+msgid "You don't have permission to restore user"
+msgstr ""
+
+msgid "You don't have permission to view that ticket"
+msgstr ""
+
+msgid "You forgot to include a filename"
+msgstr ""
+
+#, c-format
+msgid "You have %d more attempt."
+msgid_plural "You have %d more attempts."
+msgstr[0] ""
+msgstr[1] ""
+
+#, c-format
+msgid "You have %d:%.2d left."
+msgstr ""
+
+msgid "You have already reached your assigned limit"
+msgstr ""
+
+msgid "You have not added any files to the clipboard."
+msgstr ""
+
+msgid ""
+"You have not given the reseller any IP's.  Unable to create an assigned IP "
+"domain or any nameservers without any"
+msgstr ""
+
+msgid ""
+"You have not selected any Files.  Please go back and select some before "
+"restoring the backup."
+msgstr ""
+
+msgid ""
+"You have not selected any Users.  Please go back and select some before "
+"creating the backup."
+msgstr ""
+
+msgid "You have not selected any domains"
+msgstr ""
+
+msgid ""
+"You have successfully issued a server reboot command.  It may take a few "
+"minutes for the system boot up and become live again."
+msgstr ""
+
+#, c-format
+msgid ""
+"You have used %d%% of your disk usage, which is more than the allowed "
+"threshold of %d%%."
+msgstr ""
+
+msgid "You may need to press F5 to reload the logo"
+msgstr ""
+
+msgid "You may not use an IP for a domain name"
+msgstr ""
+
+msgid "You must enter a chmod value. eg: 755"
+msgstr ""
+
+msgid "You must enter a folder 'name'. eg: images"
+msgstr ""
+
+msgid "You must enter both password"
+msgstr ""
+
+msgid "You must enter number, user, subject, priority, status and message"
+msgstr ""
+
+msgid "You must enter the password in both fields"
+msgstr ""
+
+msgid "You must enter user, subject, priority and message"
+msgstr ""
+
+msgid "You must first create some packages"
+msgstr ""
+
+msgid "You must first own an IP"
+msgstr ""
+
+msgid "You must have at least one database to login to phpMyAdmin"
+msgstr ""
+
+msgid "You must have more than 0 NS records or named may not start."
+msgstr ""
+
+msgid ""
+"You must provide 'required_hits' and 'required_hits_custom' if "
+"'required_hits' is 'custom'"
+msgstr ""
+
+msgid "You must provide a list name"
+msgstr ""
+
+msgid ""
+"You must provide a protected directory password prompt. eg: Member's Area"
+msgstr ""
+
+msgid "You must provide a valid domain, ip, ns1 and ns2"
+msgstr ""
+
+msgid ""
+"You must provide a valid email address, oldpassword, password1 and password2"
+msgstr ""
+
+msgid ""
+"You must provide a valid ftp address, oldpassword, password1 and password2"
+msgstr ""
+
+msgid "You must provide a valid ip"
+msgstr ""
+
+msgid "You must provide a valid name and it must exist."
+msgstr ""
+
+msgid "You must provide a valid name and value"
+msgstr ""
+
+msgid "You must provide the passwd variable"
+msgstr ""
+
+msgid ""
+"You must select a nameserver ip pair (ns1.domain.com and ns2.domain.com)"
+msgstr ""
+
+msgid "You must select at least one mailing list to delete"
+msgstr ""
+
+msgid "You must select at least one mailing list to purge"
+msgstr ""
+
+msgid "You must select exactly one key"
+msgstr ""
+
+msgid "You must select something"
+msgstr ""
+
+msgid ""
+"You must use a number for the hour (0-23). You can only have a cron run once "
+"per day. (You can make more than one cron)"
+msgstr ""
+
+msgid ""
+"You must use a number for the minute (0-59). You can only have a cron run "
+"once per day. (You can make more than one cron)"
+msgstr ""
+
+msgid "You must use a valid path"
+msgstr ""
+
+#, c-format
+msgid "You must wait at least %d minute between updates."
+msgid_plural "You must wait at least %d minutes between updates."
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "You must wait for the stats to be computed."
+msgstr ""
+
+msgid "You need to specify a domain"
+msgstr ""
+
+msgid "You require a database name"
+msgstr ""
+
+msgid "You require a domain, anon, anonup and a message"
+msgstr ""
+
+msgid "You require domain and passwd list to sync the accounts"
+msgstr ""
+
+msgid "You require either the passwd or quota"
+msgstr ""
+
+msgid "You require name, user, passwd and passwd2"
+msgstr ""
+
+msgid "You require the name and user"
+msgstr ""
+
+msgid "You require the name, user, passwd and passwd2"
+msgstr ""
+
+msgid ""
+"You require the source url path (eg: /redirect) and the destination url (eg: "
+"www.redirect.com)"
+msgstr ""
+
+msgid "You require user and domain to change a pop account"
+msgstr ""
+
+msgid "You require user, domain and passwd to add a pop account"
+msgstr ""
+
+msgid "You required a password"
+msgstr ""
+
+msgid "You should be notified via the Message system when it is complete."
+msgstr ""
+
+msgid "You will be notified via the Message System upon completion."
+msgstr ""
+
+msgid ""
+"You will be notified via the Message System when the process is complete"
+msgstr ""
+
+msgid "You will receive a message when it's complete."
+msgstr ""
+
+msgid ""
+"You're using the login-as option, so use your own password. Not the User's "
+"password."
+msgstr ""
+
+#, c-format
+msgid "Your Hash URL Login '%s' has been created"
+msgstr ""
+
+msgid "Your IP will be blacklisted"
+msgstr ""
+
+#, c-format
+msgid "Your Login Key '%s' has been created"
+msgstr ""
+
+#, c-format
+msgid "Your Name has been changed to %s"
+msgstr ""
+
+msgid "Your account"
+msgstr ""
+
+#, c-format
+msgid "Your account %s@%s has been setup. In your e-mail program, use"
+msgstr ""
+
+msgid "Your account '|USERNAME|' has been suspended. Reason: '|REASON|'"
+msgstr ""
+
+msgid "Your account for |domain| is now ready for use."
+msgstr ""
+
+msgid "Your backups are now ready"
+msgstr ""
+
+msgid "Your database has been setup.  Use the following values:"
+msgstr ""
+
+#, c-format
+msgid "Your database name (%s) contains invalid characters (%s)."
+msgstr ""
+
+#, c-format
+msgid ""
+"Your database username (%s) contains invalid characters (%s).  MySQL account "
+"will not be created on %s."
+msgstr ""
+
+msgid "Your default domain has been set"
+msgstr ""
+
+msgid "Your disk usage has been updated"
+msgstr ""
+
+msgid "Your message has been saved"
+msgstr ""
+
+msgid "Your message has been sent"
+msgstr ""
+
+msgid "Your message is being sent in the background"
+msgstr ""
+
+msgid ""
+"Your message is empty. Users might appreciate knowing what they're getting."
+msgstr ""
+
+msgid "Your password"
+msgstr ""
+
+msgid "Your password is invalid"
+msgstr ""
+
+msgid ""
+"Your request for an update will begin in under a minute. You should be "
+"notified via the Message system when it is complete"
+msgstr ""
+
+msgid "Your request for an updated license file will begin in under a minute."
+msgstr ""
+
+msgid "Your request has expired."
+msgstr ""
+
+msgid "Your request will be executed within 1 minute"
+msgstr ""
+
+msgid ""
+"Your request will run in the background. Once completed, you'll be notified "
+"in the Message System."
+msgstr ""
+
+msgid "Your reseller account has reached its assigned limit"
+msgstr ""
+
+msgid "Your reseller has reached their assigned limit"
+msgstr ""
+
+msgid "Your subject contains invalid characters."
+msgstr ""
+
+#, c-format
+msgid "Your ticket number is %s."
+msgstr ""
+
+msgid "Your usertype is too low to request these widgets"
+msgstr ""
+
+msgid "Zone Keys are newer than the Zone Signinging."
+msgstr ""
+
+msgid "Zone Reset"
+msgstr ""
+
+msgid "Zone Signing has expired."
+msgstr ""
+
+msgid ""
+"Zone has not yet been signed.  Ensure you first generate the keys and sign "
+"it one before using this automated sign tool"
+msgstr ""
+
+msgid "Zone is of type DNSSEC."
+msgstr ""
+
+msgid "Zone keys generated"
+msgstr ""
+
+msgid "Zone signed"
+msgstr ""
+
+msgid "access hosts cannot be domains because skip_name_resolve=ON"
+msgstr ""
+
+msgid "account ..."
+msgstr ""
+
+msgid "adding"
+msgstr ""
+
+msgid "allow_subdomain_docroot_override is disabled"
+msgstr ""
+
+#, c-format
+msgid "and %d User"
+msgid_plural "and %d Users"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "at least"
+msgstr ""
+
+msgid "at most"
+msgstr ""
+
+msgid "can_dnssec is not enabled. Cannot sign the zone."
+msgstr ""
+
+#, c-format
+msgid "cannot fstatat %s: %s"
+msgstr ""
+
+#, c-format
+msgid "cannot unlinkat %s: %s"
+msgstr ""
+
+msgid "catch is required"
+msgstr ""
+
+#, c-format
+msgid "cgroup error: %s"
+msgstr ""
+
+msgid "cgroup is not enabled in your license"
+msgstr ""
+
+msgid "cgroup is turned off in the directadmin.conf"
+msgstr ""
+
+msgid "change"
+msgstr ""
+
+msgid "contains"
+msgstr ""
+
+msgid "day"
+msgid_plural "days"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "day(s)"
+msgstr ""
+
+msgid "days"
+msgstr ""
+
+msgid "default user"
+msgstr ""
+
+#, c-format
+msgid "dnsprovider option '%s' contains invalid characters"
+msgstr ""
+
+msgid "does not belong to you"
+msgstr ""
+
+msgid "emails have just been sent by"
+msgstr ""
+
+msgid "equals"
+msgstr ""
+
+msgid "has been changed."
+msgstr ""
+
+msgid "has been updated with the new ip"
+msgstr ""
+
+msgid "hidden"
+msgstr ""
+
+msgid "high_score must be in the range 1 to 99"
+msgstr ""
+
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "hours"
+msgstr ""
+
+#, c-format
+msgid "is an invalid email address.  User %s will not be created"
+msgstr ""
+
+msgid "is currently down"
+msgstr ""
+
+msgid "is not a valid database name"
+msgstr ""
+
+msgid "is not a valid username"
+msgstr ""
+
+#, c-format
+msgid "is_ip_in_mask_range:%s:%s: range '%s' must be a positive integer"
+msgstr ""
+
+#, c-format
+msgid ""
+"is_ip_in_mask_range:%s:%s: range '%s' must be between 1 and 128, inclusive"
+msgstr ""
+
+#, c-format
+msgid "is_ip_in_mask_range:%s:%s: range does not have /"
+msgstr ""
+
+msgid "json string"
+msgstr ""
+
+msgid "license nresellers issue"
+msgstr ""
+
+msgid "license nusers issue"
+msgstr ""
+
+msgid "license vdomains issue"
+msgstr ""
+
+#, c-format
+msgid "lstat error: %s"
+msgstr ""
+
+msgid "mail() line number"
+msgstr ""
+
+msgid "message is empty. Please enter some text."
+msgstr ""
+
+#, c-format
+msgid "mime type (%s) for '%s' is not of type 'image/'"
+msgstr ""
+
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "minutes"
+msgstr ""
+
+#, c-format
+msgid "mkdir(%s) error: %s"
+msgstr ""
+
+msgid "modify password"
+msgstr ""
+
+msgid "modify privileges"
+msgstr ""
+
+msgid "month"
+msgid_plural "months"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "mysqldump error output:"
+msgstr ""
+
+msgid "new_domain is not a valid domain"
+msgstr ""
+
+msgid "newer than"
+msgstr ""
+
+msgid "ns1 or ns2 are not valid nameservers"
+msgstr ""
+
+msgid "of"
+msgstr ""
+
+msgid "old_package or new_package are not valid package names"
+msgstr ""
+
+msgid "older than"
+msgstr ""
+
+#, c-format
+msgid "older than %s days."
+msgstr ""
+
+msgid "or"
+msgstr ""
+
+msgid "or IPv6 (1:2:3:4:5:6:7:8) or IPv6 range (1:2:3:4:5:6:7:8-9)"
+msgstr ""
+
+msgid "or select from"
+msgstr ""
+
+msgid "php.ini override added"
+msgstr ""
+
+#, c-format
+msgid "php1_select and php2_select must be 0-%d"
+msgstr ""
+
+msgid ""
+"phpMyAdmin is missing direct_login option. Please re-install phpMyAdmin."
+msgstr ""
+
+msgid "pop_disk_usage_cache is not enabled"
+msgstr ""
+
+msgid "port"
+msgstr ""
+
+msgid "redirect_url contains invalid characters"
+msgstr ""
+
+msgid "removing"
+msgstr ""
+
+msgid "reseller_can_set_email_limit=0 is set, thus you cannot set a limit"
+msgstr ""
+
+msgid "retry"
+msgstr ""
+
+msgid "routes must start with a [ character."
+msgstr ""
+
+#, c-format
+msgid "search length out of bounds: 2 <= '%zd' <= 128"
+msgstr ""
+
+msgid "second"
+msgid_plural "seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "selected"
+msgstr ""
+
+msgid "selected overrides removed from php.ini"
+msgstr ""
+
+msgid "selected skipped rules removed"
+msgstr ""
+
+msgid "selecting none includes all domains"
+msgstr ""
+
+msgid "sent"
+msgstr ""
+
+msgid "set Permission"
+msgstr ""
+
+msgid "show_blocked_ips.sh output:"
+msgstr ""
+
+msgid "starts with"
+msgstr ""
+
+msgid "subject contains invalid characters."
+msgstr ""
+
+#, c-format
+msgid "subject_select != %d, but subject is not set. This shouldn't happen."
+msgstr ""
+
+msgid "that is the server's hostname and you cannot use it"
+msgstr ""
+
+msgid "the new domain name already exists on your system"
+msgstr ""
+
+msgid "too many iterations"
+msgstr ""
+
+msgid "too many tables"
+msgstr ""
+
+msgid "unlimited"
+msgstr ""
+
+msgid "user, passwd, passwd2 and type are required"
+msgstr ""
+
+msgid "user.conf override"
+msgstr ""
+
+msgid "user_brutecount disabled"
+msgstr ""
+
+msgid "user_modify_pre.sh error"
+msgstr ""
+
+msgid "value is required"
+msgstr ""
+
+msgid "where=spamfolder has been disabled via show_main_spambox=0"
+msgstr ""
+
+msgid "with the incorrect answer of"
+msgstr ""
+
+msgid "your new password is"
+msgstr ""
+
+msgid "your new quota is"
+msgstr ""
+
+#, c-format
+msgid "your new send limit is: %s"
+msgstr ""
+
+msgid ""
+"~/domains was missing, but we ran into an error while trying to re-create it"
+msgstr ""
+
+msgid "Maximum allowed time range is %d day"
+msgid_plural "Maximum allowed time range is %d days"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Unable to parse %s, is it in %s format?"
+msgstr ""
+
+msgid "Unable to read log files"
+msgstr ""
+
+msgid "Your IP is blacklisted"
+msgstr ""
+
+msgid "Unable to access script"
+msgstr ""
+
+msgid "Unable to execute script"
+msgstr ""

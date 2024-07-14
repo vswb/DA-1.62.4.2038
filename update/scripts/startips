@@ -1,0 +1,67 @@
+#!/bin/bash
+
+# chkconfig: 2345 11 50
+# description: Load ip's into the network device
+
+### BEGIN INIT INFO
+# Provides:          startips
+# Required-Start:    $local_fs $network
+# Required-Stop:     $local_fs
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: startips
+# Description:       script to load in fresh IPs
+### END INIT INFO
+
+case "$1" in
+	stop)
+		exit 0
+		;;
+esac
+
+if [ "${OS}" != "FreeBSD" ] && [ -x /sbin/ip ]; then
+	if ! /sbin/ip route show | grep -m1 -q "default"; then
+		echo "startips: default route not found - sleeping for 10s"
+		sleep 10
+		if ! /sbin/ip route show | grep -m1 -q "default"; then
+			echo "startips: secondary attempt to find default route failed, no DirectAdmin additional IPs will be added"
+			exit 1
+		fi
+	fi
+fi
+
+DACONF=/usr/local/directadmin/conf/directadmin.conf
+DABIN=/usr/local/directadmin/directadmin
+IPPATH="/usr/local/directadmin/data/admin/"
+IPDIR="ips/"
+IPLIST="ip.list"
+ADDIP=`${DABIN} c | grep -m1 '^addip=' | cut -d= -f2`
+OS=`uname`
+
+if [ "${OS}" = "FreeBSD" ]; then
+	ETH_DEV=`grep -m1 '^ifconfig_' /etc/rc.conf | cut -d= -f1 | cut -d_ -f2`
+else
+	ETH_DEV=eth0
+fi
+
+if grep -m1 -q '^ethernet_dev=' ${DACONF}; then
+	ETH_DEV=`grep -m1 '^ethernet_dev=' ${DACONF} | cut -d= -f2 | cut -d: -f1`
+fi
+
+for i in `cat ${IPPATH}${IPLIST}`; do
+{
+	NETMASK=`grep -m1 '^netmask=' ${IPPATH}${IPDIR}${i} | cut -d= -f2`
+	if [ -z ${NETMASK} ]; then
+		if echo ${i} | grep -m1 -q ':'; then
+			NETMASK="/64"
+		else
+			NETMASK=255.255.255.0
+		fi
+	fi
+	$ADDIP $i $NETMASK $ETH_DEV >/dev/null
+};
+done
+
+echo "action=named&value=restart" >> /usr/local/directadmin/data/task.queue
+
+exit 0

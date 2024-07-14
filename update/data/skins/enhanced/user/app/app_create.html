@@ -1,0 +1,36 @@
+|LF_STANDARD|
+|LF_DB|
+|?TREE=&raquo; <a class=tree href="/CMD_SHOW_DOMAIN?domain=`DOMAIN`">`DOMAIN`</a> &raquo; <a class=tree href="/CMD_UNIT?DOMAIN=`DOMAIN`">Applications</a> &raquo; <a class=tree href="/CMD_UNIT?domain=`DOMAIN`&action=create">Create Application</a>|
+|?HELP_SECTION=`USER_HELPER`/applications.html#create|
+|HTM_USER_TOP|
+<script language="javascript">
+
+|HTM_JAVASCRIPT|
+</script>
+
+<table class=list cellpadding=3 cellspacing=1>
+	<tr><td class=listtitle colspan=2>Create Application (raw json)</td></tr>
+	<form name=info action="/CMD_UNIT" method="POST">
+		<input type="hidden" name="action" value="|action|">
+		<input type="hidden" name="domain" value="|DOMAIN|">
+		<tr><td class=list>Name</td><td class=list>
+			|*if action="modify"|
+				<input type="hidden" name="name" value="|NAME|">
+				|NAME|
+			|*else|
+				<input type="text" name="name" value="|NAME|" placeholder='appname'>
+			|*endif|
+		</td></tr>
+		<tr>
+			<td colspan=2>
+				<textarea name='json' cols=80 rows=20>|APP_JSON|</textarea>
+			</td>
+		</tr>
+		<tr><td class=listtitle colspan=2 align=right>
+			<input type=submit name=create value="|*if action="modify"|Modify|*else|Create|*endif|">
+		</td></tr>		
+	</form>
+</table>
+
+
+|HTM_USER_BOTTOM|

@@ -1,0 +1,32 @@
+|LF_STANDARD|
+|?TREE=&raquo; `ALL_DOMAINS_SELECT` &raquo; <a class=tree href="/CMD_SUBDOMAIN?domain=`domain`">`LANG_SUBDOMAINS`</a>|
+|?HELP_SECTION=`USER_HELPER`/subdomains.html|
+|HTM_HEADER_FULL|
+
+<table class=list cellspacing=1 cellpadding=3>
+	<tr><td class=listtitle colspan=2>Subdomain DocumentRoot Override for |subdomain|.|domain|</td></tr>
+	<form name=info action="CMD_SUBDOMAIN" method="POST">
+		<input type=hidden name=action value="document_root_override">
+		<input type=hidden name=domain value="|DOMAIN|">
+		<input type=hidden name=subdomain value="|subdomain|">
+		<tr><td class=list>public_html</td>
+			<td class=list><input type=text name=public_html size=40 value="|SUB_PUBLIC_HTML|" placeholder="/domains/|domain|/public_html"></td>
+		</tr>
+		<tr><td class=list>private_html</td>
+			<td class=list><input type=text name=private_html size=40 value="|SUB_PRIVATE_HTML|" placeholder="/domains/|domain|/private_html"></td>
+		</tr>
+		<tr><td class=listtitle align=right colspan=2><input type=submit value="|LANG_SAVE|"></td></tr>
+	</form>
+</table>
+
+|?CL_SELECTOR_WARNING=|
+|*if HAS_CL_PHP_SELECTOR="1"|
+|?CL_SELECTOR_WARNING=<br>`LANG_CL_SELECTOR_WARNING`: "`DEFAULT_PHP_SELECTION`"|
+|*endif|
+|*if HAS_PHP_SELECTOR="yes"|
+<br>
+|PHP_SELECTOR_TABLE|
+|CL_SELECTOR_WARNING|
+|*endif|
+
+|HTM_FOOTER_FULL|

@@ -1,0 +1,21 @@
+|LF_DB|
+|?TREE=&raquo; <a class=tree href="/CMD_SHOW_DOMAIN?domain=`DOMAIN`">`DOMAIN`</a> &raquo; <a class=tree href="/CMD_DB?DOMAIN=`DOMAIN`">`LANG_MYSQL_SETUP`</a> &raquo; <a class=tree href="/CMD_DB_VIEW?DOMAIN=`DOMAIN`&name=`name`">`LANG_VIEW` `name`</a>|
+|?HELP_SECTION=`USER_HELPER`/mysql.html|
+|HTM_USER_TOP|
+
+<a href="CMD_DB_USER_CREATE?DOMAIN=|DOMAIN|&name=|name|">|LANG_CREATE_DB_USER|</a><br>
+
+|*if HAVE_ONE_CLICK_PMA_LOGIN="yes"|
+<br>
+<form id='pma_form' action='CMD_PMA_LOGIN' method='POST' target="_blank">
+	<input type='hidden' name='name' value='|name|'>
+	<input type='hidden' name='domain' value='|DOMAIN|'>
+	<input type="submit" value="|LANG_PMA_SSO|"> |LANG_PMA_NO_PASS|
+</form>
+|*endif|
+
+|DATABASEUSERS|
+
+|ACCESSHOSTS|
+
+|HTM_USER_BOTTOM|

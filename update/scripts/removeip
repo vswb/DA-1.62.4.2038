@@ -1,0 +1,81 @@
+#!/bin/bash
+
+OS=`uname`
+#remove the active ip from eth0:#
+if [ "${OS}" = "FreeBSD" ]; then
+	ETH_DEV=dc0
+else
+	ETH_DEV=eth0
+fi
+DACONF=/usr/local/directadmin/conf/directadmin.conf
+if [ -s ${DACONF} ]; then
+	if grep -m1 -q '^ethernet_dev=' ${DACONF}; then
+		ETH_DEV=`grep -m1 '^ethernet_dev=' ${DACONF} | cut -d= -f2 | cut -d: -f1`
+	fi
+fi
+
+SBIN_IP=/sbin/ip
+if [ ! -x ${SBIN_IP} ] && [ -x /usr/sbin/ip ]; then
+	SBIN_IP=/usr/sbin/ip
+fi
+if [ ! -x ${SBIN_IP} ] && [ "${OS}" != "FreeBSD" ]; then
+	echo "Cannot find ${SBIN_IP} nor in other locations."
+	exit 2
+fi
+
+# we need the ip to delete
+if [ $# -ne "1" ] && [ $# -ne "2" ]; then
+        echo "Usage: $0 <ip> (<condensed_ipv6>)";
+        exit 1;
+fi
+
+if [ "${OS}" = "FreeBSD" ]; then
+	if /sbin/ifconfig | grep -m1 -q " $1 "; then
+		/sbin/ifconfig $ETH_DEV inet $1	-alias
+	fi
+else
+	if ${SBIN_IP} a | grep -m1 -q " $1/"; then
+		#"ip" accepts IPs without netmasks, but shows a warning that the feature might not be avail in the future, this we delete IP with its mask
+		IP_TO_REMOVE="`${SBIN_IP} a | grep -m1 -o \" ${1}/[0-9]*\" | awk '{print $1}'`"
+		${SBIN_IP} addr del ${IP_TO_REMOVE} dev ${ETH_DEV}
+		if [ "$?" -ne 0 ] && /sbin/ip a | grep -m1 -q " $1/"; then
+			#old code, should not be needed anymore, but we fallback to it if IP is still there
+			IP=$1
+			IPv6=0
+			if [ $# -eq "2" ] && [ "$2" != "" ]; then
+				IP=$2
+				/sbin/ifconfig $ETH_DEV del $IP/64
+
+				IPv6=1
+			fi
+
+			#for each eth0:#, if ifconfig eth0:# has $1 (the ip) delete eth0:#
+			for i in `/sbin/ifconfig | grep $ETH_DEV: | cut -d\  -f1 | cut -d: -f1,2`; do
+			{
+				NUMIP=`/sbin/ifconfig $i | grep -c "${IP} "`;
+				
+				if [ $NUMIP -gt "0" ];
+				then
+				{
+					#we found the interface with the ip
+
+					COLCOUNT=`echo $i | grep -c :`
+					if [ "${COLCOUNT}" -gt 0 ] && [ -e /etc/debian_version ] && [ "${IPv6}" -eq 0 ]; then
+						/sbin/ifconfig $i down
+					else
+						/sbin/ifconfig $i del $IP	#remove from the interface
+					fi
+					
+					#it appears as though the ip is automatically removed from `route`
+
+					exit 0
+				}
+				fi
+			};
+			done
+		fi
+	fi
+fi
+
+exit 0
+#can't find it, it must be gone

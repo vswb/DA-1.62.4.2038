@@ -1,0 +1,275 @@
+{
+"bugzilla": {
+    "type": "perl",
+    "working_directory": "|FULL_PATH|/",
+    "script": "|FULL_PATH|/app.psgi"
+},
+"datasette": {
+    "type": "python 3",
+    "path": "|FULL_PATH|/",
+    "home": "|FULL_PATH|/venv/",
+    "module": "asgi",
+    "callable": "app"
+},
+"drupal": {
+    "type": "php",
+    "targets": {
+        "direct": {
+            "root": "|FULL_PATH|/web/"
+        },
+        "index": {
+            "root": "|FULL_PATH|/web/",
+            "script": "index.php"
+        }
+    }
+},
+"joomla": {
+    "type": "php",
+    "targets": {
+        "direct": {
+            "root": "|FULL_PATH|/"
+        },
+
+        "index": {
+            "root": "|FULL_PATH|/",
+            "script": "index.php"
+        }
+    }
+},
+"jira": {
+            "working_directory": "|FULL_PATH|/jira/",
+            "processes": 1,
+            "type": "java",
+            "webapp": "atlassian-jira-core-7.13.0-standalone/atlassian-jira",
+            "options": [
+                "-Djava.awt.headless=true",
+                "-Djavax.accessibility.assistive_technologies= ",
+                "-Djira.home=|FULL_PATH|/jira/home",
+                "-Dnginx.unit.context.listener=nginx.unit.TransactionInit",
+                "-Xms1024m",
+                "-Xmx1024m"
+            ],
+            "classpath": [
+                "lib/transaction-init-1.0.jar",
+                "lib/atomikos-util-3.9.1.jar",
+                "lib/jta-1.1.jar",
+                "lib/transactions-3.9.1.jar",
+                "lib/transactions-api-3.9.1.jar",
+                "lib/transactions-jdbc-3.9.1.jar",
+                "lib/transactions-jta-3.9.1.jar",
+                "lib/jetty-jndi-9.4.12.v20180830.jar",
+                "lib/jetty-util-9.4.12.v20180830.jar",
+                "lib/jetty-plus-9.4.12.v20180830.jar",
+                "atlassian-jira-core-7.13.0-standalone/lib/hsqldb-1.8.0.5.jar",
+                "atlassian-jira-core-7.13.0-standalone/lib/slf4j-api-1.7.9.jar",
+                "atlassian-jira-core-7.13.0-standalone/lib/slf4j-log4j12-1.7.9.jar",
+                "atlassian-jira-core-7.13.0-standalone/lib/log4j-1.2.16.jar",
+                "atlassian-jira-core-7.13.0-standalone/lib/jcl-over-slf4j-1.7.9.jar"
+             ]
+},
+"nextcloud": {
+    "type": "php",
+    "targets": {
+        "direct": {
+            "root": "|FULL_PATH|/nextcloud/"
+        },
+        "index": {
+            "root": "|FULL_PATH|/nextcloud/",
+            "script": "index.php"
+        },
+
+        "ocm": {
+            "root": "|FULL_PATH|/nextcloud/ocm-provider/",
+            "script": "index.php"
+        },
+        "ocs": {
+            "root": "|FULL_PATH|/nextcloud/ocs-provider/",
+            "script": "index.php"
+        },
+
+        "updater": {
+            "root": "|FULL_PATH|/nextcloud/updater/",
+            "script": "index.php"
+        }
+    }
+},
+"phpbb": {
+    "type": "php",
+    "targets": {
+        "direct": {
+            "root": "|FULL_PATH|/phpbb/"
+        },
+        "index": {
+            "root": "|FULL_PATH|/phpbb/",
+            "script": "app.php"
+        }
+    }
+},
+"redmine": {
+    "type": "ruby",
+    "working_directory": "|FULL_PATH|/redmine/",
+    "script": "config.ru",
+    "environment": {
+        "RAILS_ENV": "production"
+    }
+},
+"rb": {
+    "type": "python 2",
+    "path": "|FULL_PATH|/rb/",
+    "module": "wsgi"
+},
+"trac": {
+    "type": "python 2",
+    "path": "|FULL_PATH|/trac/",
+    "home": "|FULL_PATH|/trac/env/",
+    "module": "wsgi",
+    "environment": {
+        "TRAC_ENV": "|FULL_PATH|/trac/trac_env/",
+        "PYTHON_EGG_CACHE": "|FULL_PATH|/trac/trac_env/eggs/"
+    }
+},
+"wordpress": {
+    "type": "php",
+    "targets": {
+        "direct": {
+            "root": "|FULL_PATH|/wordpress/"
+        },
+
+        "index": {
+            "root": "|FULL_PATH|/wordpress/",
+            "script": "index.php"
+        }
+    }
+},
+"cakephp": {
+    "type": "php",
+    "targets": {
+        "direct": {
+            "root": "|FULL_PATH|/webroot/"
+        },
+
+        "index": {
+            "root": "|FULL_PATH|/webroot/",
+            "script": "index.php"
+        }
+    }
+},
+"catalyst": {
+    "type": "perl",
+    "working_directory": "|FULL_PATH|/",
+    "script": "|FULL_PATH|/app.psgi"
+},
+"codeigniter": {
+    "type": "php",
+    "root": "|FULL_PATH|/public/",
+    "script": "index.php"
+},
+"django": {
+    "type": "python 3",
+    "path": "|FULL_PATH|/django/",
+    "home": "|FULL_PATH|/venv/",
+    "module": "project.wsgi",
+    "environment": {
+        "DJANGO_SETTINGS_MODULE": "project.settings",
+        "DB_ENGINE": "django.db.backends.postgresql",
+        "DB_NAME": "project",
+        "DB_HOST": "127.0.0.1",
+        "DB_PORT": "5432"
+    }
+},
+"express": {
+    "type": "external",
+    "working_directory": "|FULL_PATH|/",
+    "executable": "/usr/bin/env",
+    "arguments": [
+        "node",
+        "--loader",
+        "/usr/lib/node_modules/unit-http/require_shim.mjs"
+        "--require",
+        "/usr/lib/node_modules/unit-http/require_shim",
+        "app.js"
+    ]
+},
+"fastapi": {
+    "type": "python 3",
+    "path": "|FULL_PATH|/",
+    "home": "|FULL_PATH|/venv/",
+    "module": "asgi",
+    "callable": "app"
+},
+"flask": {
+    "type": "python 3",
+    "path": "|FULL_PATH|/",
+    "home": "|FULL_PATH|/venv/",
+    "module": "wsgi"
+},
+"laravel": {
+    "type": "php",
+    "root": "|FULL_PATH|/blog/public/",
+    "script": "index.php"
+},
+"pyramid": {
+    "type": "python 3",
+    "user": "app_user",
+    "group": "app_group",
+    "path": "|FULL_PATH|/",
+    "home": "|FULL_PATH|/venv/",
+    "module": "wsgi",
+    "callable": "app"
+},
+"quart": {
+    "type": "python 3",
+    "path": "|FULL_PATH|/",
+    "home": "|FULL_PATH|/venv/",
+    "module": "asgi",
+    "callable": "app"
+},
+"responder": {
+    "type": "python 3",
+    "path": "|FULL_PATH|/",
+    "home": "|FULL_PATH|/venv/",
+    "working_directory": "|FULL_PATH|/",
+    "module": "asgi",
+    "callable": "app"
+},
+"sanic": {
+    "type": "python 3",
+    "path": "|FULL_PATH|/",
+    "home": "|FULL_PATH|/venv/",
+    "module": "asgi",
+    "callable": "app"
+},
+"starlette": {
+    "type": "python 3",
+    "path": "|FULL_PATH|/",
+    "home": "|FULL_PATH|/venv/",
+    "module": "asgi",
+    "callable": "app"
+},
+"symfony": {
+    "type": "php",
+    "targets": {
+        "direct": {
+            "root": "|FULL_PATH|/public/"
+        },
+
+        "index": {
+            "root": "|FULL_PATH|/public/",
+            "script": "index.php"
+        }
+    }
+},
+"yii": {
+    "type": "php",
+    "targets": {
+        "direct": {
+            "root": "|FULL_PATH|/web/"
+        },
+
+        "index": {
+            "root": "|FULL_PATH|/web/",
+            "script": "index.php"
+        }
+    }
+}
+}

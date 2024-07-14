@@ -1,0 +1,17 @@
+# DirectAdmin control panel
+# To reload systemd daemon after changes to this file:
+# systemctl --system daemon-reload
+[Unit]
+Description=DirectAdmin Web Control Panel
+After=syslog.target network.target
+Documentation=http://www.directadmin.com
+
+[Service]
+Type=notify
+ExecStart=/usr/local/directadmin/directadmin
+ExecReload=/bin/kill -HUP $MAINPID
+WorkingDirectory=/usr/local/directadmin
+LimitNOFILE=65535
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,93 @@
+|LF_STANDARD|
+|?TREE=&raquo; `ALL_DOMAINS_SELECT` &raquo; <a class=tree href="/CMD_HOTLINK?DOMAIN=`DOMAIN`">`LANG_HOTLINK_PROTECTION`</a>|
+|?HELP_SECTION=`USER_HELPER`/misc.html#hotlink|
+|HTM_USER_TOP|
+
+|*if HOTLINK_ENALBED_CHECKED!="checked"|
+|LANG_HOTLINK_NOT_ENABLED|
+|*endif|
+
+|TABLE|
+
+<br>
+
+<script language='javascript'>
+
+function add_my_domains()
+{
+	var urls = document.getElementById('urls');
+	if (urls.value.length > 0 && urls.value.charAt(urls.value.length-1) != '\n')
+	{
+		urls.value += '\n';
+	}
+	urls.value += '|MY_DOMAINS_LIST|';
+}
+</script>
+
+<table class=list cellpadding=3 cellspacing=1>
+<form name=info action='/CMD_HOTLINK' method='POST'>
+<input type=hidden name=domain value="|DOMAIN|">
+<input type=hidden name=action value="save">
+<tr><td class=listtitle colspan=2>|LANG_ADD_URLS|</td></tr>
+<tr>
+	<td class='list_alt' align='center'>
+		<input type='checkbox' name='enabled' value='yes' |HOTLINK_ENALBED_CHECKED|>
+	</td>
+	<td class='list_alt'>|LANG_HOTLINK_ENABLED|</td>
+</tr>
+<tr>
+	<td class='list_alt' align='center'>
+		<input type='checkbox' name='allow_blank_referer' value='yes' |HOTLINK_ALLOW_BLANK_REFERER_CHECKED|>
+	</td>
+	<td class='list_alt'>|LANG_ALLOW_BLANK_REFERER|</td>
+</tr>
+<tr>
+	<td class='list_alt'></td>
+	<td class='list_alt'>
+		<button type="button" onClick='javascript:add_my_domains();'>|LANG_ADD_MY_DOMAINS|</button>
+		|LANG_OR_NO_ACCESS|
+	</td>
+</tr>
+<tr>
+	<td class='list_alt'>|LANG_URLS|</td>
+	<td class='list_alt'>
+		<textarea id='urls' name='urls' cols=70 rows=5 placeholder='|LANG_ALLOW_DOMAINS|:
+https://somedomain.com
+http://*.otherdomain.com
+https://www.domain.com/with/path.html'></textarea>
+	</td>
+</tr>
+
+<tr>
+	<td colspan=2 class='list_alt'>
+		<b>|LANG_PROTECTED_FILES|</b>
+	</td>
+</tr>
+<tr>
+	<td class='list_alt'></td>
+	<td class='list_alt'><input type='text' name='files' value='|HOTLINK_PROTECT_FILES|' placeholder='jpg,svg,gif'></td>
+</tr>
+
+
+<tr>
+	<td colspan=2 class='list_alt'><b>|LANG_REDIRECT_TO|</b></td>
+</tr>
+<tr>
+	<td class='list_alt'>
+		<input type='radio' name='redirect' value='forbidden' |REDIRECT_TO_FORBIDDEN_CHECKED|>
+	</td>
+	<td class='list_alt'>403 |LANG_FORBIDDEN|</td>
+</tr>
+<tr>
+	<td class='list_alt'>
+		<input type='radio' name='redirect' value='url' |REDIRECT_TO_URL_CHECKED|>
+	</td>
+	<td class='list_alt'>|LANG_URL|: <input type='text' name='redirect_url' placeholder='https://funny.com/lol.jpg' value='|REDIRECT_URL|'></td>
+</tr>
+
+<tr><td class=listtitle colspan=2 align=right>
+	<input type='submit' value='|LANG_SAVE|'>
+</td></tr>
+</table>
+
+|HTM_USER_BOTTOM|

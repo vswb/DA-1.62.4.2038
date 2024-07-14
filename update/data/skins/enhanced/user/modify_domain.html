@@ -1,0 +1,179 @@
+|LF_STANDARD|
+|?TREE=&raquo; <a class=tree href="/CMD_ADDITIONAL_DOMAINS?domain=`domain`">`LANG_MODIFY` `domain`</a>|
+|?HELP_SECTION=`USER_HELPER`/misc.html#domains|
+|HTM_USER_TOP|
+
+<script language="Javascript">
+<!--
+function setText( textfld, checkbx)
+{
+        if (checkbx.checked)
+                textfld.disabled = true;
+        if (!checkbx.checked)
+                textfld.disabled = false;
+}
+function toggle_www_show()
+{
+	var www_checked = document.getElementById('www_checkbox_id').checked;
+	var show_www = document.getElementById('show_www');	
+
+	if (www_checked)
+	{
+		show_www.style.display = '';
+	}
+	else
+	{
+		show_www.style.display = 'none';
+	}
+}
+//-->
+</script>
+
+<table class=list_alt cellpadding=3 cellspacing=1>
+	<form name=info action="/CMD_DOMAIN" method="post">
+		<input type=hidden name=action value="modify">
+		<input type=hidden name=domain value="|domain|">
+		<input type=hidden name=form_version value="1.1">
+
+		<tr><th colspan=3>|LANG_MODIFY| |domain|</th></tr>
+		<tr><td>|LANG_BANDWIDTH| |LANG_MB|</td><td align=center><input type=text name=bandwidth value="|BANDWIDTH|" |BANDWIDTHDISABLED|></td><td><input type="checkbox" name="ubandwidth" value="unlimited" onClick='setText( document.info.bandwidth,this)' |BANDWIDTHCHECKED|>|LANG_SAME_AS_MAIN|</td ></tr>
+		<tr><td>|LANG_DISK_SPACE| |LANG_MB|</td><td align=center><input type=text name=quota value="|QUOTA|" |QUOTADISABLED|></td><td><input type="checkbox" name="uquota" value="unlimited" onClick='setText( document.info.quota,this)' |QUOTACHECKED|>|LANG_SAME_AS_MAIN|</td ></tr>
+|*if USERSSL="ON"|
+		<tr><td>|LANG_SECURE_SSL|</td><td align=center><input type="checkbox" name=ssl value="ON" |SSLCHECKED|></td><td></td></tr>
+|*endif|
+|*if USERCGI="ON"|
+		<tr><td>|LANG_CGI| |LANG_ACCESS|</td><td align=center><input type="checkbox" name=cgi value="ON" |CGICHECKED|></td></td><td></tr>
+|*endif|
+|*if USERPHP="ON"|
+		<tr><td>|LANG_PHP| |LANG_ACCESS|</td><td align=center><input type="checkbox" name=php value="ON" |PHPCHECKED|></td><td><input type='button' onclick="location.href='/CMD_PHP_SETTINGS?domain=|domain|';" value='|LANG_PHP_SETTINGS|...'></td></tr>
+|*endif|
+|*if HAS_PER_DOMAIN_NGINX="yes"|
+		<tr>
+			<td>|LANG_NGINX_ONLY|</td>
+			<td align=center><input type="checkbox" name="nginx" value="1" |NGINX_CHECKED|></td>
+			<td>|LANG_NGINX_ONLY_DESC|</td>
+		</tr>
+|*endif|
+		<tr>
+			<td>|LANG_WWW_REDIRECT|</td>
+			<td align=left>
+				<input type="radio" name="force_redirect" value='none' |FORCE_REDIRECT_NONE_CHECKED|> |LANG_NO_REDIRECT|<br>
+				<input type="radio" name="force_redirect" value='www' |FORCE_REDIRECT_WWW_CHECKED|> www.|DOMAIN|<br>
+				<input type="radio" name="force_redirect" value='non-www' |FORCE_REDIRECT_NON_WWW_CHECKED|> |DOMAIN|
+			</td>
+			<td>|LANG_REDIRECT_TO|</td>
+		</tr>
+|*if HAS_MOD_SECURITY="yes"|
+		<tr>
+			<td>|LANG_MOD_SECURITY|</td>
+			<td>|LANG_MOD_SECURITY_SETTINGS|</td>
+			<td><input type='button' onclick="location.href='/CMD_MODSECURITY?domain=|domain|';" value='|LANG_MODIFY|...'></td>
+		</tr>
+|*endif|
+
+|*if CUSTOM_ITEM_1|
+		<tr><td>|CUSTOM_ITEM_1_STR|</td>	<td align=center>|CUSTOM_ITEM_1|</td><td>|CUSTOM_ITEM_1_DESC|</td></tr>
+|*endif|
+|*if CUSTOM_ITEM_2|
+		<tr><td>|CUSTOM_ITEM_2_STR|</td>		<td align=center>|CUSTOM_ITEM_2|</td><td>|CUSTOM_ITEM_2_DESC|</td></tr>
+|*endif|
+|*if CUSTOM_ITEM_3|
+		<tr><td>|CUSTOM_ITEM_3_STR|</td>	<td align=center>|CUSTOM_ITEM_3|</td><td>|CUSTOM_ITEM_3_DESC|</td></tr>
+|*endif|
+|*if CUSTOM_ITEM_4|
+		<tr><td>|CUSTOM_ITEM_4_STR|</td>		<td align=center>|CUSTOM_ITEM_4|</td><td>|CUSTOM_ITEM_4_DESC|</td></tr>
+|*endif|
+|*if CUSTOM_ITEM_5|
+		<tr><td>|CUSTOM_ITEM_5_STR|</td>	<td align=center>|CUSTOM_ITEM_5|</td><td>|CUSTOM_ITEM_5_DESC|</td></tr>
+|*endif|
+
+
+		<tr><th colspan=3 align=right>
+			<input type=submit name=modify value="|LANG_SAVE|">
+		</th></tr>
+	</form>
+</table>
+<br>
+
+<script language=javascript>
+<!--
+function confirmit()
+{
+	with (document.https)
+	{
+		var checkedval='';
+		for (var i=0; i < elements.length; i++)
+		if (elements[i].type == 'radio')
+		{
+			if ( elements[i].name == "val" && elements[i].checked )
+			{
+				checkedval=elements[i].value;
+			}
+		}
+
+
+		if (checkedval=='symlink')
+		{
+			if (confirm('|LANG_CONFIRM_DIR|'))
+			{
+				submit();
+			}
+		}
+		else
+		{
+			submit();
+		}
+	}
+}
+
+//-->
+</script>
+<table class=list_alt cellpadding=3 cellspacing=1>
+	<form name=https action="/CMD_DOMAIN" method="post">
+		<input type=hidden name=action value="private_html">
+		<input type=hidden name=domain value="|domain|">
+
+		<tr ><th colspan=2>|LANG_SETUP_FOR| |domain| - |LANG_SSL_REQUIRED| </th></tr>
+|*if SSLCHECKED!="checked"|
+|?SSLDISABLED=disabled|
+|*else|
+|?SSLDISABLED=|
+|*endif|
+		<tr><td><input type=radio name=val value="directory" |SSLDISABLED| |DIRECTORY_CHECKED|></td><td>|LANG_USE_DIR|</td></tr>
+		<tr><td><input type=radio name=val value="symlink" |SSLDISABLED| |SYMLINK_CHECKED|></td><td>|LANG_USE_SYMLINK|</td></tr>
+		<tr><td><input type="checkbox" name="force_ssl" value="yes" |SSLDISABLED| |FORCE_SSL_CHECKED|></td><td>|LANG_FORCE_SSL_REDIRECT|</td></tr>
+		<tr><th colspan=3 align=right>
+			<input type=button value='|LANG_SAVE|' |SSLDISABLED| onClick="confirmit();">
+		</th></tr>
+	</form>
+</table>
+
+|*if HAS_MULTIPLE_IPS="yes"|
+<br>
+|MULTI_IP_TABLE|
+<br>
+
+<table class=list_alt cellpadding=3 cellspacing=1>
+	<form name=addmulti action="/CMD_DOMAIN" method="post">
+	<input type=hidden name=action value="multi_ip">
+	<input type=hidden name=domain value="|domain|">
+	<tr><th colspan=2>|LANG_ADD_ANOTHER_IP| |domain|</th></tr>
+	<tr><td align=right>|LANG_SELECT_IP_TO_ADD|</td><td>|MULTI_IP_SELECT|</td></tr>
+	<tr><td align=right>|LANG_ADD_DNS_RECORDS|</td><td><input type=checkbox name="dns" value="yes" checked></td></tr>
+	<tr><th colspan=2 align=right><input type=submit value="|LANG_ADD_IP|" name="add"></th></tr>
+	</form>
+</table>
+
+|*endif|
+
+|?CL_SELECTOR_WARNING=|
+|*if HAS_CL_PHP_SELECTOR="1"|
+|?CL_SELECTOR_WARNING=<br>`LANG_CL_SELECTOR_WARNING`: "`DEFAULT_PHP_SELECTION`"|
+|*endif|
+|*if HAS_PHP_SELECTOR="yes"|
+<br>
+|PHP_SELECTOR_TABLE|
+|CL_SELECTOR_WARNING|
+|*endif|
+
+|HTM_USER_BOTTOM|

@@ -1,0 +1,28 @@
+If you wish to customize these files, first copy them
+into the custom directory and use them from there.
+
+If you try to use them from this direcotry, the next time 
+DirectAdmin updates, your changes will be overwritten.
+Your changes will only be safe if they are in the custom
+directory.
+
+DirectAdmin will first check the custom directory for
+a template. If it can't find it, it will use the ones
+in this directory.
+
+Most templates can be used in the custom dir.
+Please search the Versions System at:
+https://www.directadmin.com/versions.php
+for info on how to use a specific template.
+
+If you want to rewrite all httpd.conf files with the new templates, run:
+echo "action=rewrite&value=httpd" >> /usr/local/directadmin/data/task.queue
+
+
+**IMPORTANT NOTE**
+Regarding the template system, and all config files:
+You must have a newline at the end of the files.
+Failure to do so will result in unexpected behavior.
+Go to the end, and press enter.
+In DA a line is defined by a trailing newline character.
+

@@ -1,0 +1,76 @@
+|LF_STANDARD|
+|?TABLE_TITLE=`LANG_EDIT_MESS`|
+|?ADMIN_AND_SUSPENSION=true|
+|*if MESSAGE_TYPE="suspension"|
+|?TABLE_TITLE=`LANG_EDIT_SUSP`|
+|*else|
+|?ADMIN_AND_SUSPENSION=false|
+|*endif|
+|*if USERTYPE!="admin"|
+|?ADMIN_AND_SUSPENSION=false|
+|*endif|
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=|LANG_ENCODING|">
+<title>|TABLE_TITLE|</title>
+<style type="text/css">
+|CSS_STYLE|
+</style>
+</head>
+<body>
+
+<center>
+<table style="width: 80%;" class=list_alt cellpadding=3 cellspacing=1>
+	<form name=package action='|COMMAND|' method='POST'>
+	<tr>
+		<th colspan=2>
+			|TABLE_TITLE|
+|*if !level|
+|?level=1|
+|*endif|
+|?SLCT_1=|
+|?SLCT_2=|
+|?SLCT_3=|
+|*if level="1"|
+	|?SLCT_1=selected|
+|*endif|
+|*if level="2"|
+	|?SLCT_2=selected|
+|*endif|
+|*if level="3"|
+	|?SLCT_3=selected|
+|*endif|
+			|*if ADMIN_AND_SUSPENSION="true"|
+				&nbsp;
+				<script>
+					function edit_suspend_level(slct)
+					{
+						location.href='?level='+slct.value;
+					}
+				</script>
+				<select onchange='edit_suspend_level(this)'>
+					<option value='3' |SLCT_3|>Admin message</option>
+					<option value='2' |SLCT_2|>Reseller message</option>
+					<option value='1' |SLCT_1|>User message</option>
+				</select>
+			|*endif|
+		</th>
+	</tr>
+	<tr><td>|LANG_SUBJECT|:</td><td><input type=text size=80 name=subject value="|SUBJECT|"></td></tr>
+	<tr><td>|LANG_MESSAGE|:</td><td align=center><textarea rows=25 cols=80 name=message>|MESSAGE|</textarea></td></tr>
+|*if MESSAGE_TYPE="suspension"|
+	<tr>
+		<td align=center><input type='checkbox' name='notify' value='yes' |NOTIFYCHECKD|></td>
+		<td>|LANG_SEND_MESSAGE_WHEN_SUSP|</td>
+	</tr>
+	<input type='hidden' name='level' value='|LEVEL|'>
+|*endif|
+	<tr><th align=right colspan=2><input type=submit name=reset value="|LANG_RESET|"> <input type=submit name=save value="|LANG_SAVE|"></th></tr>
+</table>
+
+|*if MESSAGE_TYPE="suspension"|
+<p style='width: 50%'>|LANG_SEND_WHEN_MANUAL_SUSP|</p>
+|*endif|
+</center>
+</body>
+</html>

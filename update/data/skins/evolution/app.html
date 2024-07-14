@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html class="vue-app">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8;" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>
+            |*if SHOW_INFO_IN_TITLE="0"| |HOSTNAME| |*else| |HOSTNAME| |
+            |DEAMONNAME| |VERSION| |*endif|
+        </title>
+        <link
+            rel="shortcut icon"
+            href="/IMG_FAVICON"
+            type="image/x-icon"
+        />
+        <link
+            rel="shortcut icon"
+            href="/IMG_FAVICON"
+            type="image/x-icon"
+        />
+        <link
+            href="/assets/css/app.css?ver=|SKIN_VERSION|"
+            type="text/css"
+            rel="stylesheet"
+        />
+        |HTM_HEAD|
+    </head>
+    <body>
+        <div id="root" v-cloak>
+            <App></App>
+        </div>
+        <!-- Foot scripts -->
+        <div id="foot" style="display: none">
+            <script
+                type="text/javascript"
+                src="/assets/preloader.js?ver=|SKIN_VERSION|"
+            ></script>
+            <script
+                type="text/javascript"
+                src="/assets/vendors.js?ver=|SKIN_VERSION|"
+            ></script>
+            <script
+                type="text/javascript"
+                src="/assets/app.js?ver=|SKIN_VERSION|"
+            ></script>
+            |HTM_FOOTER|
+        </div>
+    </body>
+</html>
